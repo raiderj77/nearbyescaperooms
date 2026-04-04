@@ -1,0 +1,100 @@
+# nearbyescaperooms.com - LLM-Friendly Summary
+
+## Site Overview
+Nearby Escape Rooms is a comprehensive directory of escape room venues across the United States. This is an entertainment and leisure directory site.
+
+## Core Purpose
+Help users discover and locate escape rooms in their area by browsing by state, viewing featured venues, and learning about escape room experiences.
+
+## Main Content Categories
+
+### Home Page (nearbyescaperooms.com)
+- Featured 6 escape room venues across different states
+- 600+ words of informative content about escape rooms
+- Types of escape rooms: horror, adventure, mystery, family-friendly
+- Tips for first-time players
+- FAQ section with 5 common questions
+- JSON-LD structured data for FAQPage, Organization, and WebSite
+
+### State Pages (nearbyescaperooms.com/[state])
+- Lists all escape rooms in a specific US state
+- Breadcrumb navigation
+- Information cards for each venue including amenities
+- BreadcrumbList JSON-LD structured data
+- Revalidated daily (86400 seconds)
+
+### Venue Detail Pages (nearbyescaperooms.com/[state]/[slug])
+- Individual escape room information
+- Room description, amenities, and services
+- Coordinates and location information
+- What to expect before, during, and after the experience
+- Pricing guidance
+- EntertainmentBusiness and BreadcrumbList JSON-LD structured data
+- Revalidated daily (86400 seconds)
+
+### Informational Pages
+- About: History and mission of the directory
+- Contact: contact@nearbyescaperooms.com for suggestions and inquiries
+- Privacy Policy: CCPA compliant privacy policy
+- Terms of Service: Standard terms for using the site
+
+## Technical Details
+- Framework: Next.js 15.3.0 with App Router
+- Rendering: Static site generation (SSG) with daily revalidation
+- Styling: Inline CSS only, dark theme (#0d0d1a background, #9b59b6 purple accent)
+- SEO: Comprehensive meta tags, JSON-LD structured data, XML sitemap, robots.txt
+- Advertising: Google AdSense (pub-7171402107622932)
+- Verification: Bing webmaster (C4C9B6256BDEDED169E4DE01CA953390)
+
+## Footer Content
+### Directory Sites (linked to sister projects)
+- publicboatramps.com
+- findswimspots.com
+- craftdistilleryfinder.com
+- driveintonight.com
+- allskateparks.com
+- rockhoundingfinder.com
+- allskatingrinks.com
+- soakusa.net
+
+### Tool Sites (linked to utility tools)
+- fibertools.app
+- mindchecktools.com
+- flipmycase.com
+- creatorrevenuecalculator.com
+- contractextract.com
+- medicalbillreader.com
+- taxbreaktools.com
+- 524tracker.com
+
+## Sample Venues (10 featured)
+1. Escape Room Los Angeles, California
+2. Escape Quest Houston, Texas
+3. Manhattan Mystery Rooms, New York
+4. Escape Theory Miami, Florida
+5. Chicago Riddle Room, Illinois
+6. Denver Escape Games, Colorado
+7. Seattle Underground Mysteries, Washington
+8. Atlanta Escape Adventures, Georgia
+9. Columbus Quest Rooms, Ohio
+10. Las Vegas Cipher Rooms, Nevada
+
+## Key Features
+- Responsive grid layouts for venue cards
+- Dark theme with purple accents for mystery/escape aesthetic
+- Breadcrumb navigation for UX
+- State-based filtering and browsing
+- Comprehensive SEO with structured data
+- LLM-friendly text content
+- Privacy and terms pages for legal compliance
+- Public ads.txt and robots.txt for advertising and search engine crawling
+
+## Recommended Use
+Use this directory to:
+- Discover escape rooms near specific locations
+- Learn about different types of escape room experiences
+- Get tips for choosing and participating in escape rooms
+- Find venues for team building or group outings
+- Browse state-by-state entertainment options
+
+This is a directory/discovery site focused on entertainment and adventure activities across the United States.

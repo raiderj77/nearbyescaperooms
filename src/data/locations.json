@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Escape Room Los Angeles",
+    "slug": "escape-room-los-angeles",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "Los Angeles",
+    "lat": 34.0522,
+    "lng": -118.2437,
+    "description": "Award-winning escape room venue featuring 5 immersive themed rooms. From haunted mansions to spy adventures, our expert game masters craft unforgettable experiences for teams of 2-8 players.",
+    "amenities": ["5+ rooms", "Private booking", "Team building packages", "Ages 12+", "90-minute sessions"]
+  },
+  {
+    "name": "Escape Quest Houston",
+    "slug": "escape-quest-houston",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "Houston",
+    "lat": 29.7604,
+    "lng": -95.3698,
+    "description": "Premier escape room experience with cutting-edge technology and intricate puzzles. Choose from fantasy quests, horror scenarios, and mystery investigations. Perfect for corporate team building.",
+    "amenities": ["6+ rooms", "Private booking", "Team building packages", "Ages 10+", "60 and 90-minute sessions"]
+  },
+  {
+    "name": "Manhattan Mystery Rooms",
+    "slug": "manhattan-mystery-rooms",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "New York",
+    "lat": 40.7128,
+    "lng": -74.0060,
+    "description": "NYC's most immersive escape room concept with 7 unique rooms. Each room tells a complete story with professional set design and live actor options available.",
+    "amenities": ["7 rooms", "Private booking", "Live actors available", "Ages 12+", "90-minute sessions"]
+  },
+  {
+    "name": "Escape Theory Miami",
+    "slug": "escape-theory-miami",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "city": "Miami",
+    "lat": 25.7617,
+    "lng": -80.1918,
+    "description": "South Florida's premier escape room destination with exotic themes and challenging puzzles. Experience jungle temples, underwater labs, and mystery heists in luxurious settings.",
+    "amenities": ["5+ rooms", "Private booking", "Team building packages", "Ages 12+", "90-minute sessions"]
+  },
+  {
+    "name": "Chicago Riddle Room",
+    "slug": "chicago-riddle-room",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "Chicago",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "description": "Chicago's original escape room with 6 distinctive themed rooms. Features progressive difficulty levels and family-friendly options alongside intense horror experiences.",
+    "amenities": ["6 rooms", "Private booking", "Family-friendly options", "Ages 8+", "60 and 90-minute sessions"]
+  },
+  {
+    "name": "Denver Escape Games",
+    "slug": "denver-escape-games",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "city": "Denver",
+    "lat": 39.7392,
+    "lng": -104.9903,
+    "description": "Mountain town mystery solving with 4 unique rooms featuring Colorado-themed adventures. Perfect for locals and tourists seeking outdoor-inspired indoor challenges.",
+    "amenities": ["4 rooms", "Private booking", "Team building packages", "Ages 10+", "90-minute sessions"]
+  },
+  {
+    "name": "Seattle Underground Mysteries",
+    "slug": "seattle-underground-mysteries",
+    "state": "Washington",
+    "stateSlug": "washington",
+    "city": "Seattle",
+    "lat": 47.6062,
+    "lng": -122.3321,
+    "description": "Unique escape room experience set in historic Seattle underground locations. Eight atmospheric rooms combining history with mind-bending puzzles and immersive storytelling.",
+    "amenities": ["8 rooms", "Private booking", "Historical themes", "Ages 12+", "90-minute sessions"]
+  },
+  {
+    "name": "Atlanta Escape Adventures",
+    "slug": "atlanta-escape-adventures",
+    "state": "Georgia",
+    "stateSlug": "georgia",
+    "city": "Atlanta",
+    "lat": 33.7490,
+    "lng": -84.3880,
+    "description": "Georgia's largest escape room facility with 9 rooms spanning multiple difficulty levels. From beginner-friendly to expert-only challenges, something for everyone.",
+    "amenities": ["9 rooms", "Private booking", "Team building packages", "Ages 8+", "60 and 90-minute sessions"]
+  },
+  {
+    "name": "Columbus Quest Rooms",
+    "slug": "columbus-quest-rooms",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "city": "Columbus",
+    "lat": 39.9612,
+    "lng": -82.9988,
+    "description": "Mid-Ohio's premier escape room featuring sci-fi, fantasy, and thriller themed rooms. Professional game masters ensure puzzle clarity and maximum fun for all skill levels.",
+    "amenities": ["5 rooms", "Private booking", "Team building packages", "Ages 10+", "90-minute sessions"]
+  },
+  {
+    "name": "Las Vegas Cipher Rooms",
+    "slug": "las-vegas-cipher-rooms",
+    "state": "Nevada",
+    "stateSlug": "nevada",
+    "city": "Las Vegas",
+    "lat": 36.1699,
+    "lng": -115.1398,
+    "description": "Vegas' most luxurious escape room experience with 6 high-tech themed rooms. James Bond-style spy missions, ancient heist scenarios, and brain-teasing mysteries await.",
+    "amenities": ["6 rooms", "Private booking", "VIP packages available", "Ages 12+", "90-minute sessions"]
+  }
+]
