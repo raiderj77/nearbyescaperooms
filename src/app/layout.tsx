@@ -5,7 +5,8 @@ export const metadata: Metadata = {
   title: "Find Escape Rooms Near You | Nearby Escape Rooms",
   description: "Discover the best escape rooms in your area. Browse local puzzle rooms, adventure experiences, and team building games across the US.",
   keywords: "escape rooms, puzzle rooms, adventure games, team building, mystery games, local escape rooms, indoor games",
-  canonical: "https://nearbyescaperooms.com",
+  alternates: { canonical: "https://nearbyescaperooms.com" },
+  verification: { google: "WbPX8TmWTc59vQoUeGcqKK83ZvrxdtzBUVRhkgaNQ5w" },
   openGraph: {
     title: "Find Escape Rooms Near You",
     description: "Discover the best escape rooms in your area.",
