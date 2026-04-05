@@ -1,306 +1,194 @@
-import locations from "@/data/locations.json";
+/* eslint-disable @next/next/no-img-element */
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import locations from '@/data/locations.json';
 
-export const dynamic = "force-static";
+export const dynamic = 'force-static';
+
+export const metadata: Metadata = {
+  title: 'Nearby Escape Rooms — Find Escape Room Adventures Across America',
+  description: 'Find the best escape rooms near you. Puzzle adventures, mystery experiences, and team challenges across all 50 states.',
+};
+
+const ALL_STATES = [
+  'Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut','Delaware',
+  'Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky',
+  'Louisiana','Maine','Maryland','Massachusetts','Michigan','Minnesota','Mississippi',
+  'Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico',
+  'New York','North Carolina','North Dakota','Ohio','Oklahoma','Oregon','Pennsylvania',
+  'Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont',
+  'Virginia','Washington','West Virginia','Wisconsin','Wyoming',
+];
+
+const IMG_KEYWORDS = ['escape+room','puzzle+room','mystery+room','adventure+room','lock+puzzle','mystery+door','thriller+room','secret+room'];
 
 export default function Home() {
-  const featuredLocations = locations.slice(0, 6);
+  const featured = locations.slice(0, 6);
+  const statesWithData = Array.from(new Set(locations.map((l) => l.state))).length;
 
   return (
     <>
-      <style>
-        {`
-          .hero {
-            background: linear-gradient(135deg, #0d0d1a 0%, #1a1a2e 100%);
-            padding: 4rem 1rem;
-            text-align: center;
-            border-bottom: 2px solid #9b59b6;
-          }
-          .hero h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            color: #9b59b6;
-          }
-          .hero p {
-            font-size: 1.2rem;
-            color: #b0b0b0;
-            max-width: 600px;
-            margin: 0 auto;
-          }
-          .cards-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            padding: 3rem 1rem;
-            max-width: 1200px;
-            margin: 0 auto;
-          }
-          .card {
-            background: #16161e;
-            border: 1px solid #1a1a2e;
-            border-radius: 8px;
-            padding: 1.5rem;
-            transition: all 0.3s ease;
-          }
-          .card:hover {
-            border-color: #9b59b6;
-            transform: translateY(-5px);
-          }
-          .card h3 {
-            color: #9b59b6;
-            margin-bottom: 0.5rem;
-          }
-          .card-location {
-            font-size: 0.9rem;
-            color: #999;
-            margin-bottom: 1rem;
-          }
-          .card-description {
-            color: #d0d0d0;
-            font-size: 0.95rem;
-            margin-bottom: 1rem;
-          }
-          .amenities {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-          }
-          .amenity {
-            background: #1a1a2e;
-            color: #9b59b6;
-            padding: 0.25rem 0.75rem;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            border: 1px solid #9b59b6;
-          }
-          .content-section {
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-          }
-          .content-section h2 {
-            color: #9b59b6;
-            margin-bottom: 1rem;
-            font-size: 1.8rem;
-          }
-          .content-section h3 {
-            color: #9b59b6;
-            margin-top: 1.5rem;
-            margin-bottom: 0.5rem;
-            font-size: 1.2rem;
-          }
-          .content-section p {
-            color: #d0d0d0;
-            margin-bottom: 1rem;
-            line-height: 1.8;
-          }
-          .faq-item {
-            background: #16161e;
-            border-left: 4px solid #9b59b6;
-            padding: 1.5rem;
-            margin-bottom: 1rem;
-            border-radius: 4px;
-          }
-          .faq-item h4 {
-            color: #9b59b6;
-            margin-bottom: 0.5rem;
-          }
-          .faq-item p {
-            color: #d0d0d0;
-            margin: 0;
-          }
-        `}
-      </style>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context':'https://schema.org','@type':'WebSite',url:'https://nearbyescaperooms.com',
+        name:'Nearby Escape Rooms',
+        potentialAction:{'@type':'SearchAction',target:{'@type':'EntryPoint',urlTemplate:'https://nearbyescaperooms.com/search?q={search_term_string}'},'query-input':'required name=search_term_string'},
+      }) }} />
 
-      <section className="hero">
-        <h1>Find Escape Rooms Near You</h1>
-        <p>Discover thrilling puzzle adventures, immersive mystery experiences, and team building challenges across America</p>
+      {/* Hero */}
+      <section style={{ position: 'relative', background: 'linear-gradient(160deg, var(--void) 0%, #0f0010 50%, #1a0005 100%)', overflow: 'hidden', padding: '7rem 1.5rem 8rem' }}>
+        {/* Particle/fog effect */}
+        <div aria-hidden style={{ position: 'absolute', inset: 0, backgroundImage: 'radial-gradient(ellipse 600px 400px at 20% 50%, rgba(192,25,43,0.06) 0%, transparent 70%), radial-gradient(ellipse 400px 300px at 80% 30%, rgba(201,162,39,0.04) 0%, transparent 70%)', pointerEvents: 'none' }} />
+        {/* Keyhole silhouette divider */}
+        <div aria-hidden style={{ position: 'absolute', top: '10%', right: '8%', width: '120px', height: '160px', background: 'radial-gradient(ellipse 60px 50px at 50% 35%, rgba(192,25,43,0.08) 0%, transparent 100%), linear-gradient(to bottom, transparent 55%, rgba(192,25,43,0.06) 55%)', pointerEvents: 'none', opacity: 0.6 }} />
+        <div className="container" style={{ textAlign: 'center', position: 'relative', zIndex: 1 }}>
+          <p className="anim-fade-up" style={{ display: 'inline-block', color: 'var(--gold)', fontWeight: 700, fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1rem', fontFamily: 'var(--font-body)', background: 'rgba(201,162,39,0.1)', padding: '0.4rem 1.2rem', borderRadius: '2px', border: '1px solid rgba(201,162,39,0.25)' }}>
+            🔐 Escape Room Directory
+          </p>
+          <h1 className="anim-fade-up anim-delay-1" style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(2rem,5.5vw,3.8rem)', color: 'var(--white)', fontWeight: 900, marginBottom: '0.5rem', lineHeight: 1.05, letterSpacing: '0.08em' }}>
+            FIND YOUR NEXT
+          </h1>
+          <h1 className="anim-fade-up anim-delay-1" style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(2rem,5.5vw,3.8rem)', color: 'var(--crimson)', fontWeight: 900, marginBottom: '1rem', lineHeight: 1.05, letterSpacing: '0.08em', textShadow: '0 0 40px rgba(192,25,43,0.5)' }}>
+            ESCAPE ADVENTURE
+          </h1>
+          <div className="ornament anim-fade-up anim-delay-2" style={{ maxWidth: '300px', margin: '0 auto 1.25rem' }}>MYSTERY AWAITS</div>
+          <p className="anim-fade-up anim-delay-2" style={{ fontSize: '1.05rem', color: 'rgba(255,255,255,0.6)', marginBottom: '2.75rem', maxWidth: '480px', margin: '0 auto 2.75rem', fontFamily: 'var(--font-body)', lineHeight: 1.65 }}>
+            Puzzle rooms, mystery experiences &amp; team challenges — {locations.length}+ escape rooms across {statesWithData} states.
+          </p>
+          <form method="GET" action="/search" className="anim-fade-up anim-delay-3">
+            <div className="search-wrap">
+              <input type="text" name="q" placeholder="Search by city, state, or theme…" className="search-input" />
+              <button type="submit" className="search-btn">Find Rooms</button>
+            </div>
+          </form>
+        </div>
+        <svg aria-hidden viewBox="0 0 1440 55" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', bottom: 0, left: 0, width: '100%', display: 'block' }} preserveAspectRatio="none">
+          <path d="M0,28 C360,55 1080,0 1440,28 L1440,55 L0,55 Z" fill="var(--ivory)" />
+        </svg>
       </section>
 
-      <section style={{ maxWidth: "1200px", margin: "0 auto", padding: "2rem 1rem" }}>
-        <h2 style={{ color: "#9b59b6", marginBottom: "1rem", textAlign: "center" }}>Featured Escape Rooms</h2>
-        <div className="cards-grid">
-          {featuredLocations.map((location) => (
-            <a
-              key={location.slug}
-              href={`/${location.stateSlug}/${location.slug}`}
-              style={{ textDecoration: "none" }}
-            >
-              <div className="card">
-                <h3>{location.name}</h3>
-                <div className="card-location">
-                  {location.city}, {location.state}
-                </div>
-                <div className="card-description">{location.description}</div>
-                <div className="amenities">
-                  {location.amenities.map((amenity, idx) => (
-                    <span key={idx} className="amenity">
-                      {amenity}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            </a>
+      {/* Stats */}
+      <section style={{ background: 'var(--white)', borderBottom: '1px solid rgba(192,25,43,0.08)' }}>
+        <div className="container" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)' }}>
+          {[
+            { n:`${locations.length}+`, l:'Escape Rooms' },
+            { n:`${statesWithData}`, l:'States Covered' },
+            { n:'Puzzles', l:'& Mystery Games' },
+            { n:'Team', l:'Adventures' },
+          ].map(({n,l}) => (
+            <div key={l} className="stat-item">
+              <div className="stat-number">{n}</div>
+              <div className="stat-label">{l}</div>
+            </div>
           ))}
         </div>
       </section>
 
-      <div className="content-section">
-        <h2>Discover Your Next Escape Room Adventure</h2>
-
-        <p>
-          Escape rooms have become one of America's favorite entertainment experiences, combining puzzle-solving, teamwork, and immersive storytelling into thrilling 60-90 minute adventures. Whether you're a first-timer or a seasoned puzzler, our directory connects you with the best escape rooms in your area.
-        </p>
-
-        <h3>What Are Escape Rooms?</h3>
-        <p>
-          An escape room is a physical adventure game where participants are "locked" in a themed room and must solve a series of puzzles and riddles to escape within a set time limit. These interactive experiences blend mystery, strategy, and creativity, challenging groups to work together under pressure. Each room tells a unique story through intricate set design, carefully crafted puzzles, and atmospheric elements that transport you to another world.
-        </p>
-
-        <h3>Types of Escape Rooms</h3>
-        <p>
-          Escape rooms come in many flavors to suit different interests and comfort levels. Horror-themed rooms feature scary atmospheres and psychological puzzles, perfect for thrill-seekers. Adventure and exploration rooms transport you to jungles, temples, and ancient civilizations. Mystery rooms challenge you to solve crimes or uncover secrets. Family-friendly options are designed for younger participants while maintaining challenge and fun. Science fiction and fantasy rooms offer futuristic or magical settings with high-tech puzzles.
-        </p>
-
-        <h3>How to Choose the Right Escape Room</h3>
-        <p>
-          When selecting an escape room, consider your group's experience level and interests. Beginners should start with introductory rooms, while experienced players might prefer expert-difficulty challenges. Think about your team's size—most rooms accommodate 2-8 players, and group dynamics significantly affect performance. Review room themes carefully; some cater to specific interests like horror, history, or spy missions. Check amenities like private bookings, group discounts, and available time slots. Read reviews to understand puzzle difficulty, atmosphere quality, and game master professionalism.
-        </p>
-
-        <h3>Tips for First-Time Escape Room Players</h3>
-        <p>
-          Communication is key—constantly share observations and puzzle solutions with your team. Avoid fixating on single puzzles; if stuck for more than a minute or two, ask for hints (most venues offer them). Look at everything; useful clues are hidden in plain sight—check under furniture, behind decorations, and in dark corners. Work systematically rather than randomly; examine all items before trying them on locks or puzzles. Keep a notepad handy to track clues, combinations, and patterns. Don't be afraid to use hints; experienced game masters know exactly when you need help to maximize fun. Finally, enjoy the experience—the goal is teamwork and entertainment, not perfection.
-        </p>
-
-        <h3>Team Size and Recommendations</h3>
-        <p>
-          For escape room success, consider your team composition carefully. Groups of 2-3 work best for introductory rooms but may struggle with complex puzzles requiring multiple simultaneous solutions. Teams of 4-6 are ideal for most standard escape rooms, providing enough hands for parallel puzzle-solving while maintaining team cohesion. Larger groups of 7-8 work well for team building and can tackle the most complex rooms, though coordination becomes more challenging. Very small groups may find some rooms too demanding, while overly large groups sometimes experience idle waiting. Most venues recommend reserving slightly smaller teams and adding members to a waitlist rather than overloading single rooms.
-        </p>
-
-        <h3>Frequently Asked Questions</h3>
-        <div className="faq-item">
-          <h4>Are escape rooms suitable for kids?</h4>
-          <p>
-            Many venues offer family-friendly escape rooms designed for children ages 8-12. These feature age-appropriate puzzles and themes while maintaining fun and challenge. Always check the age recommendations and consider your child's maturity level and puzzle-solving skills.
-          </p>
+      {/* Featured */}
+      <section style={{ padding: '5rem 1.5rem 4rem' }}>
+        <div className="container">
+          <p className="section-label">🔐 Top Rooms</p>
+          <h2 className="section-title">Featured Escape Rooms</h2>
+          <p className="section-sub" style={{ marginBottom: '3rem' }}>Highly rated puzzle adventures and mystery experiences from coast to coast.</p>
+          <div className="grid-3">
+            {featured.map((loc, i) => (
+              <Link key={loc.slug} href={`/${loc.stateSlug}/${loc.slug}`} style={{ textDecoration: 'none' }}>
+                <article className="card">
+                  <img src={`https://source.unsplash.com/800x500/?${IMG_KEYWORDS[i%IMG_KEYWORDS.length]}&sig=${i+1}`} alt={loc.name} className="card-img" loading="lazy" width={800} height={500} />
+                  <div className="card-body">
+                    <div className="card-meta"><span>📍</span><span>{loc.city ? `${loc.city}, ` : ''}{loc.state}</span></div>
+                    <h3 className="card-title">{loc.name}</h3>
+                    <p style={{ fontSize: '0.875rem', color: '#667', lineHeight: 1.65, flex: 1, marginBottom: '1rem' }}>{loc.description.slice(0,110)}…</p>
+                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
+                      {loc.amenities.slice(0,3).map((a) => <span key={a} className="chip">{a}</span>)}
+                    </div>
+                  </div>
+                </article>
+              </Link>
+            ))}
+          </div>
         </div>
+      </section>
 
-        <div className="faq-item">
-          <h4>What if our team can't escape?</h4>
-          <p>
-            Not escaping is more common than you might think! Professional game masters always ensure entertainment value whether you escape or not. Most venues will offer hints throughout the experience to keep you engaged and progressing through the story.
-          </p>
+      {/* How it works */}
+      <section style={{ background: 'linear-gradient(135deg, var(--void) 0%, #0f0010 100%)', padding: '5rem 1.5rem' }}>
+        <div className="container">
+          <div style={{ textAlign: 'center', marginBottom: '3.5rem' }}>
+            <p style={{ color: 'var(--gold)', fontWeight: 700, fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.18em', marginBottom: '0.75rem', fontFamily: 'var(--font-body)' }}>How It Works</p>
+            <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '2.2rem', color: 'var(--white)', letterSpacing: '0.08em' }}>PLAN YOUR ESCAPE</h2>
+          </div>
+          <div className="grid-3">
+            {[
+              { icon:'🗺️', title:'FIND A ROOM', desc:'Browse by state to discover every escape room nearby — themes, difficulty, group size, and booking details.' },
+              { icon:'🧩', title:'PICK YOUR THEME', desc:'Horror, mystery, adventure, sci-fi — filter by theme and difficulty to match your group\'s style.' },
+              { icon:'🔐', title:'BOOK & ESCAPE', desc:'Book directly with the venue. Gather your team, solve the puzzles, and beat the clock.' },
+            ].map(({icon,title,desc}) => (
+              <div key={title} style={{ textAlign: 'center', padding: '2rem 1.5rem', background: 'rgba(255,255,255,0.03)', borderRadius: 'var(--radius)', border: '1px solid rgba(192,25,43,0.2)' }}>
+                <div className="step-icon">{icon}</div>
+                <h3 style={{ fontFamily: 'var(--font-display)', color: 'var(--gold)', fontSize: '1.25rem', marginBottom: '0.75rem', letterSpacing: '0.08em' }}>{title}</h3>
+                <p style={{ color: 'rgba(255,255,255,0.6)', lineHeight: 1.7, fontSize: '0.95rem', fontFamily: 'var(--font-body)' }}>{desc}</p>
+              </div>
+            ))}
+          </div>
         </div>
+      </section>
 
-        <div className="faq-item">
-          <h4>How much do escape rooms cost?</h4>
-          <p>
-            Typical escape room pricing ranges from $20-40 per person depending on location, venue quality, and complexity. Many venues offer group discounts for larger teams and team building packages. Check individual venue listings for exact pricing.
-          </p>
+      {/* Content */}
+      <section style={{ padding: '5rem 1.5rem' }}>
+        <div className="container" style={{ maxWidth: '860px' }}>
+          <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '2rem', color: 'var(--void)', marginBottom: '1.25rem', letterSpacing: '0.06em' }}>THE WORLD OF ESCAPE ROOMS</h2>
+          <p style={{ lineHeight: 1.85, marginBottom: '1.25rem' }}>Escape rooms have grown from a niche curiosity into one of America's most popular team entertainment formats. With thousands of venues spanning every state, from small independent operators to large franchise chains, there's never been more variety in theme, difficulty, and experience design.</p>
+          <p style={{ lineHeight: 1.85, marginBottom: '1.25rem' }}>Modern escape rooms go far beyond locked-door puzzles. Expect live actors, theatrical sets, electronic puzzles, hidden compartments, and narratives that span multiple interconnected rooms. The best venues treat each game as an immersive story you step into.</p>
+          <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', color: 'var(--void)', marginTop: '2rem', marginBottom: '0.75rem', letterSpacing: '0.06em' }}>TIPS FOR FIRST-TIMERS</h3>
+          <p style={{ lineHeight: 1.85 }}>Communicate constantly with your team. No single person will spot every clue — spread out and share what you find. Don't fixate on one puzzle; move on and come back. Most rooms include hints — use them without shame. And above all, have fun: the clock is part of the theater.</p>
         </div>
+      </section>
 
-        <div className="faq-item">
-          <h4>Can I play in business casual clothes?</h4>
-          <p>
-            Absolutely! Wear comfortable, movable clothing. Some rooms may require removal of jewelry or have specific recommendations to avoid damage, but standard business casual clothing is perfectly fine for most escape rooms.
-          </p>
+      {/* FAQ */}
+      <section style={{ background: 'var(--parchment)', borderTop: '1px solid rgba(192,25,43,0.08)', padding: '5rem 1.5rem' }}>
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
+            <p className="section-label">FAQ</p>
+            <h2 className="section-title">Common Questions</h2>
+          </div>
+          {[
+            { q:'How many people do escape rooms typically allow?', a:'Most rooms accommodate 2–8 players, with the sweet spot being 4–6. Some larger venues have rooms for up to 12. Always check the venue\'s min/max requirements before booking, especially for team events.' },
+            { q:'How difficult are escape rooms?', a:'Difficulty varies widely. Many venues rate their rooms on a scale and offer beginner-friendly options. First-timers should look for rooms rated "beginner" or "moderate." Escape rates (percentage of groups who succeed) are often listed and give a good difficulty indicator.' },
+            { q:'How long does an escape room take?', a:'Most games run 60 minutes, though 45- and 90-minute formats exist. Add 15–30 minutes for briefing and debrief. Budget about 90 minutes total for your visit.' },
+            { q:'Can kids participate?', a:'Most venues allow kids 10+ with an adult. Some family-friendly rooms are designed for younger children. Always check age requirements and content warnings (some horror-themed rooms have age restrictions).' },
+            { q:'What should I wear to an escape room?', a:'Comfortable clothes you can move in. You may need to crawl, reach, or crouch depending on the room design. Avoid high heels. Most rooms are climate-controlled indoors.' },
+          ].map(({q,a}) => (
+            <details key={q} className="faq-item">
+              <summary>{q}</summary>
+              <div className="faq-answer">{a}</div>
+            </details>
+          ))}
         </div>
+      </section>
 
-        <div className="faq-item">
-          <h4>Do I need special skills to play?</h4>
-          <p>
-            Not at all! Escape rooms are designed for anyone. You don't need puzzle expertise or special knowledge—just an open mind and willingness to communicate with your team. Curiosity and teamwork matter far more than individual skill.
-          </p>
+      {/* Browse States */}
+      <section style={{ padding: '5rem 1.5rem' }}>
+        <div className="container">
+          <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
+            <p className="section-label">All 50 States</p>
+            <h2 className="section-title">Browse Escape Rooms by State</h2>
+          </div>
+          <div className="grid-states">
+            {ALL_STATES.map((s) => (
+              <Link key={s} href={`/${s.toLowerCase().replace(/\s+/g,'-')}`} className="state-link">{s}</Link>
+            ))}
+          </div>
         </div>
-      </div>
+      </section>
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "Are escape rooms suitable for kids?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Many venues offer family-friendly escape rooms designed for children ages 8-12. These feature age-appropriate puzzles and themes while maintaining fun and challenge.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What if our team can't escape?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Not escaping is more common than you might think! Professional game masters always ensure entertainment value whether you escape or not.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How much do escape rooms cost?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Typical escape room pricing ranges from $20-40 per person depending on location, venue quality, and complexity.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Can I play in business casual clothes?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Absolutely! Wear comfortable, movable clothing. Standard business casual clothing is perfectly fine for most escape rooms.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Do I need special skills to play?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Not at all! Escape rooms are designed for anyone. You don't need puzzle expertise or special knowledge.",
-                },
-              },
-            ],
-          }),
-        }}
-      />
-
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            name: "Nearby Escape Rooms",
-            url: "https://nearbyescaperooms.com",
-            logo: "https://nearbyescaperooms.com/logo.png",
-            description: "Directory of escape rooms across the United States",
-            sameAs: ["https://www.facebook.com/nearbyescaperooms"],
-          }),
-        }}
-      />
-
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            name: "Nearby Escape Rooms",
-            url: "https://nearbyescaperooms.com",
-            description:
-              "Find escape rooms near you. Browse local puzzle rooms and adventure experiences across the US.",
-            potentialAction: {
-              "@type": "SearchAction",
-              target: {
-                "@type": "EntryPoint",
-                urlTemplate: "https://nearbyescaperooms.com/{state}",
-              },
-              query_input: "required name=state",
-            },
-          }),
-        }}
-      />
+      {/* CTA */}
+      <section style={{ background: 'var(--void)', padding: '4rem 1.5rem', textAlign: 'center' }}>
+        <div className="container" style={{ maxWidth: '600px' }}>
+          <p style={{ color: 'var(--gold)', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.2em', fontFamily: 'var(--font-body)', fontWeight: 700, marginBottom: '0.75rem' }}>🔐 The Clock Is Ticking</p>
+          <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '2.2rem', color: 'var(--white)', marginBottom: '1rem', letterSpacing: '0.08em' }}>CAN YOU ESCAPE?</h2>
+          <p style={{ color: 'var(--fog)', marginBottom: '2rem', lineHeight: 1.7 }}>{locations.length}+ escape rooms across {statesWithData} states. Find your challenge.</p>
+          <Link href="/browse-states" className="btn btn-crimson" style={{ padding: '0.9rem 2.25rem' }}>Find Escape Rooms →</Link>
+        </div>
+      </section>
     </>
   );
 }
