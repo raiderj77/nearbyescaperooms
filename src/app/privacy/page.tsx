@@ -84,10 +84,20 @@ export default function PrivacyPage() {
           <li>Comply with legal obligations</li>
         </ul>
 
-        <h2>3. Google Analytics and Advertising</h2>
+        <h2>3. Cookies, Advertising, and Opt-Out Rights</h2>
         <p>
           Our Site uses Google Analytics to track visitor behavior and website performance. Google may also use your information for advertising purposes through Google AdSense. You can learn more about Google's privacy practices at <a href="https://policies.google.com/privacy" style={{ color: "#9b59b6" }}>https://policies.google.com/privacy</a>.
         </p>
+        <p>
+          We work with third-party advertising partners, including Google, who may use cookies to serve ads based on your prior visits to this website or other websites.
+        </p>
+        <p>
+          You may opt out of personalized advertising at any time using the following tools:
+        </p>
+        <ul>
+          <li><a href="https://ads.google.com/settings" rel="nofollow noopener noreferrer" target="_blank" style={{ color: "#9b59b6" }}>Google Ad Settings</a> — manage Google's use of your data for ad personalization.</li>
+          <li><a href="https://optout.aboutads.info" rel="nofollow noopener noreferrer" target="_blank" style={{ color: "#9b59b6" }}>Digital Advertising Alliance Opt-Out</a> (optout.aboutads.info) — opt out of interest-based advertising from participating companies.</li>
+        </ul>
 
         <h2>4. Third-Party Links</h2>
         <p>
@@ -123,7 +133,7 @@ export default function PrivacyPage() {
         </p>
 
         <div className="last-updated">
-          Last Updated: April 4, 2026
+          Last Updated: April 6, 2026
         </div>
       </div>
     </>
