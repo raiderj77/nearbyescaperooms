@@ -2,32 +2,15 @@
   {
     "name": "Break From Reality Escape Rooms",
     "slug": "break-from-reality-escape-rooms",
-    "state": "Virginia",
-    "stateSlug": "virginia",
+    "state": "Maryland",
+    "stateSlug": "maryland",
     "city": "Fairfax",
     "lat": 38.858416,
     "lng": -77.334504,
-    "description": "Break From Reality Escape Rooms is an escape room venue in Fairfax, Virginia. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Break From Reality Escape Rooms is an escape room in Maryland.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "https://www.dmvescaperoom.com"
-  },
-  {
-    "name": "Trapped",
-    "slug": "trapped",
-    "state": "New York",
-    "stateSlug": "new-york",
-    "city": "",
-    "lat": 43.704851,
-    "lng": -79.408035,
-    "description": "Trapped is an escape room venue in New York. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
-    "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
+      "Multiple rooms",
+      "Booking required"
     ]
   },
   {
@@ -38,11 +21,10 @@
     "city": "Seattle",
     "lat": 47.65804,
     "lng": -122.313075,
-    "description": "Quest Factor is an escape room venue in Seattle, Washington. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Quest Factor is an escape room in Washington.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
+      "Multiple rooms",
+      "Booking required"
     ]
   },
   {
@@ -53,13 +35,11 @@
     "city": "Seattle",
     "lat": 47.662895,
     "lng": -122.312915,
-    "description": "Flee Escape Game is an escape room venue in Seattle, Washington. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Flee Escape Game is an escape room in Washington.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "https://www.fleeescape.com/"
+      "Multiple rooms",
+      "Booking required"
+    ]
   },
   {
     "name": "Puzzle Break",
@@ -69,11 +49,10 @@
     "city": "Seattle",
     "lat": 47.613161,
     "lng": -122.34378,
-    "description": "Puzzle Break is an escape room venue in Seattle, Washington. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Puzzle Break is an escape room in Washington.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
+      "Multiple rooms",
+      "Booking required"
     ]
   },
   {
@@ -84,11 +63,10 @@
     "city": "",
     "lat": 37.550979,
     "lng": -77.572347,
-    "description": "Gnome & Raven is an escape room venue in Virginia. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Gnome & Raven is an escape room in Virginia.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
+      "Multiple rooms",
+      "Booking required"
     ]
   },
   {
@@ -99,29 +77,11 @@
     "city": "Clive",
     "lat": 41.602017,
     "lng": -93.739068,
-    "description": "Escapology Clive is an escape room venue in Clive, Iowa. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Escapology Clive is an escape room in Iowa.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "https://www.escapology.com/en/clive-ia"
-  },
-  {
-    "name": "Escape Manor",
-    "slug": "escape-manor",
-    "state": "New York",
-    "stateSlug": "new-york",
-    "city": "",
-    "lat": 43.64568,
-    "lng": -79.393344,
-    "description": "Escape Manor is an escape room venue in New York. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
-    "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "https://www.escapemanor.com/toronto"
+      "Multiple rooms",
+      "Booking required"
+    ]
   },
   {
     "name": "Escapology",
@@ -131,13 +91,11 @@
     "city": "Atlanta",
     "lat": 33.882355,
     "lng": -84.462176,
-    "description": "Escapology is an escape room venue in Atlanta, Georgia. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Escapology is an escape room in Georgia.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "https://www.escapology.com/en/atlanta-galleria-ga"
+      "Multiple rooms",
+      "Booking required"
+    ]
   },
   {
     "name": "Escape My Room",
@@ -147,44 +105,25 @@
     "city": "New Orleans",
     "lat": 29.940019,
     "lng": -90.071935,
-    "description": "Escape My Room is an escape room venue in New Orleans, Louisiana. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Escape My Room is an escape room in Louisiana.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "https://escapemyroom.com/"
-  },
-  {
-    "name": "iEscaped",
-    "slug": "iescaped",
-    "state": "New York",
-    "stateSlug": "new-york",
-    "city": "",
-    "lat": 43.787309,
-    "lng": -79.416924,
-    "description": "iEscaped is an escape room venue in New York. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
-    "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
+      "Multiple rooms",
+      "Booking required"
     ]
   },
   {
-    "name": "Houdini’s Room Escape",
+    "name": "Houdini\u2019s Room Escape",
     "slug": "houdinis-room-escape",
     "state": "Ohio",
     "stateSlug": "ohio",
     "city": "",
     "lat": 39.22566,
     "lng": -84.357034,
-    "description": "Houdini’s Room Escape is an escape room venue in Ohio. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Houdini\u2019s Room Escape is an escape room in Ohio.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "https://www.houdinisroomescape.com/"
+      "Multiple rooms",
+      "Booking required"
+    ]
   },
   {
     "name": "Sandbox VR",
@@ -194,13 +133,11 @@
     "city": "",
     "lat": 34.185591,
     "lng": -118.604688,
-    "description": "Sandbox VR is an escape room venue in California. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Sandbox VR is an escape room in California.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "https://sandboxvr.com/woodlandhills/location"
+      "Multiple rooms",
+      "Booking required"
+    ]
   },
   {
     "name": "The Escape Zone",
@@ -210,28 +147,25 @@
     "city": "",
     "lat": 28.096536,
     "lng": -80.673009,
-    "description": "The Escape Zone is an escape room venue in Florida. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "The Escape Zone is an escape room in Florida.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
+      "Multiple rooms",
+      "Booking required"
     ]
   },
   {
     "name": "Escape the Room",
     "slug": "escape-the-room",
-    "state": "Wisconsin",
-    "stateSlug": "wisconsin",
+    "state": "Michigan",
+    "stateSlug": "michigan",
     "city": "Milwaukee",
     "lat": 43.031671,
     "lng": -87.908633,
-    "description": "Escape the Room is an escape room venue in Milwaukee, Wisconsin. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Escape the Room is an escape room in Michigan.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "https://escapetheroom.com/milwaukee/"
+      "Multiple rooms",
+      "Booking required"
+    ]
   },
   {
     "name": "Journey to Jidara: Pop-up Escape Room",
@@ -241,13 +175,11 @@
     "city": "",
     "lat": 37.771527,
     "lng": -122.434246,
-    "description": "Journey to Jidara: Pop-up Escape Room is an escape room venue in California. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Journey to Jidara: Pop-up Escape Room is an escape room in California.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "https://handstandwith.us/escape-rooms/jidara-pop-up?utm_source=openstreetmap&utm_medium=listing&utm_campaign=jidara"
+      "Multiple rooms",
+      "Booking required"
+    ]
   },
   {
     "name": "The Escape Game",
@@ -257,13 +189,11 @@
     "city": "Orlando",
     "lat": 28.448166,
     "lng": -81.470529,
-    "description": "The Escape Game is an escape room venue in Orlando, Florida. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "The Escape Game is an escape room in Florida.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "https://theescapegame.com/orlando/"
+      "Multiple rooms",
+      "Booking required"
+    ]
   },
   {
     "name": "EscapeSF",
@@ -273,13 +203,11 @@
     "city": "San Francisco",
     "lat": 37.793699,
     "lng": -122.404494,
-    "description": "EscapeSF is an escape room venue in San Francisco, California. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "EscapeSF is an escape room in California.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "http://www.questroomsg.com/"
+      "Multiple rooms",
+      "Booking required"
+    ]
   },
   {
     "name": "The Escape House 2",
@@ -289,13 +217,11 @@
     "city": "Grand Junction",
     "lat": 39.077159,
     "lng": -108.559591,
-    "description": "The Escape House 2 is an escape room venue in Grand Junction, Colorado. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "The Escape House 2 is an escape room in Colorado.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "https://www.theescapehousegj.com/"
+      "Multiple rooms",
+      "Booking required"
+    ]
   },
   {
     "name": "3-D Maze of Mirrors",
@@ -305,26 +231,24 @@
     "city": "",
     "lat": 45.849993,
     "lng": -84.617648,
-    "description": "3-D Maze of Mirrors is an escape room venue in Michigan. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "3-D Maze of Mirrors is an escape room in Michigan.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
+      "Multiple rooms",
+      "Booking required"
     ]
   },
   {
     "name": "IQ Escape",
     "slug": "iq-escape",
-    "state": "West Virginia",
-    "stateSlug": "west-virginia",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
     "city": "",
     "lat": 40.523487,
     "lng": -80.004606,
-    "description": "IQ Escape is an escape room venue in West Virginia. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "IQ Escape is an escape room in Pennsylvania.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
+      "Multiple rooms",
+      "Booking required"
     ]
   },
   {
@@ -335,27 +259,24 @@
     "city": "",
     "lat": 36.125155,
     "lng": -94.146394,
-    "description": "NWA Escape Room is an escape room venue in Arkansas. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "NWA Escape Room is an escape room in Arkansas.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "https://www.nwaescaperoom.com/"
+      "Multiple rooms",
+      "Booking required"
+    ]
   },
   {
     "name": "The 5th Street Escape Room",
     "slug": "the-5th-street-escape-room",
-    "state": "West Virginia",
-    "stateSlug": "west-virginia",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
     "city": "",
     "lat": 40.137911,
     "lng": -79.897954,
-    "description": "The 5th Street Escape Room is an escape room venue in West Virginia. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "The 5th Street Escape Room is an escape room in Pennsylvania.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
+      "Multiple rooms",
+      "Booking required"
     ]
   },
   {
@@ -366,13 +287,11 @@
     "city": "",
     "lat": 37.112521,
     "lng": -113.553397,
-    "description": "Escapism is an escape room venue in Utah. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Escapism is an escape room in Utah.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "https://Escapism-escaperoom.com"
+      "Multiple rooms",
+      "Booking required"
+    ]
   },
   {
     "name": "Last Minute Escape",
@@ -382,11 +301,10 @@
     "city": "",
     "lat": 40.816856,
     "lng": -74.217022,
-    "description": "Last Minute Escape is an escape room venue in New Jersey. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Last Minute Escape is an escape room in New Jersey.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
+      "Multiple rooms",
+      "Booking required"
     ]
   },
   {
@@ -397,13 +315,11 @@
     "city": "",
     "lat": 42.344425,
     "lng": -88.271026,
-    "description": "Twisted Limits Escape Room is an escape room venue in Illinois. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Twisted Limits Escape Room is an escape room in Illinois.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "https://www.twistedlimits.com/"
+      "Multiple rooms",
+      "Booking required"
+    ]
   },
   {
     "name": "Billings Escape Room",
@@ -413,26 +329,10 @@
     "city": "Billings",
     "lat": 45.750072,
     "lng": -108.581837,
-    "description": "Billings Escape Room is an escape room venue in Billings, Montana. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Billings Escape Room is an escape room in Montana.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ]
-  },
-  {
-    "name": "Trapped",
-    "slug": "trapped-2",
-    "state": "New York",
-    "stateSlug": "new-york",
-    "city": "",
-    "lat": 43.850975,
-    "lng": -79.354591,
-    "description": "Trapped is an escape room venue in New York. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
-    "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
+      "Multiple rooms",
+      "Booking required"
     ]
   },
   {
@@ -443,13 +343,11 @@
     "city": "Ontario",
     "lat": 40.76586,
     "lng": -82.595025,
-    "description": "Exithis Escape Rooms is an escape room venue in Ontario, Ohio. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Exithis Escape Rooms is an escape room in Ohio.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "https://www.exithis.com/"
+      "Multiple rooms",
+      "Booking required"
+    ]
   },
   {
     "name": "Boxroom Escape Games",
@@ -459,13 +357,11 @@
     "city": "Hollywood",
     "lat": 26.011163,
     "lng": -80.147208,
-    "description": "Boxroom Escape Games is an escape room venue in Hollywood, Florida. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Boxroom Escape Games is an escape room in Florida.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "https://boxroom.com"
+      "Multiple rooms",
+      "Booking required"
+    ]
   },
   {
     "name": "Escape The Room AZ",
@@ -475,26 +371,24 @@
     "city": "",
     "lat": 33.492938,
     "lng": -111.9298,
-    "description": "Escape The Room AZ is an escape room venue in Arizona. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Escape The Room AZ is an escape room in Arizona.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
+      "Multiple rooms",
+      "Booking required"
     ]
   },
   {
     "name": "Escape Room 60",
     "slug": "escape-room-60",
-    "state": "Vermont",
-    "stateSlug": "vermont",
+    "state": "New York",
+    "stateSlug": "new-york",
     "city": "",
     "lat": 44.446057,
     "lng": -73.109837,
-    "description": "Escape Room 60 is an escape room venue in Vermont. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Escape Room 60 is an escape room in New York.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
+      "Multiple rooms",
+      "Booking required"
     ]
   },
   {
@@ -505,27 +399,24 @@
     "city": "Seattle",
     "lat": 47.650193,
     "lng": -122.35036,
-    "description": "Locurio is an escape room venue in Seattle, Washington. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Locurio is an escape room in Washington.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "https://www.locurio.com"
+      "Multiple rooms",
+      "Booking required"
+    ]
   },
   {
     "name": "Escape Plan Columbia Escape Room",
     "slug": "escape-plan-columbia-escape-room",
-    "state": "South Carolina",
-    "stateSlug": "south-carolina",
+    "state": "Georgia",
+    "stateSlug": "georgia",
     "city": "",
     "lat": 34.013945,
     "lng": -81.144625,
-    "description": "Escape Plan Columbia Escape Room is an escape room venue in South Carolina. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Escape Plan Columbia Escape Room is an escape room in Georgia.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
+      "Multiple rooms",
+      "Booking required"
     ]
   },
   {
@@ -536,61 +427,39 @@
     "city": "Newark",
     "lat": 39.684047,
     "lng": -75.741886,
-    "description": "Axxiom Escape Rooms is an escape room venue in Newark, Delaware. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Axxiom Escape Rooms is an escape room in Delaware.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "http://www.axxiomnewark.com"
-  },
-  {
-    "name": "Trivia Escape Rooms",
-    "slug": "trivia-escape-rooms",
-    "state": "New York",
-    "stateSlug": "new-york",
-    "city": "Toronto",
-    "lat": 43.664874,
-    "lng": -79.454842,
-    "description": "Trivia Escape Rooms is an escape room venue in Toronto, New York. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
-    "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "https://triviaescaperooms.com"
+      "Multiple rooms",
+      "Booking required"
+    ]
   },
   {
     "name": "RI Riddle Room",
     "slug": "ri-riddle-room",
-    "state": "Rhode Island",
-    "stateSlug": "rhode-island",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
     "city": "East Greenwich",
     "lat": 41.662506,
     "lng": -71.445622,
-    "description": "RI Riddle Room is an escape room venue in East Greenwich, Rhode Island. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "RI Riddle Room is an escape room in Massachusetts.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "https://www.ririddleroom.com/"
+      "Multiple rooms",
+      "Booking required"
+    ]
   },
   {
     "name": "Lock Chicago - Escape Room Games",
-    "slug": "lock-chicago-escape-room-games",
+    "slug": "lock-chicago---escape-room-games",
     "state": "Illinois",
     "stateSlug": "illinois",
     "city": "Evanston",
     "lat": 42.046684,
     "lng": -87.68297,
-    "description": "Lock Chicago - Escape Room Games is an escape room venue in Evanston, Illinois. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Lock Chicago - Escape Room Games is an escape room in Illinois.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "https://www.lockedchicago.com/"
+      "Multiple rooms",
+      "Booking required"
+    ]
   },
   {
     "name": "Last Minute Escape Wayne",
@@ -600,11 +469,10 @@
     "city": "Wayne",
     "lat": 40.897925,
     "lng": -74.244903,
-    "description": "Last Minute Escape Wayne is an escape room venue in Wayne, New Jersey. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Last Minute Escape Wayne is an escape room in New Jersey.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
+      "Multiple rooms",
+      "Booking required"
     ]
   },
   {
@@ -615,11 +483,10 @@
     "city": "",
     "lat": 47.557043,
     "lng": -122.338531,
-    "description": "Seattle Escape Games is an escape room venue in Washington. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Seattle Escape Games is an escape room in Washington.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
+      "Multiple rooms",
+      "Booking required"
     ]
   },
   {
@@ -630,28 +497,25 @@
     "city": "Fort Wayne",
     "lat": 41.177643,
     "lng": -85.107416,
-    "description": "Escapology is an escape room venue in Fort Wayne, Indiana. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Escapology is an escape room in Indiana.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
+      "Multiple rooms",
+      "Booking required"
     ]
   },
   {
     "name": "Team vs Time - Premier Room Escape",
-    "slug": "team-vs-time-premier-room-escape",
+    "slug": "team-vs-time---premier-room-escape",
     "state": "Connecticut",
     "stateSlug": "connecticut",
     "city": "Berlin",
     "lat": 41.639543,
     "lng": -72.769949,
-    "description": "Team vs Time - Premier Room Escape is an escape room venue in Berlin, Connecticut. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Team vs Time - Premier Room Escape is an escape room in Connecticut.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "https://teamvstime.com/location/connecticut/"
+      "Multiple rooms",
+      "Booking required"
+    ]
   },
   {
     "name": "Ryptic Room Escape",
@@ -661,13 +525,11 @@
     "city": "",
     "lat": 37.413516,
     "lng": -122.088468,
-    "description": "Ryptic Room Escape is an escape room venue in California. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Ryptic Room Escape is an escape room in California.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "https://www.ryptic.com/south-bay-escape-room/"
+      "Multiple rooms",
+      "Booking required"
+    ]
   },
   {
     "name": "Tick Tock Escape Games",
@@ -677,27 +539,24 @@
     "city": "Overland Park",
     "lat": 38.927979,
     "lng": -94.660061,
-    "description": "Tick Tock Escape Games is an escape room venue in Overland Park, Kansas. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Tick Tock Escape Games is an escape room in Kansas.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "http://www.ticktockescapegames.com"
+      "Multiple rooms",
+      "Booking required"
+    ]
   },
   {
     "name": "Escape This!",
     "slug": "escape-this",
-    "state": "Wisconsin",
-    "stateSlug": "wisconsin",
+    "state": "Michigan",
+    "stateSlug": "michigan",
     "city": "Madison",
     "lat": 43.07407,
     "lng": -89.37964,
-    "description": "Escape This! is an escape room venue in Madison, Wisconsin. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Escape This! is an escape room in Michigan.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
+      "Multiple rooms",
+      "Booking required"
     ]
   },
   {
@@ -708,13 +567,11 @@
     "city": "",
     "lat": 34.242166,
     "lng": -119.264981,
-    "description": "The Ultimate Escape Rooms is an escape room venue in California. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "The Ultimate Escape Rooms is an escape room in California.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "https://www.theultimateescaperooms.com/ventura/"
+      "Multiple rooms",
+      "Booking required"
+    ]
   },
   {
     "name": "Xcapade",
@@ -724,11 +581,10 @@
     "city": "",
     "lat": 37.523241,
     "lng": -122.006194,
-    "description": "Xcapade is an escape room venue in California. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Xcapade is an escape room in California.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
+      "Multiple rooms",
+      "Booking required"
     ]
   },
   {
@@ -739,11 +595,10 @@
     "city": "",
     "lat": 29.233787,
     "lng": -81.016936,
-    "description": "Daytona Escape Games is an escape room venue in Florida. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Daytona Escape Games is an escape room in Florida.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
+      "Multiple rooms",
+      "Booking required"
     ]
   },
   {
@@ -754,13 +609,11 @@
     "city": "",
     "lat": 35.186524,
     "lng": -111.664563,
-    "description": "Flagstaff Escape Rooms is an escape room venue in Arizona. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "Flagstaff Escape Rooms is an escape room in Arizona.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
-    ],
-    "website": "flagstaffescaperooms.com"
+      "Multiple rooms",
+      "Booking required"
+    ]
   },
   {
     "name": "The Escape Game",
@@ -770,11 +623,6185 @@
     "city": "",
     "lat": 44.855378,
     "lng": -93.240247,
-    "description": "The Escape Game is an escape room venue in Minnesota. Challenge your team with immersive puzzle-solving adventures and themed rooms.",
+    "description": "The Escape Game is an escape room in Minnesota.",
     "amenities": [
-      "Escape room",
-      "Team activity",
-      "Puzzle challenges"
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Great Arcade Escape Room",
+    "slug": "the-great-arcade-escape-room",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 33.745005,
+    "lng": -116.714091,
+    "description": "The Great Arcade Escape Room is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room Live",
+    "slug": "escape-room-live",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Alexandria",
+    "lat": 38.805088,
+    "lng": -77.048751,
+    "description": "Escape Room Live is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escapology",
+    "slug": "escapology-3",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "Round Rock",
+    "lat": 30.489394,
+    "lng": -97.680186,
+    "description": "Escapology is an escape room in Texas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Paradigm Q",
+    "slug": "paradigm-q",
+    "state": "Oregon",
+    "stateSlug": "oregon",
+    "city": "Vancouver",
+    "lat": 45.61676,
+    "lng": -122.523435,
+    "description": "Paradigm Q is an escape room in Oregon.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Human vs Room Escape Room",
+    "slug": "human-vs-room-escape-room",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.682377,
+    "lng": -75.344581,
+    "description": "Human vs Room Escape Room is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Trap Door Escape Room",
+    "slug": "trap-door-escape-room",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.799278,
+    "lng": -74.48148,
+    "description": "Trap Door Escape Room is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Rexburg Re-Escape",
+    "slug": "rexburg-re-escape",
+    "state": "Idaho",
+    "stateSlug": "idaho",
+    "city": "Rexburg",
+    "lat": 43.825218,
+    "lng": -111.788631,
+    "description": "Rexburg Re-Escape is an escape room in Idaho.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Fox in a Box",
+    "slug": "fox-in-a-box",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "Fullerton",
+    "lat": 33.871946,
+    "lng": -117.925493,
+    "description": "Fox in a Box is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room Park City",
+    "slug": "escape-room-park-city",
+    "state": "Utah",
+    "stateSlug": "utah",
+    "city": "",
+    "lat": 40.64612,
+    "lng": -111.496453,
+    "description": "Escape Room Park City is an escape room in Utah.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Cannon Beach Escape Room",
+    "slug": "the-cannon-beach-escape-room",
+    "state": "Oregon",
+    "stateSlug": "oregon",
+    "city": "",
+    "lat": 45.899175,
+    "lng": -123.960206,
+    "description": "The Cannon Beach Escape Room is an escape room in Oregon.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Games NYC",
+    "slug": "escape-games-nyc",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.717477,
+    "lng": -74.005025,
+    "description": "Escape Games NYC is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape on Palafox",
+    "slug": "escape-on-palafox",
+    "state": "Alabama",
+    "stateSlug": "alabama",
+    "city": "",
+    "lat": 30.41189,
+    "lng": -87.215021,
+    "description": "Escape on Palafox is an escape room in Alabama.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Cryptic Room",
+    "slug": "the-cryptic-room",
+    "state": "Iowa",
+    "stateSlug": "iowa",
+    "city": "Council Bluffs",
+    "lat": 41.257607,
+    "lng": -95.850447,
+    "description": "The Cryptic Room is an escape room in Iowa.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Sure Lock Escapes",
+    "slug": "sure-lock-escapes",
+    "state": "Washington",
+    "stateSlug": "washington",
+    "city": "Renton",
+    "lat": 47.449613,
+    "lng": -122.185253,
+    "description": "Sure Lock Escapes is an escape room in Washington.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Breakout Escape Game",
+    "slug": "breakout-escape-game",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "city": "Orlando",
+    "lat": 28.387582,
+    "lng": -81.485783,
+    "description": "Breakout Escape Game is an escape room in Florida.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Game",
+    "slug": "the-escape-game-3",
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "city": "",
+    "lat": 35.80318,
+    "lng": -83.570202,
+    "description": "The Escape Game is an escape room in North Carolina.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Miss Tic Escape Rooms",
+    "slug": "miss-tic-escape-rooms",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.674549,
+    "lng": -73.976302,
+    "description": "Miss Tic Escape Rooms is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room Wisconsin",
+    "slug": "escape-room-wisconsin",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 44.286309,
+    "lng": -88.406548,
+    "description": "Escape Room Wisconsin is an escape room in Michigan.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escapology",
+    "slug": "escapology-4",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "city": "",
+    "lat": 26.122425,
+    "lng": -80.104883,
+    "description": "Escapology is an escape room in Florida.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Mad Genius Escape Rooms",
+    "slug": "mad-genius-escape-rooms",
+    "state": "Oregon",
+    "stateSlug": "oregon",
+    "city": "Portland",
+    "lat": 45.512084,
+    "lng": -122.650781,
+    "description": "Mad Genius Escape Rooms is an escape room in Oregon.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Great Room Escape",
+    "slug": "great-room-escape",
+    "state": "Utah",
+    "stateSlug": "utah",
+    "city": "Layton",
+    "lat": 41.075997,
+    "lng": -111.975859,
+    "description": "Great Room Escape is an escape room in Utah.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Mind Puzzlers Escape Room",
+    "slug": "mind-puzzlers-escape-room",
+    "state": "Connecticut",
+    "stateSlug": "connecticut",
+    "city": "",
+    "lat": 41.595312,
+    "lng": -72.646098,
+    "description": "Mind Puzzlers Escape Room is an escape room in Connecticut.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Game",
+    "slug": "the-escape-game-4",
+    "state": "Georgia",
+    "stateSlug": "georgia",
+    "city": "",
+    "lat": 33.88912,
+    "lng": -84.470158,
+    "description": "The Escape Game is an escape room in Georgia.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Beat The Lock!",
+    "slug": "beat-the-lock",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "San Jose",
+    "lat": 37.343479,
+    "lng": -121.92953,
+    "description": "Beat The Lock! is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "conTRAPtions Escape Rooms",
+    "slug": "contraptions-escape-rooms",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "city": "Fort Collins",
+    "lat": 40.535893,
+    "lng": -105.076078,
+    "description": "conTRAPtions Escape Rooms is an escape room in Colorado.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape West Chester",
+    "slug": "escape-west-chester",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "",
+    "lat": 39.958288,
+    "lng": -75.603181,
+    "description": "Escape West Chester is an escape room in Pennsylvania.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Great Escape Game",
+    "slug": "great-escape-game",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "city": "",
+    "lat": 39.75822,
+    "lng": -84.07573,
+    "description": "Great Escape Game is an escape room in Ohio.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Cipher Seeker Escape Room Challenge",
+    "slug": "cipher-seeker-escape-room-challenge",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "Waldwick",
+    "lat": 41.020405,
+    "lng": -74.123747,
+    "description": "Cipher Seeker Escape Room Challenge is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room LA",
+    "slug": "escape-room-la",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "Los Angeles",
+    "lat": 34.04203,
+    "lng": -118.25267,
+    "description": "Escape Room LA is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escapology",
+    "slug": "escapology-5",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "city": "",
+    "lat": 39.289912,
+    "lng": -84.299022,
+    "description": "Escapology is an escape room in Ohio.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "River City Escape Room",
+    "slug": "river-city-escape-room",
+    "state": "Virginia",
+    "stateSlug": "virginia",
+    "city": "",
+    "lat": 37.625894,
+    "lng": -77.532339,
+    "description": "River City Escape Room is an escape room in Virginia.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Music City Escape Room",
+    "slug": "music-city-escape-room",
+    "state": "Tennessee",
+    "stateSlug": "tennessee",
+    "city": "",
+    "lat": 36.219938,
+    "lng": -86.697438,
+    "description": "Music City Escape Room is an escape room in Tennessee.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Vail Valley Escape Room",
+    "slug": "vail-valley-escape-room",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "city": "",
+    "lat": 39.6429,
+    "lng": -106.37791,
+    "description": "Vail Valley Escape Room is an escape room in Colorado.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Mission Escape Games",
+    "slug": "mission-escape-games",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 39.949567,
+    "lng": -75.152695,
+    "description": "Mission Escape Games is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room Herndon",
+    "slug": "escape-room-herndon",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Herndon",
+    "lat": 38.969968,
+    "lng": -77.37394,
+    "description": "Escape Room Herndon is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape the Mystery Room",
+    "slug": "escape-the-mystery-room",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 41.971535,
+    "lng": -70.716166,
+    "description": "Escape the Mystery Room is an escape room in Massachusetts.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escapology",
+    "slug": "escapology-6",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.652228,
+    "lng": -74.324135,
+    "description": "Escapology is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Getout Games",
+    "slug": "getout-games",
+    "state": "Utah",
+    "stateSlug": "utah",
+    "city": "Salt Lake City",
+    "lat": 40.760915,
+    "lng": -111.897126,
+    "description": "Getout Games is an escape room in Utah.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Game",
+    "slug": "the-escape-game-5",
+    "state": "Kentucky",
+    "stateSlug": "kentucky",
+    "city": "Cincinnati",
+    "lat": 39.09702,
+    "lng": -84.512864,
+    "description": "The Escape Game is an escape room in Kentucky.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room Hershey",
+    "slug": "escape-room-hershey",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "",
+    "lat": 40.283608,
+    "lng": -76.656141,
+    "description": "Escape Room Hershey is an escape room in Pennsylvania.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "NC Escape",
+    "slug": "nc-escape",
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "city": "Durham",
+    "lat": 35.996486,
+    "lng": -78.900419,
+    "description": "NC Escape is an escape room in North Carolina.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Great Escape Room",
+    "slug": "the-great-escape-room",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 44.989294,
+    "lng": -93.253097,
+    "description": "The Great Escape Room is an escape room in Minnesota.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room Johnstown",
+    "slug": "escape-room-johnstown",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "",
+    "lat": 40.324948,
+    "lng": -78.915866,
+    "description": "Escape Room Johnstown is an escape room in Pennsylvania.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Solve It Sherlock Escape Room",
+    "slug": "solve-it-sherlock-escape-room",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "Neptune Township",
+    "lat": 40.224345,
+    "lng": -74.037415,
+    "description": "Solve It Sherlock Escape Room is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Game Coeur D'Alene",
+    "slug": "escape-game-coeur-dalene",
+    "state": "Idaho",
+    "stateSlug": "idaho",
+    "city": "",
+    "lat": 47.673404,
+    "lng": -116.783941,
+    "description": "Escape Game Coeur D'Alene is an escape room in Idaho.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Lost Huntington Escape Room",
+    "slug": "the-lost-huntington-escape-room",
+    "state": "Kentucky",
+    "stateSlug": "kentucky",
+    "city": "Huntington",
+    "lat": 38.421141,
+    "lng": -82.445623,
+    "description": "The Lost Huntington Escape Room is an escape room in Kentucky.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Rehoboth",
+    "slug": "escape-rehoboth",
+    "state": "Delaware",
+    "stateSlug": "delaware",
+    "city": "Rehoboth Beach",
+    "lat": 38.709634,
+    "lng": -75.096626,
+    "description": "Escape Rehoboth is an escape room in Delaware.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Outerlife Studios Escape Room Saint Pete",
+    "slug": "outerlife-studios-escape-room-saint-pete",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "city": "Saint Petersburg",
+    "lat": 27.768977,
+    "lng": -82.660084,
+    "description": "Outerlife Studios Escape Room Saint Pete is an escape room in Florida.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Red Door Escape Room",
+    "slug": "red-door-escape-room",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 37.971424,
+    "lng": -122.05915,
+    "description": "Red Door Escape Room is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Breakout Games",
+    "slug": "breakout-games",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "city": "West Chester",
+    "lat": 39.329082,
+    "lng": -84.424348,
+    "description": "Breakout Games is an escape room in Ohio.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room Center",
+    "slug": "escape-room-center",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.594944,
+    "lng": -74.671516,
+    "description": "Escape Room Center is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Mystery Escapes",
+    "slug": "mystery-escapes",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Lincoln Park",
+    "lat": 42.233211,
+    "lng": -83.180974,
+    "description": "Mystery Escapes is an escape room in Michigan.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Riddle Me This Escape Rooms",
+    "slug": "riddle-me-this-escape-rooms",
+    "state": "Virginia",
+    "stateSlug": "virginia",
+    "city": "",
+    "lat": 37.601348,
+    "lng": -77.567962,
+    "description": "Riddle Me This Escape Rooms is an escape room in Virginia.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Space Station Alpha",
+    "slug": "space-station-alpha",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "city": "",
+    "lat": 39.371791,
+    "lng": -84.386857,
+    "description": "Space Station Alpha is an escape room in Ohio.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room USA",
+    "slug": "escape-room-usa",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "city": "Columbus",
+    "lat": 39.971739,
+    "lng": -83.002742,
+    "description": "Escape Room USA is an escape room in Ohio.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "PuzzleWorks Escape Co.",
+    "slug": "puzzleworks-escape-co",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "Saint Paul",
+    "lat": 44.958126,
+    "lng": -93.191033,
+    "description": "PuzzleWorks Escape Co. is an escape room in Minnesota.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Ryptic Room Escape",
+    "slug": "ryptic-room-escape-2",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 37.568864,
+    "lng": -122.325636,
+    "description": "Ryptic Room Escape is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Extreme escape Redding",
+    "slug": "extreme-escape-redding",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "Redding",
+    "lat": 40.584274,
+    "lng": -122.391375,
+    "description": "Extreme escape Redding is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room Inc",
+    "slug": "escape-room-inc",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "State College",
+    "lat": 40.795201,
+    "lng": -77.859422,
+    "description": "Escape Room Inc is an escape room in New York.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Maui Escape Rooms",
+    "slug": "maui-escape-rooms",
+    "state": "",
+    "stateSlug": "",
+    "city": "",
+    "lat": 20.92135,
+    "lng": -156.694748,
+    "description": "Maui Escape Rooms is an escape room in the United States.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape The Room",
+    "slug": "escape-the-room-2",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "Minneapolis",
+    "lat": 44.974216,
+    "lng": -93.274055,
+    "description": "Escape The Room is an escape room in Minnesota.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Solve It! Escape Games",
+    "slug": "solve-it-escape-games",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "city": "Grand Junction",
+    "lat": 39.074514,
+    "lng": -108.571195,
+    "description": "Solve It! Escape Games is an escape room in Colorado.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Mission Escape",
+    "slug": "mission-escape",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "",
+    "lat": 39.032558,
+    "lng": -76.685933,
+    "description": "Mission Escape is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape City",
+    "slug": "escape-city",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "Tonawanda",
+    "lat": 43.003654,
+    "lng": -78.858467,
+    "description": "Escape City is an escape room in New York.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room",
+    "slug": "escape-room",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 42.491839,
+    "lng": -83.485032,
+    "description": "Escape Room is an escape room in Michigan.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Denver Escape Room",
+    "slug": "denver-escape-room",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "city": "Northglenn",
+    "lat": 39.908732,
+    "lng": -104.995753,
+    "description": "Denver Escape Room is an escape room in Colorado.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape House - Mesa",
+    "slug": "escape-house---mesa",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "Mesa",
+    "lat": 33.394812,
+    "lng": -111.755528,
+    "description": "Escape House - Mesa is an escape room in Arizona.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Paradox Escape Room",
+    "slug": "paradox-escape-room",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "",
+    "lat": 33.34744,
+    "lng": -111.78888,
+    "description": "Paradox Escape Room is an escape room in Arizona.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Game Millcreek",
+    "slug": "escape-game-millcreek",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "Erie",
+    "lat": 42.070217,
+    "lng": -80.185363,
+    "description": "Escape Game Millcreek is an escape room in Pennsylvania.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Game Erie",
+    "slug": "escape-game-erie",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "Erie",
+    "lat": 42.124959,
+    "lng": -80.083433,
+    "description": "Escape Game Erie is an escape room in Pennsylvania.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Klues Escape Room",
+    "slug": "klues-escape-room",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "Stroudsburg",
+    "lat": 40.986187,
+    "lng": -75.191757,
+    "description": "Klues Escape Room is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Bust Out Escape Room",
+    "slug": "bust-out-escape-room",
+    "state": "New Mexico",
+    "stateSlug": "new-mexico",
+    "city": "Albuquerque",
+    "lat": 35.174859,
+    "lng": -106.562205,
+    "description": "Bust Out Escape Room is an escape room in New Mexico.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape",
+    "slug": "escape",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.747129,
+    "lng": -73.991486,
+    "description": "Escape is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Rage Room",
+    "slug": "rage-room",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "Pompton Lakes",
+    "lat": 41.00554,
+    "lng": -74.291917,
+    "description": "Rage Room is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape New Haven",
+    "slug": "escape-new-haven",
+    "state": "Connecticut",
+    "stateSlug": "connecticut",
+    "city": "",
+    "lat": 41.313397,
+    "lng": -72.921475,
+    "description": "Escape New Haven is an escape room in Connecticut.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "31 Escape",
+    "slug": "31-escape",
+    "state": "Alabama",
+    "stateSlug": "alabama",
+    "city": "Fultondale",
+    "lat": 33.6145,
+    "lng": -86.797072,
+    "description": "31 Escape is an escape room in Alabama.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Trapped in the Upstate",
+    "slug": "trapped-in-the-upstate",
+    "state": "Georgia",
+    "stateSlug": "georgia",
+    "city": "Greer",
+    "lat": 34.954812,
+    "lng": -82.24248,
+    "description": "Trapped in the Upstate is an escape room in Georgia.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Hilo",
+    "slug": "escape-hilo",
+    "state": "",
+    "stateSlug": "",
+    "city": "Hilo",
+    "lat": 19.723736,
+    "lng": -155.085206,
+    "description": "Escape Hilo is an escape room in the United States.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Houston Panic Room",
+    "slug": "houston-panic-room",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "",
+    "lat": 29.790497,
+    "lng": -95.716828,
+    "description": "Houston Panic Room is an escape room in Texas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Dynamic Escape Rooms",
+    "slug": "dynamic-escape-rooms",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "Tempe",
+    "lat": 33.420299,
+    "lng": -111.969179,
+    "description": "Dynamic Escape Rooms is an escape room in Arizona.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape 101",
+    "slug": "escape-101",
+    "state": "Connecticut",
+    "stateSlug": "connecticut",
+    "city": "Brookfield",
+    "lat": 41.437981,
+    "lng": -73.40887,
+    "description": "Escape 101 is an escape room in Connecticut.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Amarillo Escape and Mystery",
+    "slug": "amarillo-escape-and-mystery",
+    "state": "Oklahoma",
+    "stateSlug": "oklahoma",
+    "city": "Amarillo",
+    "lat": 35.083705,
+    "lng": -101.917616,
+    "description": "Amarillo Escape and Mystery is an escape room in Oklahoma.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Back In Time Escape Rooms",
+    "slug": "back-in-time-escape-rooms",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 33.84118,
+    "lng": -118.289549,
+    "description": "Back In Time Escape Rooms is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Portsmouth Escape Room",
+    "slug": "portsmouth-escape-room",
+    "state": "New Hampshire",
+    "stateSlug": "new-hampshire",
+    "city": "Portsmouth",
+    "lat": 43.068845,
+    "lng": -70.768565,
+    "description": "Portsmouth Escape Room is an escape room in New Hampshire.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Fifth Wall Escape Rooms",
+    "slug": "the-fifth-wall-escape-rooms",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Ferndale",
+    "lat": 42.462025,
+    "lng": -83.12271,
+    "description": "The Fifth Wall Escape Rooms is an escape room in Michigan.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Suco Escape Room",
+    "slug": "suco-escape-room",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "city": "",
+    "lat": 38.270745,
+    "lng": -104.613609,
+    "description": "Suco Escape Room is an escape room in Colorado.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Novel Escape",
+    "slug": "novel-escape",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "Austin",
+    "lat": 30.351056,
+    "lng": -97.717037,
+    "description": "Novel Escape is an escape room in Texas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Perplexity Games Escape Room",
+    "slug": "perplexity-games-escape-room",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "city": "Cleveland",
+    "lat": 41.486222,
+    "lng": -81.705944,
+    "description": "Perplexity Games Escape Room is an escape room in Ohio.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Tower Escapes",
+    "slug": "the-tower-escapes",
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "city": "",
+    "lat": 35.779502,
+    "lng": -78.641024,
+    "description": "The Tower Escapes is an escape room in North Carolina.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Locked Up Lynchburg",
+    "slug": "locked-up-lynchburg",
+    "state": "Virginia",
+    "stateSlug": "virginia",
+    "city": "",
+    "lat": 37.3581,
+    "lng": -79.239723,
+    "description": "Locked Up Lynchburg is an escape room in Virginia.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Omescape San Jose",
+    "slug": "omescape-san-jose",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "San Jose",
+    "lat": 37.314202,
+    "lng": -121.85159,
+    "description": "Omescape San Jose is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Dominion of Terror",
+    "slug": "dominion-of-terror",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 43.766728,
+    "lng": -87.724748,
+    "description": "Dominion of Terror is an escape room in Michigan.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "60 Minute Escape Game Murfreesboro",
+    "slug": "60-minute-escape-game-murfreesboro",
+    "state": "Tennessee",
+    "stateSlug": "tennessee",
+    "city": "",
+    "lat": 35.849701,
+    "lng": -86.42183,
+    "description": "60 Minute Escape Game Murfreesboro is an escape room in Tennessee.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Breakdown Rage Room",
+    "slug": "breakdown-rage-room",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "Hanover",
+    "lat": 39.803389,
+    "lng": -76.982423,
+    "description": "Breakdown Rage Room is an escape room in Pennsylvania.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Room Experience",
+    "slug": "the-escape-room-experience",
+    "state": "New Hampshire",
+    "stateSlug": "new-hampshire",
+    "city": "",
+    "lat": 43.527224,
+    "lng": -71.469249,
+    "description": "The Escape Room Experience is an escape room in New Hampshire.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Red Door Escape Room",
+    "slug": "red-door-escape-room-2",
+    "state": "New Mexico",
+    "stateSlug": "new-mexico",
+    "city": "El Paso",
+    "lat": 31.771498,
+    "lng": -106.374464,
+    "description": "Red Door Escape Room is an escape room in New Mexico.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape from Mystery Manor",
+    "slug": "escape-from-mystery-manor",
+    "state": "Idaho",
+    "stateSlug": "idaho",
+    "city": "Meridian",
+    "lat": 43.577938,
+    "lng": -116.39459,
+    "description": "Escape from Mystery Manor is an escape room in Idaho.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Narrative",
+    "slug": "escape-narrative",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "",
+    "lat": 33.395919,
+    "lng": -111.926557,
+    "description": "Escape Narrative is an escape room in Arizona.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Steal and Escape",
+    "slug": "steal-and-escape",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "National City",
+    "lat": 32.659998,
+    "lng": -117.102584,
+    "description": "Steal and Escape is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room NJ Madison",
+    "slug": "escape-room-nj-madison",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.758404,
+    "lng": -74.416034,
+    "description": "Escape Room NJ Madison is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Clockwise Escape Room Boise",
+    "slug": "clockwise-escape-room-boise",
+    "state": "Idaho",
+    "stateSlug": "idaho",
+    "city": "Boise",
+    "lat": 43.617325,
+    "lng": -116.20651,
+    "description": "Clockwise Escape Room Boise is an escape room in Idaho.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Riddlebox Escape Rooms",
+    "slug": "riddlebox-escape-rooms",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "Naperville",
+    "lat": 41.780451,
+    "lng": -88.160276,
+    "description": "Riddlebox Escape Rooms is an escape room in Illinois.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Mirror Maze",
+    "slug": "mirror-maze",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.808655,
+    "lng": -74.071649,
+    "description": "Mirror Maze is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room Marshfield",
+    "slug": "escape-room-marshfield",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Marshfield",
+    "lat": 44.663657,
+    "lng": -90.174771,
+    "description": "Escape Room Marshfield is an escape room in Michigan.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Breakout Studios",
+    "slug": "breakout-studios",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "San Jose",
+    "lat": 37.337398,
+    "lng": -121.891849,
+    "description": "Breakout Studios is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Breakpoint Escape Room Games",
+    "slug": "breakpoint-escape-room-games",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 44.504732,
+    "lng": -89.568282,
+    "description": "Breakpoint Escape Room Games is an escape room in Michigan.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Countdown 2 Escape",
+    "slug": "countdown-2-escape",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "Frisco",
+    "lat": 33.150434,
+    "lng": -96.824497,
+    "description": "Countdown 2 Escape is an escape room in Texas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Artists",
+    "slug": "escape-artists",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "city": "Sanford",
+    "lat": 28.812372,
+    "lng": -81.268672,
+    "description": "Escape Artists is an escape room in Florida.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Just Escape Room",
+    "slug": "just-escape-room",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "",
+    "lat": 41.814305,
+    "lng": -87.87646,
+    "description": "Just Escape Room is an escape room in Illinois.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Gone In 60 Minutes",
+    "slug": "gone-in-60-minutes",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "city": "Longmont",
+    "lat": 40.178691,
+    "lng": -105.116976,
+    "description": "Gone In 60 Minutes is an escape room in Colorado.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape The Room",
+    "slug": "escape-the-room-3",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "",
+    "lat": 33.299309,
+    "lng": -111.898717,
+    "description": "Escape The Room is an escape room in Arizona.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escapology",
+    "slug": "escapology-7",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "city": "Gainesville",
+    "lat": 29.623277,
+    "lng": -82.393531,
+    "description": "Escapology is an escape room in Florida.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "One Way Out",
+    "slug": "one-way-out",
+    "state": "Virginia",
+    "stateSlug": "virginia",
+    "city": "Lynchburg",
+    "lat": 37.399285,
+    "lng": -79.214054,
+    "description": "One Way Out is an escape room in Virginia.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Basement",
+    "slug": "the-basement",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "Sylmar",
+    "lat": 34.294375,
+    "lng": -118.415632,
+    "description": "The Basement is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "RED VEIN Escape",
+    "slug": "red-vein-escape",
+    "state": "Virginia",
+    "stateSlug": "virginia",
+    "city": "Ashland",
+    "lat": 37.758381,
+    "lng": -77.480994,
+    "description": "RED VEIN Escape is an escape room in Virginia.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Locked Up",
+    "slug": "locked-up",
+    "state": "Indiana",
+    "stateSlug": "indiana",
+    "city": "Mishawaka",
+    "lat": 41.719624,
+    "lng": -86.179983,
+    "description": "Locked Up is an escape room in Indiana.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Limitless Escape Games",
+    "slug": "limitless-escape-games",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 37.689863,
+    "lng": -121.805149,
+    "description": "Limitless Escape Games is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "All In Adventures",
+    "slug": "all-in-adventures",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "city": "",
+    "lat": 41.659013,
+    "lng": -81.361139,
+    "description": "All In Adventures is an escape room in Ohio.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Great Escape Room",
+    "slug": "the-great-escape-room-2",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 42.487089,
+    "lng": -83.147081,
+    "description": "The Great Escape Room is an escape room in Michigan.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Grand Escape Room",
+    "slug": "the-grand-escape-room",
+    "state": "Montana",
+    "stateSlug": "montana",
+    "city": "",
+    "lat": 45.778562,
+    "lng": -108.551013,
+    "description": "The Grand Escape Room is an escape room in Montana.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "New Smyrna Beach Escape Room",
+    "slug": "new-smyrna-beach-escape-room",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "city": "",
+    "lat": 29.025236,
+    "lng": -80.921668,
+    "description": "New Smyrna Beach Escape Room is an escape room in Florida.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Shiner Escape Rooms",
+    "slug": "shiner-escape-rooms",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "Shiner",
+    "lat": 29.439473,
+    "lng": -97.165054,
+    "description": "Shiner Escape Rooms is an escape room in Texas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Mystery Escape Room",
+    "slug": "mystery-escape-room",
+    "state": "Utah",
+    "stateSlug": "utah",
+    "city": "Salt Lake City",
+    "lat": 40.766571,
+    "lng": -111.904303,
+    "description": "Mystery Escape Room is an escape room in Utah.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Lock & Key Escape Room",
+    "slug": "lock-key-escape-room",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "Buffalo",
+    "lat": 42.910795,
+    "lng": -78.877412,
+    "description": "Lock & Key Escape Room is an escape room in New York.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Boardman 2",
+    "slug": "escape-boardman-2",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "city": "",
+    "lat": 41.021081,
+    "lng": -80.657696,
+    "description": "Escape Boardman 2 is an escape room in Ohio.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Quandary Escape Rooms",
+    "slug": "quandary-escape-rooms",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 38.751677,
+    "lng": -121.285679,
+    "description": "Quandary Escape Rooms is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Outfox Escape Room",
+    "slug": "outfox-escape-room",
+    "state": "Iowa",
+    "stateSlug": "iowa",
+    "city": "",
+    "lat": 41.705404,
+    "lng": -91.609177,
+    "description": "Outfox Escape Room is an escape room in Iowa.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Game",
+    "slug": "the-escape-game-6",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "San Francisco",
+    "lat": 37.789499,
+    "lng": -122.403655,
+    "description": "The Escape Game is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Baffled Escape Rooms",
+    "slug": "baffled-escape-rooms",
+    "state": "Oregon",
+    "stateSlug": "oregon",
+    "city": "Medford",
+    "lat": 42.343195,
+    "lng": -122.876755,
+    "description": "Baffled Escape Rooms is an escape room in Oregon.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Hour",
+    "slug": "escape-hour",
+    "state": "Washington",
+    "stateSlug": "washington",
+    "city": "",
+    "lat": 47.298018,
+    "lng": -122.504163,
+    "description": "Escape Hour is an escape room in Washington.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Granite State Escape",
+    "slug": "granite-state-escape",
+    "state": "New Hampshire",
+    "stateSlug": "new-hampshire",
+    "city": "Manchester",
+    "lat": 42.981928,
+    "lng": -71.452235,
+    "description": "Granite State Escape is an escape room in New Hampshire.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Greeley's Great Escape",
+    "slug": "greeleys-great-escape",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "city": "Greeley",
+    "lat": 40.423516,
+    "lng": -104.735575,
+    "description": "Greeley's Great Escape is an escape room in Colorado.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Game",
+    "slug": "escape-game",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.808291,
+    "lng": -74.070589,
+    "description": "Escape Game is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Ruse",
+    "slug": "the-ruse",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 42.962395,
+    "lng": -85.668029,
+    "description": "The Ruse is an escape room in Michigan.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Game New York City",
+    "slug": "the-escape-game-new-york-city",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "New York",
+    "lat": 40.751818,
+    "lng": -73.979761,
+    "description": "The Escape Game New York City is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Game Las Vegas",
+    "slug": "the-escape-game-las-vegas",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "Las Vegas",
+    "lat": 36.119062,
+    "lng": -115.173594,
+    "description": "The Escape Game Las Vegas is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Game DC (Georgetown)",
+    "slug": "the-escape-game-dc-georgetown",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Washington",
+    "lat": 38.905228,
+    "lng": -77.067509,
+    "description": "The Escape Game DC (Georgetown) is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Game Chicago",
+    "slug": "the-escape-game-chicago",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "Chicago",
+    "lat": 41.893426,
+    "lng": -87.626393,
+    "description": "The Escape Game Chicago is an escape room in Illinois.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape the Pike",
+    "slug": "escape-the-pike",
+    "state": "Connecticut",
+    "stateSlug": "connecticut",
+    "city": "",
+    "lat": 42.096421,
+    "lng": -72.072818,
+    "description": "Escape the Pike is an escape room in Connecticut.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Room ESC",
+    "slug": "room-esc",
+    "state": "Virginia",
+    "stateSlug": "virginia",
+    "city": "Hopewell",
+    "lat": 37.304727,
+    "lng": -77.28492,
+    "description": "Room ESC is an escape room in Virginia.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Key and Code Escape Rooms",
+    "slug": "key-and-code-escape-rooms",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 39.531359,
+    "lng": -119.722102,
+    "description": "Key and Code Escape Rooms is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Quest Factor",
+    "slug": "quest-factor-2",
+    "state": "Washington",
+    "stateSlug": "washington",
+    "city": "",
+    "lat": 47.623559,
+    "lng": -122.336072,
+    "description": "Quest Factor is an escape room in Washington.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Markey Escape Rooms",
+    "slug": "the-markey-escape-rooms",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "city": "",
+    "lat": 40.566005,
+    "lng": -105.078497,
+    "description": "The Markey Escape Rooms is an escape room in Colorado.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Adventures",
+    "slug": "the-escape-adventures",
+    "state": "Virginia",
+    "stateSlug": "virginia",
+    "city": "",
+    "lat": 37.349701,
+    "lng": -77.354314,
+    "description": "The Escape Adventures is an escape room in Virginia.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Helena",
+    "slug": "escape-helena",
+    "state": "Idaho",
+    "stateSlug": "idaho",
+    "city": "",
+    "lat": 46.585998,
+    "lng": -112.039863,
+    "description": "Escape Helena is an escape room in Idaho.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Frieghthouse Station Challenge",
+    "slug": "escape-frieghthouse-station-challenge",
+    "state": "Washington",
+    "stateSlug": "washington",
+    "city": "Tacoma",
+    "lat": 47.239894,
+    "lng": -122.425941,
+    "description": "Escape Frieghthouse Station Challenge is an escape room in Washington.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Locked",
+    "slug": "locked",
+    "state": "Kansas",
+    "stateSlug": "kansas",
+    "city": "",
+    "lat": 39.178478,
+    "lng": -96.562017,
+    "description": "Locked is an escape room in Kansas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Mission: Escape",
+    "slug": "mission-escape-2",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "Chesterton",
+    "lat": 41.611942,
+    "lng": -87.066153,
+    "description": "Mission: Escape is an escape room in Illinois.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Game",
+    "slug": "the-escape-game-7",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 33.833393,
+    "lng": -118.347525,
+    "description": "The Escape Game is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Sherlock's Escape Rooms",
+    "slug": "sherlocks-escape-rooms",
+    "state": "Kentucky",
+    "stateSlug": "kentucky",
+    "city": "",
+    "lat": 39.027023,
+    "lng": -84.451654,
+    "description": "Sherlock's Escape Rooms is an escape room in Kentucky.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Captured LV",
+    "slug": "captured-lv",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "Allentown",
+    "lat": 40.587301,
+    "lng": -75.561389,
+    "description": "Captured LV is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "America's Escape Room",
+    "slug": "americas-escape-room",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "city": "",
+    "lat": 29.651889,
+    "lng": -82.327517,
+    "description": "America's Escape Room is an escape room in Florida.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Reason",
+    "slug": "reason",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "San Francisco",
+    "lat": 37.770949,
+    "lng": -122.413137,
+    "description": "Reason is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Game LA",
+    "slug": "the-escape-game-la",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 34.058652,
+    "lng": -118.418728,
+    "description": "The Escape Game LA is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Laurel's House of Horror",
+    "slug": "laurels-house-of-horror",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Laurel",
+    "lat": 39.097986,
+    "lng": -76.854201,
+    "description": "Laurel's House of Horror is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escapology",
+    "slug": "escapology-8",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.365456,
+    "lng": -74.168504,
+    "description": "Escapology is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Monore Escape Rooms",
+    "slug": "monore-escape-rooms",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Monroe",
+    "lat": 41.885886,
+    "lng": -83.391502,
+    "description": "Monore Escape Rooms is an escape room in Michigan.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Ravenchase Adventures Escape Room",
+    "slug": "ravenchase-adventures-escape-room",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Arlington",
+    "lat": 38.863902,
+    "lng": -77.083238,
+    "description": "Ravenchase Adventures Escape Room is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Puzzling Escape",
+    "slug": "puzzling-escape",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "",
+    "lat": 33.380411,
+    "lng": -111.666236,
+    "description": "Puzzling Escape is an escape room in Arizona.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Time",
+    "slug": "escape-time",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Annapolis",
+    "lat": 38.98744,
+    "lng": -76.542223,
+    "description": "Escape Time is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escapology",
+    "slug": "escapology-9",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "city": "Orlando",
+    "lat": 28.390548,
+    "lng": -81.467214,
+    "description": "Escapology is an escape room in Florida.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Project Panic",
+    "slug": "project-panic",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "",
+    "lat": 29.739509,
+    "lng": -95.37908,
+    "description": "Project Panic is an escape room in Texas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Unreal Escapes",
+    "slug": "unreal-escapes",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.552613,
+    "lng": -74.219015,
+    "description": "Unreal Escapes is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Planet Escape Room",
+    "slug": "planet-escape-room",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 33.804706,
+    "lng": -118.325933,
+    "description": "Planet Escape Room is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Game",
+    "slug": "the-escape-game-8",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "Grapevine",
+    "lat": 32.964601,
+    "lng": -97.043718,
+    "description": "The Escape Game is an escape room in Texas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Trapped",
+    "slug": "trapped",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "Buffalo",
+    "lat": 42.980423,
+    "lng": -78.853772,
+    "description": "Trapped is an escape room in New York.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Think Tank",
+    "slug": "think-tank",
+    "state": "Washington",
+    "stateSlug": "washington",
+    "city": "Spokane",
+    "lat": 47.653098,
+    "lng": -117.4176,
+    "description": "Think Tank is an escape room in Washington.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Game",
+    "slug": "the-escape-game-9",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "",
+    "lat": 30.26471,
+    "lng": -97.737706,
+    "description": "The Escape Game is an escape room in Texas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Mission Escape",
+    "slug": "mission-escape-3",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "",
+    "lat": 39.156334,
+    "lng": -76.725269,
+    "description": "Mission Escape is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Limitless Escape Games",
+    "slug": "limitless-escape-games-2",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 38.011465,
+    "lng": -121.322818,
+    "description": "Limitless Escape Games is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Great Escape Room",
+    "slug": "the-great-escape-room-3",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "city": "Akron",
+    "lat": 41.076445,
+    "lng": -81.522459,
+    "description": "The Great Escape Room is an escape room in Ohio.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Boulder Escape Room",
+    "slug": "boulder-escape-room",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "city": "",
+    "lat": 40.017935,
+    "lng": -105.278457,
+    "description": "Boulder Escape Room is an escape room in Colorado.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Mysterium",
+    "slug": "mysterium",
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "city": "",
+    "lat": 36.219305,
+    "lng": -81.685401,
+    "description": "Mysterium is an escape room in North Carolina.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Trapology",
+    "slug": "trapology",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.352998,
+    "lng": -71.064058,
+    "description": "Trapology is an escape room in Massachusetts.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Great Escapes",
+    "slug": "great-escapes",
+    "state": "Georgia",
+    "stateSlug": "georgia",
+    "city": "Columbia",
+    "lat": 34.114117,
+    "lng": -80.879919,
+    "description": "Great Escapes is an escape room in Georgia.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Experience - Chattanooga Escape Room Games",
+    "slug": "escape-experience---chattanooga-escape-room-games",
+    "state": "Tennessee",
+    "stateSlug": "tennessee",
+    "city": "",
+    "lat": 35.032318,
+    "lng": -85.303493,
+    "description": "Escape Experience - Chattanooga Escape Room Games is an escape room in Tennessee.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Beat the Bomb",
+    "slug": "beat-the-bomb",
+    "state": "Georgia",
+    "stateSlug": "georgia",
+    "city": "",
+    "lat": 33.80878,
+    "lng": -84.435679,
+    "description": "Beat the Bomb is an escape room in Georgia.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Crack the Code Escape Room",
+    "slug": "crack-the-code-escape-room",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Staunton",
+    "lat": 38.145577,
+    "lng": -79.07622,
+    "description": "Crack the Code Escape Room is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Red Fox Escapes",
+    "slug": "red-fox-escapes",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Cambridge",
+    "lat": 42.364941,
+    "lng": -71.103347,
+    "description": "Red Fox Escapes is an escape room in Massachusetts.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Cinergy Escape Rooms",
+    "slug": "cinergy-escape-rooms",
+    "state": "Oklahoma",
+    "stateSlug": "oklahoma",
+    "city": "Amarillo",
+    "lat": 35.152705,
+    "lng": -101.944666,
+    "description": "Cinergy Escape Rooms is an escape room in Oklahoma.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Wreck Room Escape Game",
+    "slug": "the-wreck-room-escape-game",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "city": "Aurora",
+    "lat": 39.63728,
+    "lng": -104.791797,
+    "description": "The Wreck Room Escape Game is an escape room in Colorado.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Lock Breaker Escapes",
+    "slug": "lock-breaker-escapes",
+    "state": "Washington",
+    "stateSlug": "washington",
+    "city": "",
+    "lat": 48.750347,
+    "lng": -122.48209,
+    "description": "Lock Breaker Escapes is an escape room in Washington.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Break Out of the Ordinary",
+    "slug": "break-out-of-the-ordinary",
+    "state": "South Carolina",
+    "stateSlug": "south-carolina",
+    "city": "",
+    "lat": 32.78423,
+    "lng": -80.005238,
+    "description": "Break Out of the Ordinary is an escape room in South Carolina.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "All In Adventures Escape Rooms",
+    "slug": "all-in-adventures-escape-rooms",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.556069,
+    "lng": -74.297654,
+    "description": "All In Adventures Escape Rooms is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Game",
+    "slug": "the-escape-game-10",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Washington",
+    "lat": 38.897144,
+    "lng": -77.025099,
+    "description": "The Escape Game is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Black Hills Escape Rooms",
+    "slug": "black-hills-escape-rooms",
+    "state": "South Dakota",
+    "stateSlug": "south-dakota",
+    "city": "Rapid City",
+    "lat": 44.081332,
+    "lng": -103.229396,
+    "description": "Black Hills Escape Rooms is an escape room in South Dakota.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Conundroom",
+    "slug": "conundroom",
+    "state": "Washington",
+    "stateSlug": "washington",
+    "city": "Redmond",
+    "lat": 47.674221,
+    "lng": -122.123563,
+    "description": "Conundroom is an escape room in Washington.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Universal's Great Movie Escape",
+    "slug": "universals-great-movie-escape",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "city": "",
+    "lat": 28.472263,
+    "lng": -81.466199,
+    "description": "Universal's Great Movie Escape is an escape room in Florida.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Great Escape Room",
+    "slug": "the-great-escape-room-4",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.330174,
+    "lng": -71.193121,
+    "description": "The Great Escape Room is an escape room in Massachusetts.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escapology",
+    "slug": "escapology-10",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "",
+    "lat": 39.048979,
+    "lng": -77.118252,
+    "description": "Escapology is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Sequestered",
+    "slug": "sequestered",
+    "state": "Louisiana",
+    "stateSlug": "louisiana",
+    "city": "Baton Rouge",
+    "lat": 30.404888,
+    "lng": -91.051206,
+    "description": "Sequestered is an escape room in Louisiana.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Salisbury",
+    "slug": "escape-salisbury",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Salisbury",
+    "lat": 38.366064,
+    "lng": -75.600595,
+    "description": "Escape Salisbury is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape 211",
+    "slug": "escape-211",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Luray",
+    "lat": 38.661493,
+    "lng": -78.497798,
+    "description": "Escape 211 is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Mountain Time",
+    "slug": "mountain-time",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "city": "Breckenridge",
+    "lat": 39.476728,
+    "lng": -106.045339,
+    "description": "Mountain Time is an escape room in Colorado.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Mountain Time",
+    "slug": "mountain-time-2",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "city": "Breckenridge",
+    "lat": 39.47639,
+    "lng": -106.045391,
+    "description": "Mountain Time is an escape room in Colorado.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Sanctuary Escape Games",
+    "slug": "the-sanctuary-escape-games",
+    "state": "Oklahoma",
+    "stateSlug": "oklahoma",
+    "city": "Oklahoma City",
+    "lat": 35.46165,
+    "lng": -97.649048,
+    "description": "The Sanctuary Escape Games is an escape room in Oklahoma.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Panic Escape Room",
+    "slug": "panic-escape-room",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "South Elgin",
+    "lat": 41.996524,
+    "lng": -88.311992,
+    "description": "Panic Escape Room is an escape room in Illinois.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Room Indianapolis",
+    "slug": "the-escape-room-indianapolis",
+    "state": "Indiana",
+    "stateSlug": "indiana",
+    "city": "Indianapolis",
+    "lat": 39.764107,
+    "lng": -86.158383,
+    "description": "The Escape Room Indianapolis is an escape room in Indiana.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Westgate",
+    "slug": "escape-westgate",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "Glendale",
+    "lat": 33.533666,
+    "lng": -112.261859,
+    "description": "Escape Westgate is an escape room in Arizona.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Zscape Games",
+    "slug": "zscape-games",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 37.783197,
+    "lng": -121.980895,
+    "description": "Zscape Games is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Room Escape Games",
+    "slug": "the-room-escape-games",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "",
+    "lat": 33.467008,
+    "lng": -112.279611,
+    "description": "The Room Escape Games is an escape room in Arizona.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "5 Wits",
+    "slug": "5-wits",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Arlington",
+    "lat": 38.879132,
+    "lng": -77.111494,
+    "description": "5 Wits is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escapology",
+    "slug": "escapology-11",
+    "state": "Oregon",
+    "stateSlug": "oregon",
+    "city": "Happy Valley",
+    "lat": 45.442791,
+    "lng": -122.580582,
+    "description": "Escapology is an escape room in Oregon.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape The Mystery Room",
+    "slug": "escape-the-mystery-room-2",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 42.912319,
+    "lng": -78.76306,
+    "description": "Escape The Mystery Room is an escape room in New York.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Game",
+    "slug": "the-escape-game-11",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 37.808144,
+    "lng": -122.414806,
+    "description": "The Escape Game is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Locked In Escape Room",
+    "slug": "locked-in-escape-room",
+    "state": "Utah",
+    "stateSlug": "utah",
+    "city": "",
+    "lat": 41.729174,
+    "lng": -111.849608,
+    "description": "Locked In Escape Room is an escape room in Utah.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Hidden Key Escapes",
+    "slug": "hidden-key-escapes",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "",
+    "lat": 41.781475,
+    "lng": -88.102971,
+    "description": "Hidden Key Escapes is an escape room in Illinois.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Sacramento",
+    "slug": "escape-sacramento",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "Sacramento",
+    "lat": 38.578338,
+    "lng": -121.480892,
+    "description": "Escape Sacramento is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Breakout",
+    "slug": "breakout",
+    "state": "Oklahoma",
+    "stateSlug": "oklahoma",
+    "city": "",
+    "lat": 35.613063,
+    "lng": -97.557328,
+    "description": "Breakout is an escape room in Oklahoma.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Oatman Jailbreak",
+    "slug": "oatman-jailbreak",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "",
+    "lat": 35.025967,
+    "lng": -114.383044,
+    "description": "Oatman Jailbreak is an escape room in Arizona.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Rabbit Hole",
+    "slug": "rabbit-hole",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "city": "",
+    "lat": 39.960751,
+    "lng": -105.166646,
+    "description": "Rabbit Hole is an escape room in Colorado.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Exit 4 Private Escape Rooms",
+    "slug": "exit-4-private-escape-rooms",
+    "state": "Delaware",
+    "stateSlug": "delaware",
+    "city": "Glassboro",
+    "lat": 39.705396,
+    "lng": -75.113674,
+    "description": "Exit 4 Private Escape Rooms is an escape room in Delaware.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Haudini's Escape - VR Escape Rooms",
+    "slug": "haudinis-escape---vr-escape-rooms",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "Visalia",
+    "lat": 36.298198,
+    "lng": -119.31274,
+    "description": "Haudini's Escape - VR Escape Rooms is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Alcatraz Escape Games",
+    "slug": "alcatraz-escape-games",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "",
+    "lat": 33.442167,
+    "lng": -111.92743,
+    "description": "Alcatraz Escape Games is an escape room in Arizona.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Puzzle Room Live",
+    "slug": "puzzle-room-live",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Culpeper",
+    "lat": 38.470262,
+    "lng": -77.996451,
+    "description": "Puzzle Room Live is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Mindscape Escape Rooms",
+    "slug": "mindscape-escape-rooms",
+    "state": "Georgia",
+    "stateSlug": "georgia",
+    "city": "",
+    "lat": 34.037351,
+    "lng": -84.56895,
+    "description": "Mindscape Escape Rooms is an escape room in Georgia.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Immersive Machine",
+    "slug": "the-immersive-machine",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "",
+    "lat": 33.46491,
+    "lng": -111.987661,
+    "description": "The Immersive Machine is an escape room in Arizona.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Secret Combinations Escape Rooms",
+    "slug": "secret-combinations-escape-rooms",
+    "state": "Utah",
+    "stateSlug": "utah",
+    "city": "American Fork",
+    "lat": 40.378236,
+    "lng": -111.795482,
+    "description": "Secret Combinations Escape Rooms is an escape room in Utah.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Xcape Adventures",
+    "slug": "xcape-adventures",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "Mesquite",
+    "lat": 32.791751,
+    "lng": -96.635177,
+    "description": "Xcape Adventures is an escape room in Texas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Royal Escape Rooms",
+    "slug": "royal-escape-rooms",
+    "state": "Alabama",
+    "stateSlug": "alabama",
+    "city": "Panama City Beach",
+    "lat": 30.218206,
+    "lng": -85.874327,
+    "description": "Royal Escape Rooms is an escape room in Alabama.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Game",
+    "slug": "the-escape-game-12",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "",
+    "lat": 29.739391,
+    "lng": -95.462498,
+    "description": "The Escape Game is an escape room in Texas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Game",
+    "slug": "the-escape-game-13",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 37.325412,
+    "lng": -121.946297,
+    "description": "The Escape Game is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Other Tales - Escape Rooms",
+    "slug": "the-other-tales---escape-rooms",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "Hawthorne",
+    "lat": 40.94935,
+    "lng": -74.152706,
+    "description": "The Other Tales - Escape Rooms is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Red Door Escape Room",
+    "slug": "red-door-escape-room-3",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "Ventura",
+    "lat": 34.240187,
+    "lng": -119.175963,
+    "description": "Red Door Escape Room is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escapology",
+    "slug": "escapology-12",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "San Francisco",
+    "lat": 37.805736,
+    "lng": -122.414215,
+    "description": "Escapology is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "PanIQ Escape Room",
+    "slug": "paniq-escape-room",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "",
+    "lat": 41.927973,
+    "lng": -87.704868,
+    "description": "PanIQ Escape Room is an escape room in Illinois.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Somewhere Secret",
+    "slug": "somewhere-secret",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "city": "",
+    "lat": 40.588776,
+    "lng": -105.076019,
+    "description": "Somewhere Secret is an escape room in Colorado.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Game",
+    "slug": "the-escape-game-14",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.087858,
+    "lng": -75.395163,
+    "description": "The Escape Game is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Paranoia Quest",
+    "slug": "paranoia-quest",
+    "state": "Georgia",
+    "stateSlug": "georgia",
+    "city": "",
+    "lat": 34.06494,
+    "lng": -83.983242,
+    "description": "Paranoia Quest is an escape room in Georgia.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escapology",
+    "slug": "escapology-13",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "city": "",
+    "lat": 27.961183,
+    "lng": -82.461404,
+    "description": "Escapology is an escape room in Florida.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Elite Escape",
+    "slug": "elite-escape",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "Exton",
+    "lat": 40.056294,
+    "lng": -75.667668,
+    "description": "Elite Escape is an escape room in Pennsylvania.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Proving Ground",
+    "slug": "escape-proving-ground",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Pasadena",
+    "lat": 39.125085,
+    "lng": -76.534132,
+    "description": "Escape Proving Ground is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Monkey Mind Escape Rooms",
+    "slug": "monkey-mind-escape-rooms",
+    "state": "New Hampshire",
+    "stateSlug": "new-hampshire",
+    "city": "Portsmouth",
+    "lat": 43.076279,
+    "lng": -70.76027,
+    "description": "Monkey Mind Escape Rooms is an escape room in New Hampshire.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Spare Time",
+    "slug": "spare-time",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 44.506907,
+    "lng": -73.176336,
+    "description": "Spare Time is an escape room in New York.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Island Escape Room",
+    "slug": "island-escape-room",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "South Hero",
+    "lat": 44.645411,
+    "lng": -73.301614,
+    "description": "Island Escape Room is an escape room in New York.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Reality Break Escapes",
+    "slug": "reality-break-escapes",
+    "state": "Washington",
+    "stateSlug": "washington",
+    "city": "",
+    "lat": 47.612791,
+    "lng": -122.199236,
+    "description": "Reality Break Escapes is an escape room in Washington.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "fun escape",
+    "slug": "fun-escape",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "Phoenix",
+    "lat": 33.714437,
+    "lng": -112.111607,
+    "description": "fun escape is an escape room in Arizona.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Game",
+    "slug": "the-escape-game-15",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.231185,
+    "lng": -71.176675,
+    "description": "The Escape Game is an escape room in Massachusetts.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Limitless Escape Games",
+    "slug": "limitless-escape-games-3",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 37.677687,
+    "lng": -121.875898,
+    "description": "Limitless Escape Games is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Games Live",
+    "slug": "escape-games-live",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "York",
+    "lat": 39.960901,
+    "lng": -76.733258,
+    "description": "Escape Games Live is an escape room in Pennsylvania.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escapology",
+    "slug": "escapology-14",
+    "state": "South Carolina",
+    "stateSlug": "south-carolina",
+    "city": "",
+    "lat": 33.688692,
+    "lng": -78.887186,
+    "description": "Escapology is an escape room in South Carolina.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Granite State Escape",
+    "slug": "granite-state-escape-2",
+    "state": "New Hampshire",
+    "stateSlug": "new-hampshire",
+    "city": "",
+    "lat": 42.989588,
+    "lng": -71.462833,
+    "description": "Granite State Escape is an escape room in New Hampshire.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Labyrinth Escape Games",
+    "slug": "labyrinth-escape-games",
+    "state": "Idaho",
+    "stateSlug": "idaho",
+    "city": "Nampa",
+    "lat": 43.578228,
+    "lng": -116.559306,
+    "description": "Labyrinth Escape Games is an escape room in Idaho.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Decode Ypsilanti",
+    "slug": "decode-ypsilanti",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 42.241655,
+    "lng": -83.614419,
+    "description": "Decode Ypsilanti is an escape room in Michigan.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Enigma Escape Experience",
+    "slug": "enigma-escape-experience",
+    "state": "Oregon",
+    "stateSlug": "oregon",
+    "city": "Albany",
+    "lat": 44.637067,
+    "lng": -123.109566,
+    "description": "Enigma Escape Experience is an escape room in Oregon.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Conundroom",
+    "slug": "conundroom-2",
+    "state": "Washington",
+    "stateSlug": "washington",
+    "city": "",
+    "lat": 47.678691,
+    "lng": -122.125811,
+    "description": "Conundroom is an escape room in Washington.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "OTR Funplex",
+    "slug": "otr-funplex",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "city": "Cincinnati",
+    "lat": 39.107532,
+    "lng": -84.516075,
+    "description": "OTR Funplex is an escape room in Ohio.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Portland Escape Rooms",
+    "slug": "portland-escape-rooms",
+    "state": "Oregon",
+    "stateSlug": "oregon",
+    "city": "Portland",
+    "lat": 45.536142,
+    "lng": -122.658408,
+    "description": "Portland Escape Rooms is an escape room in Oregon.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Great Room Escape",
+    "slug": "great-room-escape-2",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "",
+    "lat": 33.421271,
+    "lng": -111.965662,
+    "description": "Great Room Escape is an escape room in Arizona.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Keystone Escape Rooms",
+    "slug": "keystone-escape-rooms",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "Reno",
+    "lat": 39.527969,
+    "lng": -119.834783,
+    "description": "Keystone Escape Rooms is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape AC",
+    "slug": "escape-ac",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "Atlantic City",
+    "lat": 39.352551,
+    "lng": -74.445305,
+    "description": "Escape AC is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Downtown escapes",
+    "slug": "downtown-escapes",
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "city": "",
+    "lat": 35.382405,
+    "lng": -77.995097,
+    "description": "Downtown escapes is an escape room in North Carolina.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape-A-Torium",
+    "slug": "escape-a-torium",
+    "state": "Virginia",
+    "stateSlug": "virginia",
+    "city": "",
+    "lat": 38.052973,
+    "lng": -81.104266,
+    "description": "Escape-A-Torium is an escape room in Virginia.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "FLEE Ultimate VR Arena & Escape Rooms",
+    "slug": "flee-ultimate-vr-arena-escape-rooms",
+    "state": "Washington",
+    "stateSlug": "washington",
+    "city": "Redmond",
+    "lat": 47.630482,
+    "lng": -122.137162,
+    "description": "FLEE Ultimate VR Arena & Escape Rooms is an escape room in Washington.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Novel Mysteries",
+    "slug": "novel-mysteries",
+    "state": "Oklahoma",
+    "stateSlug": "oklahoma",
+    "city": "",
+    "lat": 36.15263,
+    "lng": -95.981403,
+    "description": "Novel Mysteries is an escape room in Oklahoma.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "United Escapes of America",
+    "slug": "united-escapes-of-america",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "",
+    "lat": 33.422682,
+    "lng": -111.834077,
+    "description": "United Escapes of America is an escape room in Arizona.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Red Door Escape Room",
+    "slug": "red-door-escape-room-4",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 37.538512,
+    "lng": -122.301916,
+    "description": "Red Door Escape Room is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Breakout",
+    "slug": "breakout-2",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "",
+    "lat": 39.43238,
+    "lng": -76.623509,
+    "description": "Breakout is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Hourglass Escape Rooms",
+    "slug": "hourglass-escape-rooms",
+    "state": "Arkansas",
+    "stateSlug": "arkansas",
+    "city": "",
+    "lat": 35.251084,
+    "lng": -91.722251,
+    "description": "Hourglass Escape Rooms is an escape room in Arkansas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Cipher Solver",
+    "slug": "cipher-solver",
+    "state": "Oregon",
+    "stateSlug": "oregon",
+    "city": "Vancouver",
+    "lat": 45.664829,
+    "lng": -122.559172,
+    "description": "Cipher Solver is an escape room in Oregon.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Mission X",
+    "slug": "mission-x",
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "city": "",
+    "lat": 35.964941,
+    "lng": -78.96257,
+    "description": "Mission X is an escape room in North Carolina.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Cocoa Beach",
+    "slug": "escape-cocoa-beach",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "city": "",
+    "lat": 28.370184,
+    "lng": -80.606617,
+    "description": "Escape Cocoa Beach is an escape room in Florida.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Quantum Escapes",
+    "slug": "quantum-escapes",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 37.822444,
+    "lng": -121.994575,
+    "description": "Quantum Escapes is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Breakout Games",
+    "slug": "breakout-games-2",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "city": "Columbus",
+    "lat": 39.974454,
+    "lng": -83.046206,
+    "description": "Breakout Games is an escape room in Ohio.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required",
+      "Free access"
+    ]
+  },
+  {
+    "name": "Escapology",
+    "slug": "escapology-15",
+    "state": "Georgia",
+    "stateSlug": "georgia",
+    "city": "",
+    "lat": 34.000644,
+    "lng": -81.041512,
+    "description": "Escapology is an escape room in Georgia.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "60 to Escape",
+    "slug": "60-to-escape",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 42.949371,
+    "lng": -88.004676,
+    "description": "60 to Escape is an escape room in Michigan.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Mystery Escape Room",
+    "slug": "mystery-escape-room-2",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "",
+    "lat": 32.288904,
+    "lng": -110.975892,
+    "description": "Mystery Escape Room is an escape room in Arizona.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Get Away Games Escape Rooms",
+    "slug": "get-away-games-escape-rooms",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 37.129024,
+    "lng": -121.659503,
+    "description": "Get Away Games Escape Rooms is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escapology",
+    "slug": "escapology-16",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "",
+    "lat": 33.432474,
+    "lng": -111.904883,
+    "description": "Escapology is an escape room in Arizona.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Breakout",
+    "slug": "breakout-3",
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "city": "",
+    "lat": 35.712987,
+    "lng": -83.514345,
+    "description": "Breakout is an escape room in North Carolina.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Flagstaff Escape Space",
+    "slug": "flagstaff-escape-space",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "",
+    "lat": 35.182645,
+    "lng": -111.659821,
+    "description": "Flagstaff Escape Space is an escape room in Arizona.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Ragesape",
+    "slug": "ragesape",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 33.194292,
+    "lng": -117.357272,
+    "description": "Ragesape is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Epic Escape Rooms",
+    "slug": "epic-escape-rooms",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "city": "",
+    "lat": 30.866468,
+    "lng": -83.285432,
+    "description": "Epic Escape Rooms is an escape room in Florida.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "60 Out",
+    "slug": "60-out",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 33.977584,
+    "lng": -118.391111,
+    "description": "60 Out is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Mastermind Room Escape",
+    "slug": "mastermind-room-escape",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "Saint Louis",
+    "lat": 38.629506,
+    "lng": -90.186847,
+    "description": "Mastermind Room Escape is an escape room in Illinois.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Exit 4 Escape Rooms",
+    "slug": "exit-4-escape-rooms",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "",
+    "lat": 29.78949,
+    "lng": -95.771305,
+    "description": "Exit 4 Escape Rooms is an escape room in Texas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape The Room St. Louis",
+    "slug": "escape-the-room-st-louis",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "Saint Louis",
+    "lat": 38.632019,
+    "lng": -90.196963,
+    "description": "Escape The Room St. Louis is an escape room in Illinois.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Alcatraz Escape Rooms",
+    "slug": "alcatraz-escape-rooms",
+    "state": "Utah",
+    "stateSlug": "utah",
+    "city": "Lindon",
+    "lat": 40.34865,
+    "lng": -111.756777,
+    "description": "Alcatraz Escape Rooms is an escape room in Utah.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Immersive Gamebox",
+    "slug": "immersive-gamebox",
+    "state": "Georgia",
+    "stateSlug": "georgia",
+    "city": "",
+    "lat": 34.071567,
+    "lng": -84.277003,
+    "description": "Immersive Gamebox is an escape room in Georgia.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Enter The Enigma Escape Rooms",
+    "slug": "enter-the-enigma-escape-rooms",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "city": "Colorado Springs",
+    "lat": 38.863396,
+    "lng": -104.756286,
+    "description": "Enter The Enigma Escape Rooms is an escape room in Colorado.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room Middleburg & Axe Throwing",
+    "slug": "escape-room-middleburg-axe-throwing",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "city": "Middleburg Heights",
+    "lat": 41.386755,
+    "lng": -81.842354,
+    "description": "Escape Room Middleburg & Axe Throwing is an escape room in Ohio.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape In 60",
+    "slug": "escape-in-60",
+    "state": "South Carolina",
+    "stateSlug": "south-carolina",
+    "city": "Charleston",
+    "lat": 32.780853,
+    "lng": -79.928593,
+    "description": "Escape In 60 is an escape room in South Carolina.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escapology Escape Rooms San Diego",
+    "slug": "escapology-escape-rooms-san-diego",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 32.77061,
+    "lng": -117.251326,
+    "description": "Escapology Escape Rooms San Diego is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape It! Grandview",
+    "slug": "escape-it-grandview",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "city": "",
+    "lat": 39.982306,
+    "lng": -83.049568,
+    "description": "Escape It! Grandview is an escape room in Ohio.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Amazing Escape Room",
+    "slug": "amazing-escape-room",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 39.913595,
+    "lng": -74.965829,
+    "description": "Amazing Escape Room is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Red Door Eacape Room",
+    "slug": "red-door-eacape-room",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 36.113737,
+    "lng": -115.172463,
+    "description": "Red Door Eacape Room is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room Zone",
+    "slug": "escape-room-zone",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 42.321519,
+    "lng": -83.455158,
+    "description": "Escape Room Zone is an escape room in Michigan.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Inferno Escape Room",
+    "slug": "inferno-escape-room",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "",
+    "lat": 33.42137,
+    "lng": -111.89303,
+    "description": "Inferno Escape Room is an escape room in Arizona.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Red Door Escape Room",
+    "slug": "red-door-escape-room-5",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 33.523827,
+    "lng": -117.153617,
+    "description": "Red Door Escape Room is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Cluemaster Escape Rooms",
+    "slug": "cluemaster-escape-rooms",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "",
+    "lat": 33.363533,
+    "lng": -111.798688,
+    "description": "Cluemaster Escape Rooms is an escape room in Arizona.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escapetown Bloomington",
+    "slug": "escapetown-bloomington",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "Bloomington",
+    "lat": 40.488928,
+    "lng": -88.96431,
+    "description": "Escapetown Bloomington is an escape room in Illinois.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Goats Escape Rooms",
+    "slug": "escape-goats-escape-rooms",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "city": "Zanesville",
+    "lat": 39.979268,
+    "lng": -82.016186,
+    "description": "Escape Goats Escape Rooms is an escape room in Ohio.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Lara's Labyrinth",
+    "slug": "laras-labyrinth",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "San Diego",
+    "lat": 32.745292,
+    "lng": -117.189997,
+    "description": "Lara's Labyrinth is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room 13",
+    "slug": "escape-room-13",
+    "state": "Arkansas",
+    "stateSlug": "arkansas",
+    "city": "Eureka Springs",
+    "lat": 36.402019,
+    "lng": -93.736775,
+    "description": "Escape Room 13 is an escape room in Arkansas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "OBXscape Rooms",
+    "slug": "obxscape-rooms",
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "city": "",
+    "lat": 36.102539,
+    "lng": -75.715078,
+    "description": "OBXscape Rooms is an escape room in North Carolina.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "House of Clues",
+    "slug": "house-of-clues",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "Santa Barbara",
+    "lat": 34.417727,
+    "lng": -119.697015,
+    "description": "House of Clues is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room",
+    "slug": "escape-room-2",
+    "state": "Washington",
+    "stateSlug": "washington",
+    "city": "Leavenworth",
+    "lat": 47.596222,
+    "lng": -120.661951,
+    "description": "Escape Room is an escape room in Washington.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Xcape Room Fresno",
+    "slug": "xcape-room-fresno",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "Fresno",
+    "lat": 36.806734,
+    "lng": -119.855011,
+    "description": "Xcape Room Fresno is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escapology",
+    "slug": "escapology-17",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.623092,
+    "lng": -71.265906,
+    "description": "Escapology is an escape room in Massachusetts.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Mission Escape Rooms",
+    "slug": "mission-escape-rooms",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Annapolis",
+    "lat": 38.978417,
+    "lng": -76.494971,
+    "description": "Mission Escape Rooms is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escapology",
+    "slug": "escapology-18",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Waltham",
+    "lat": 42.375195,
+    "lng": -71.25259,
+    "description": "Escapology is an escape room in Massachusetts.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Breakout Games",
+    "slug": "breakout-games-3",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.501423,
+    "lng": -71.162446,
+    "description": "Breakout Games is an escape room in Massachusetts.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Zone 518",
+    "slug": "zone-518",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "Albany",
+    "lat": 42.664112,
+    "lng": -73.738376,
+    "description": "Zone 518 is an escape room in New York.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "A Great Escape",
+    "slug": "a-great-escape",
+    "state": "Utah",
+    "stateSlug": "utah",
+    "city": "West Jordan",
+    "lat": 40.609969,
+    "lng": -111.922338,
+    "description": "A Great Escape is an escape room in Utah.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escapology",
+    "slug": "escapology-19",
+    "state": "Louisiana",
+    "stateSlug": "louisiana",
+    "city": "Covington",
+    "lat": 30.446058,
+    "lng": -90.131851,
+    "description": "Escapology is an escape room in Louisiana.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Rooms Southern Maryland",
+    "slug": "escape-rooms-southern-maryland",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Leonardtown",
+    "lat": 38.29103,
+    "lng": -76.636261,
+    "description": "Escape Rooms Southern Maryland is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Game",
+    "slug": "the-escape-game-16",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 33.650797,
+    "lng": -117.744316,
+    "description": "The Escape Game is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Exit 4 Escape Rooms",
+    "slug": "exit-4-escape-rooms-2",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 39.273711,
+    "lng": -74.575329,
+    "description": "Exit 4 Escape Rooms is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "game on",
+    "slug": "game-on",
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "city": "",
+    "lat": 34.723758,
+    "lng": -76.734619,
+    "description": "game on is an escape room in North Carolina.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Great Escape",
+    "slug": "great-escape",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "",
+    "lat": 42.081457,
+    "lng": -87.982654,
+    "description": "Great Escape is an escape room in Illinois.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Paniq Escape Room",
+    "slug": "paniq-escape-room-2",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "Dallas",
+    "lat": 32.953105,
+    "lng": -96.816027,
+    "description": "Paniq Escape Room is an escape room in Texas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Game",
+    "slug": "the-escape-game-17",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "Rancho Cucamonga",
+    "lat": 34.111963,
+    "lng": -117.531735,
+    "description": "The Escape Game is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Angry Jack's Axe Throwing Club",
+    "slug": "angry-jacks-axe-throwing-club",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "Bethlehem",
+    "lat": 40.614517,
+    "lng": -75.359236,
+    "description": "Angry Jack's Axe Throwing Club is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "American Escape Rooms",
+    "slug": "american-escape-rooms",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "city": "Tallahassee",
+    "lat": 30.446,
+    "lng": -84.320456,
+    "description": "American Escape Rooms is an escape room in Florida.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Stained Hourglass Escapes",
+    "slug": "stained-hourglass-escapes",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Salem",
+    "lat": 42.519081,
+    "lng": -70.894931,
+    "description": "Stained Hourglass Escapes is an escape room in Massachusetts.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "ESCAPE:chandler",
+    "slug": "escapechandler",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "",
+    "lat": 33.307941,
+    "lng": -111.860324,
+    "description": "ESCAPE:chandler is an escape room in Arizona.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "All In Adventures",
+    "slug": "all-in-adventures-2",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 42.688377,
+    "lng": -73.848116,
+    "description": "All In Adventures is an escape room in New York.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Mind Twist",
+    "slug": "mind-twist",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 36.127552,
+    "lng": -115.171852,
+    "description": "Mind Twist is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Eye Spy escape rooms",
+    "slug": "eye-spy-escape-rooms",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "Abilene",
+    "lat": 32.427711,
+    "lng": -99.783888,
+    "description": "Eye Spy escape rooms is an escape room in Texas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Fargo Escape Room",
+    "slug": "fargo-escape-room",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 46.877419,
+    "lng": -96.863837,
+    "description": "Fargo Escape Room is an escape room in Minnesota.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape From St. Louis",
+    "slug": "escape-from-st-louis",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "",
+    "lat": 38.612551,
+    "lng": -90.320143,
+    "description": "Escape From St. Louis is an escape room in Illinois.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Unravelled Escape Room",
+    "slug": "unravelled-escape-room",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 44.073991,
+    "lng": -92.507342,
+    "description": "Unravelled Escape Room is an escape room in Minnesota.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Exsapology Escape Rooms Colorado Springs",
+    "slug": "exsapology-escape-rooms-colorado-springs",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "city": "",
+    "lat": 39.021082,
+    "lng": -104.820004,
+    "description": "Exsapology Escape Rooms Colorado Springs is an escape room in Colorado.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Bureau Escape Rooms",
+    "slug": "the-bureau-escape-rooms",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "city": "Orlando",
+    "lat": 28.461815,
+    "lng": -81.452649,
+    "description": "The Bureau Escape Rooms is an escape room in Florida.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Beat the Bomb",
+    "slug": "beat-the-bomb-2",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "",
+    "lat": 38.915412,
+    "lng": -76.983298,
+    "description": "Beat the Bomb is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "XscapeWorks",
+    "slug": "xscapeworks",
+    "state": "South Carolina",
+    "stateSlug": "south-carolina",
+    "city": "",
+    "lat": 32.894249,
+    "lng": -80.021852,
+    "description": "XscapeWorks is an escape room in South Carolina.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "RollHouse Mentor",
+    "slug": "rollhouse-mentor",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "city": "",
+    "lat": 41.660516,
+    "lng": -81.380785,
+    "description": "RollHouse Mentor is an escape room in Ohio.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Panic Room",
+    "slug": "the-panic-room",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "Niagara Falls",
+    "lat": 43.085827,
+    "lng": -79.059237,
+    "description": "The Panic Room is an escape room in New York.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Captured LV Escape Room",
+    "slug": "captured-lv-escape-room",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "Bethlehem",
+    "lat": 40.622255,
+    "lng": -75.382311,
+    "description": "Captured LV Escape Room is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Twisted Escapes",
+    "slug": "twisted-escapes",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "Easton",
+    "lat": 40.680329,
+    "lng": -75.248908,
+    "description": "Twisted Escapes is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Diablo Escapes",
+    "slug": "diablo-escapes",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "Walnut Creek",
+    "lat": 37.89799,
+    "lng": -122.067583,
+    "description": "Diablo Escapes is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Beat the Bomb",
+    "slug": "beat-the-bomb-3",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "Houston",
+    "lat": 29.77244,
+    "lng": -95.347023,
+    "description": "Beat the Bomb is an escape room in Texas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Mountain Time",
+    "slug": "mountain-time-3",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "city": "",
+    "lat": 39.479823,
+    "lng": -106.045609,
+    "description": "Mountain Time is an escape room in Colorado.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Game",
+    "slug": "the-escape-game-18",
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "city": "Gatlinburg",
+    "lat": 35.711379,
+    "lng": -83.518127,
+    "description": "The Escape Game is an escape room in North Carolina.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Method of Escape",
+    "slug": "method-of-escape",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "Fresno",
+    "lat": 36.827174,
+    "lng": -119.788412,
+    "description": "Method of Escape is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Kato Escape Room",
+    "slug": "kato-escape-room",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 44.162243,
+    "lng": -94.007496,
+    "description": "Kato Escape Room is an escape room in Minnesota.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Red Door Escape Room",
+    "slug": "red-door-escape-room-6",
+    "state": "Virginia",
+    "stateSlug": "virginia",
+    "city": "Richmond",
+    "lat": 37.655526,
+    "lng": -77.61772,
+    "description": "Red Door Escape Room is an escape room in Virginia.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape the Room",
+    "slug": "escape-the-room-4",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "Dallas",
+    "lat": 32.907291,
+    "lng": -96.806143,
+    "description": "Escape the Room is an escape room in Texas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Beat The Bomb",
+    "slug": "beat-the-bomb-4",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.703085,
+    "lng": -73.983915,
+    "description": "Beat The Bomb is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Marquette Escape Games",
+    "slug": "marquette-escape-games",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Marquette",
+    "lat": 46.54355,
+    "lng": -87.393963,
+    "description": "Marquette Escape Games is an escape room in Michigan.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "React Premium Escape Rooms",
+    "slug": "react-premium-escape-rooms",
+    "state": "Connecticut",
+    "stateSlug": "connecticut",
+    "city": "",
+    "lat": 41.922518,
+    "lng": -72.6695,
+    "description": "React Premium Escape Rooms is an escape room in Connecticut.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Spare Time Escape Room",
+    "slug": "spare-time-escape-room",
+    "state": "Connecticut",
+    "stateSlug": "connecticut",
+    "city": "",
+    "lat": 41.925333,
+    "lng": -72.66858,
+    "description": "Spare Time Escape Room is an escape room in Connecticut.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Immersive Gamebox",
+    "slug": "immersive-gamebox-2",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "",
+    "lat": 33.074263,
+    "lng": -96.860477,
+    "description": "Immersive Gamebox is an escape room in Texas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Spellbound Escapes",
+    "slug": "spellbound-escapes",
+    "state": "Connecticut",
+    "stateSlug": "connecticut",
+    "city": "",
+    "lat": 41.475065,
+    "lng": -71.960932,
+    "description": "Spellbound Escapes is an escape room in Connecticut.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Duck",
+    "slug": "escape-duck",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "San Gabriel",
+    "lat": 34.104097,
+    "lng": -118.077683,
+    "description": "Escape Duck is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Neo Escape Rooms",
+    "slug": "neo-escape-rooms",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 38.581371,
+    "lng": -121.505082,
+    "description": "Neo Escape Rooms is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Xcapery",
+    "slug": "the-xcapery",
+    "state": "Oklahoma",
+    "stateSlug": "oklahoma",
+    "city": "",
+    "lat": 36.152116,
+    "lng": -95.988792,
+    "description": "The Xcapery is an escape room in Oklahoma.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Bond's Escape Room",
+    "slug": "bonds-escape-room",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Fairfax",
+    "lat": 38.847629,
+    "lng": -77.304058,
+    "description": "Bond's Escape Room is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escapology",
+    "slug": "escapology-20",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "",
+    "lat": 30.1947,
+    "lng": -95.45019,
+    "description": "Escapology is an escape room in Texas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Game Show Battle Rooms",
+    "slug": "game-show-battle-rooms",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "",
+    "lat": 30.193326,
+    "lng": -95.44906,
+    "description": "Game Show Battle Rooms is an escape room in Texas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Kitsap Great Escape",
+    "slug": "kitsap-great-escape",
+    "state": "Washington",
+    "stateSlug": "washington",
+    "city": "Silverdale",
+    "lat": 47.649489,
+    "lng": -122.696847,
+    "description": "Kitsap Great Escape is an escape room in Washington.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room Loco",
+    "slug": "escape-room-loco",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Leesburg",
+    "lat": 39.112587,
+    "lng": -77.562463,
+    "description": "Escape Room Loco is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Nightmare Mansion",
+    "slug": "nightmare-mansion",
+    "state": "Virginia",
+    "stateSlug": "virginia",
+    "city": "",
+    "lat": 36.848417,
+    "lng": -75.975248,
+    "description": "Nightmare Mansion is an escape room in Virginia.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape The Clock",
+    "slug": "escape-the-clock",
+    "state": "Kansas",
+    "stateSlug": "kansas",
+    "city": "Garden City",
+    "lat": 37.965337,
+    "lng": -100.874098,
+    "description": "Escape The Clock is an escape room in Kansas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Bond\u2019s Escape Room",
+    "slug": "bonds-escape-room-2",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Arlington",
+    "lat": 38.887228,
+    "lng": -77.091897,
+    "description": "Bond\u2019s Escape Room is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Trapped",
+    "slug": "trapped-2",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "city": "",
+    "lat": 41.308213,
+    "lng": -81.820946,
+    "description": "Trapped is an escape room in Ohio.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escapology",
+    "slug": "escapology-21",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Fairfax",
+    "lat": 38.858586,
+    "lng": -77.355914,
+    "description": "Escapology is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room Kansas City",
+    "slug": "escape-room-kansas-city",
+    "state": "Missouri",
+    "stateSlug": "missouri",
+    "city": "",
+    "lat": 39.084553,
+    "lng": -94.585856,
+    "description": "Escape Room Kansas City is an escape room in Missouri.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room Brunswick",
+    "slug": "escape-room-brunswick",
+    "state": "Maine",
+    "stateSlug": "maine",
+    "city": "Brunswick",
+    "lat": 43.915461,
+    "lng": -69.965713,
+    "description": "Escape Room Brunswick is an escape room in Maine.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Kidd's Jewelry Heist",
+    "slug": "kidds-jewelry-heist",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "San Marino",
+    "lat": 34.123169,
+    "lng": -118.101622,
+    "description": "Kidd's Jewelry Heist is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Portland Escape Rooms",
+    "slug": "portland-escape-rooms-2",
+    "state": "Oregon",
+    "stateSlug": "oregon",
+    "city": "Beaverton",
+    "lat": 45.485537,
+    "lng": -122.786848,
+    "description": "Portland Escape Rooms is an escape room in Oregon.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room Palm Springs",
+    "slug": "escape-room-palm-springs",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "Palm Springs",
+    "lat": 33.852622,
+    "lng": -116.550585,
+    "description": "Escape Room Palm Springs is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "RoomEscapers",
+    "slug": "roomescapers",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Boston",
+    "lat": 42.357526,
+    "lng": -71.058499,
+    "description": "RoomEscapers is an escape room in Massachusetts.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Dark Matter Scream Works",
+    "slug": "dark-matter-scream-works",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 43.252244,
+    "lng": -77.645699,
+    "description": "Dark Matter Scream Works is an escape room in New York.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Cyber Racoon Escape Game",
+    "slug": "cyber-racoon-escape-game",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Falls Church",
+    "lat": 38.878834,
+    "lng": -77.181434,
+    "description": "Cyber Racoon Escape Game is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Michael's House",
+    "slug": "michaels-house",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 32.782649,
+    "lng": -117.19014,
+    "description": "Michael's House is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "PanIQ ROOM",
+    "slug": "paniq-room",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "Long Beach",
+    "lat": 33.771087,
+    "lng": -118.19256,
+    "description": "PanIQ ROOM is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape 60",
+    "slug": "escape-60",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "",
+    "lat": 40.699232,
+    "lng": -89.603843,
+    "description": "Escape 60 is an escape room in Illinois.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Cryptiq Escapes",
+    "slug": "cryptiq-escapes",
+    "state": "Iowa",
+    "stateSlug": "iowa",
+    "city": "",
+    "lat": 41.644042,
+    "lng": -91.509918,
+    "description": "Cryptiq Escapes is an escape room in Iowa.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Beyond Escape",
+    "slug": "beyond-escape",
+    "state": "Maine",
+    "stateSlug": "maine",
+    "city": "",
+    "lat": 43.134413,
+    "lng": -70.926524,
+    "description": "Beyond Escape is an escape room in Maine.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Game",
+    "slug": "the-escape-game-19",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 37.417359,
+    "lng": -121.898687,
+    "description": "The Escape Game is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Countdown Games",
+    "slug": "countdown-games",
+    "state": "Kentucky",
+    "stateSlug": "kentucky",
+    "city": "Lexington",
+    "lat": 38.017001,
+    "lng": -84.41698,
+    "description": "Countdown Games is an escape room in Kentucky.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Enigma Escapes",
+    "slug": "enigma-escapes",
+    "state": "Washington",
+    "stateSlug": "washington",
+    "city": "Tacoma",
+    "lat": 47.254807,
+    "lng": -122.437688,
+    "description": "Enigma Escapes is an escape room in Washington.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "MagiQuest",
+    "slug": "magiquest",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 43.572569,
+    "lng": -89.779567,
+    "description": "MagiQuest is an escape room in Michigan.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Puzzeled Escape Rooms",
+    "slug": "puzzeled-escape-rooms",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "Fargo",
+    "lat": 46.830911,
+    "lng": -96.801424,
+    "description": "Puzzeled Escape Rooms is an escape room in Minnesota.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "OMESCAPE",
+    "slug": "omescape",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 37.38096,
+    "lng": -121.999551,
+    "description": "OMESCAPE is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Amazing Escape Room King of Prussia",
+    "slug": "amazing-escape-room-king-of-prussia",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "King of Prussia",
+    "lat": 40.099269,
+    "lng": -75.415466,
+    "description": "Amazing Escape Room King of Prussia is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room 831",
+    "slug": "escape-room-831",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 36.613335,
+    "lng": -121.901843,
+    "description": "Escape Room 831 is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Lok'd! Room Escape",
+    "slug": "lokd-room-escape",
+    "state": "New Hampshire",
+    "stateSlug": "new-hampshire",
+    "city": "Manchester",
+    "lat": 42.956532,
+    "lng": -71.431083,
+    "description": "Lok'd! Room Escape is an escape room in New Hampshire.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room 101 - VR Arena",
+    "slug": "escape-room-101---vr-arena",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "Phoenix",
+    "lat": 33.655995,
+    "lng": -111.927243,
+    "description": "Escape Room 101 - VR Arena is an escape room in Arizona.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Eleventh Hour Enigma",
+    "slug": "eleventh-hour-enigma",
+    "state": "Oklahoma",
+    "stateSlug": "oklahoma",
+    "city": "Tulsa",
+    "lat": 36.152297,
+    "lng": -95.974265,
+    "description": "Eleventh Hour Enigma is an escape room in Oklahoma.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Brainstorm Escapes",
+    "slug": "brainstorm-escapes",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "Champaign",
+    "lat": 40.116082,
+    "lng": -88.239722,
+    "description": "Brainstorm Escapes is an escape room in Illinois.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Mastermind Escape Games Atlanta",
+    "slug": "mastermind-escape-games-atlanta",
+    "state": "Georgia",
+    "stateSlug": "georgia",
+    "city": "",
+    "lat": 33.915127,
+    "lng": -84.359072,
+    "description": "Mastermind Escape Games Atlanta is an escape room in Georgia.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room Virginia Beach",
+    "slug": "escape-room-virginia-beach",
+    "state": "Virginia",
+    "stateSlug": "virginia",
+    "city": "Virginia Beach",
+    "lat": 36.837325,
+    "lng": -76.122594,
+    "description": "Escape Room Virginia Beach is an escape room in Virginia.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Curious Escape Rooms",
+    "slug": "curious-escape-rooms",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.582551,
+    "lng": -71.797268,
+    "description": "Curious Escape Rooms is an escape room in Massachusetts.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "TK Escape",
+    "slug": "tk-escape",
+    "state": "Alabama",
+    "stateSlug": "alabama",
+    "city": "Mobile",
+    "lat": 30.690176,
+    "lng": -88.047345,
+    "description": "TK Escape is an escape room in Alabama.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "4 Dreams Escape Room",
+    "slug": "4-dreams-escape-room",
+    "state": "Washington",
+    "stateSlug": "washington",
+    "city": "",
+    "lat": 47.618565,
+    "lng": -122.130799,
+    "description": "4 Dreams Escape Room is an escape room in Washington.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Live Game Escape",
+    "slug": "live-game-escape",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "Las Vegas",
+    "lat": 36.128859,
+    "lng": -115.224603,
+    "description": "Live Game Escape is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape House",
+    "slug": "the-escape-house",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "city": "Grand Junction",
+    "lat": 39.070055,
+    "lng": -108.5625,
+    "description": "The Escape House is an escape room in Colorado.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Secret Chambers Escape Room",
+    "slug": "the-secret-chambers-escape-room",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "Westworth Village",
+    "lat": 32.751988,
+    "lng": -97.430353,
+    "description": "The Secret Chambers Escape Room is an escape room in Texas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Puzzle Effect",
+    "slug": "puzzle-effect",
+    "state": "Oregon",
+    "stateSlug": "oregon",
+    "city": "Bend",
+    "lat": 44.032002,
+    "lng": -121.307359,
+    "description": "Puzzle Effect is an escape room in Oregon.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Trapped! Escape Room",
+    "slug": "trapped-escape-room",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "Las Vegas",
+    "lat": 36.103488,
+    "lng": -115.185085,
+    "description": "Trapped! Escape Room is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Deadbolt - Boneyfiddle Escape Rooms and Mysteries",
+    "slug": "deadbolt---boneyfiddle-escape-rooms-and-mysteries",
+    "state": "Kentucky",
+    "stateSlug": "kentucky",
+    "city": "Portsmouth",
+    "lat": 38.733029,
+    "lng": -83.005508,
+    "description": "Deadbolt - Boneyfiddle Escape Rooms and Mysteries is an escape room in Kentucky.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Know Way Out",
+    "slug": "know-way-out",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 45.35337,
+    "lng": -84.967236,
+    "description": "Know Way Out is an escape room in Michigan.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Fantastic Escape",
+    "slug": "the-fantastic-escape",
+    "state": "Iowa",
+    "stateSlug": "iowa",
+    "city": "Cedar Rapids",
+    "lat": 42.023813,
+    "lng": -91.626878,
+    "description": "The Fantastic Escape is an escape room in Iowa.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escapade 360 Escape Room",
+    "slug": "escapade-360-escape-room",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "",
+    "lat": 42.03526,
+    "lng": -88.283378,
+    "description": "Escapade 360 Escape Room is an escape room in Illinois.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Think Solve Escape",
+    "slug": "think-solve-escape",
+    "state": "Delaware",
+    "stateSlug": "delaware",
+    "city": "Turnersville",
+    "lat": 39.760094,
+    "lng": -75.04812,
+    "description": "Think Solve Escape is an escape room in Delaware.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "St. Louis Escape",
+    "slug": "st-louis-escape",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "Saint Louis",
+    "lat": 38.612165,
+    "lng": -90.200318,
+    "description": "St. Louis Escape is an escape room in Illinois.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Locked Up Fort Wayne - Escape Room Experience",
+    "slug": "locked-up-fort-wayne---escape-room-experience",
+    "state": "Indiana",
+    "stateSlug": "indiana",
+    "city": "Fort Wayne",
+    "lat": 41.058287,
+    "lng": -85.225195,
+    "description": "Locked Up Fort Wayne - Escape Room Experience is an escape room in Indiana.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Champaign-Urbana Adventures in Time and Space",
+    "slug": "champaign-urbana-adventures-in-time-and-space",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "Urbana",
+    "lat": 40.115417,
+    "lng": -88.206279,
+    "description": "Champaign-Urbana Adventures in Time and Space is an escape room in Illinois.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Ace of Escape",
+    "slug": "ace-of-escape",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "Tucson",
+    "lat": 32.226759,
+    "lng": -110.973664,
+    "description": "Ace of Escape is an escape room in Arizona.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Back in Time",
+    "slug": "back-in-time",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 33.897115,
+    "lng": -118.394057,
+    "description": "Back in Time is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Daytona Escape Room Experience",
+    "slug": "daytona-escape-room-experience",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "city": "",
+    "lat": 29.179543,
+    "lng": -81.017269,
+    "description": "Daytona Escape Room Experience is an escape room in Florida.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Beat the Room",
+    "slug": "beat-the-room",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "Vacaville",
+    "lat": 38.34857,
+    "lng": -121.999842,
+    "description": "Beat the Room is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Nefarious Haunt Experience",
+    "slug": "the-nefarious-haunt-experience",
+    "state": "Virginia",
+    "stateSlug": "virginia",
+    "city": "Hanover",
+    "lat": 37.766481,
+    "lng": -77.36978,
+    "description": "The Nefarious Haunt Experience is an escape room in Virginia.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Narrow Escape Granbury",
+    "slug": "narrow-escape-granbury",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "Granbury",
+    "lat": 32.476714,
+    "lng": -97.699152,
+    "description": "Narrow Escape Granbury is an escape room in Texas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape The Puzzle",
+    "slug": "escape-the-puzzle",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "Long Branch",
+    "lat": 40.30074,
+    "lng": -73.998419,
+    "description": "Escape The Puzzle is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Red Door",
+    "slug": "red-door",
+    "state": "Utah",
+    "stateSlug": "utah",
+    "city": "Riverton",
+    "lat": 40.509685,
+    "lng": -111.999264,
+    "description": "Red Door is an escape room in Utah.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "International Room Escape AZ",
+    "slug": "international-room-escape-az",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "Gilbert",
+    "lat": 33.328783,
+    "lng": -111.795232,
+    "description": "International Room Escape AZ is an escape room in Arizona.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Tactic",
+    "slug": "escape-tactic",
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "city": "Charlotte",
+    "lat": 35.185812,
+    "lng": -80.879635,
+    "description": "Escape Tactic is an escape room in North Carolina.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room Pittsburgh",
+    "slug": "escape-room-pittsburgh",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "",
+    "lat": 40.407233,
+    "lng": -79.911304,
+    "description": "Escape Room Pittsburgh is an escape room in Pennsylvania.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room @ Grant",
+    "slug": "escape-room-grant",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "Tucson",
+    "lat": 32.250071,
+    "lng": -110.932785,
+    "description": "Escape Room @ Grant is an escape room in Arizona.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Hoosier Escape House",
+    "slug": "hoosier-escape-house",
+    "state": "Indiana",
+    "stateSlug": "indiana",
+    "city": "Bloomington",
+    "lat": 39.17567,
+    "lng": -86.533789,
+    "description": "Hoosier Escape House is an escape room in Indiana.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Breakdown Rage Room",
+    "slug": "breakdown-rage-room-2",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "Hanover",
+    "lat": 39.803485,
+    "lng": -76.982531,
+    "description": "Breakdown Rage Room is an escape room in Pennsylvania.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape the Room PCB",
+    "slug": "escape-the-room-pcb",
+    "state": "Alabama",
+    "stateSlug": "alabama",
+    "city": "",
+    "lat": 30.226568,
+    "lng": -85.897034,
+    "description": "Escape the Room PCB is an escape room in Alabama.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Breakout Games - Chattanooga",
+    "slug": "breakout-games---chattanooga",
+    "state": "Tennessee",
+    "stateSlug": "tennessee",
+    "city": "",
+    "lat": 35.012992,
+    "lng": -85.160622,
+    "description": "Breakout Games - Chattanooga is an escape room in Tennessee.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Dothan",
+    "slug": "escape-dothan",
+    "state": "Alabama",
+    "stateSlug": "alabama",
+    "city": "Dothan",
+    "lat": 31.253572,
+    "lng": -85.414672,
+    "description": "Escape Dothan is an escape room in Alabama.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Southern Escape Room",
+    "slug": "southern-escape-room",
+    "state": "Louisiana",
+    "stateSlug": "louisiana",
+    "city": "Monroe",
+    "lat": 32.511064,
+    "lng": -92.117254,
+    "description": "Southern Escape Room is an escape room in Louisiana.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Southern Pines Escape",
+    "slug": "southern-pines-escape",
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "city": "Southern Pines",
+    "lat": 35.174672,
+    "lng": -79.39182,
+    "description": "Southern Pines Escape is an escape room in North Carolina.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Warehouse",
+    "slug": "the-escape-warehouse",
+    "state": "Louisiana",
+    "stateSlug": "louisiana",
+    "city": "Ponchatoula",
+    "lat": 30.434498,
+    "lng": -90.440588,
+    "description": "The Escape Warehouse is an escape room in Louisiana.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Hocking Hills Escape Games",
+    "slug": "hocking-hills-escape-games",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "city": "Logan",
+    "lat": 39.539606,
+    "lng": -82.411143,
+    "description": "Hocking Hills Escape Games is an escape room in Ohio.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Secret Chambers",
+    "slug": "the-secret-chambers",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "Arlington",
+    "lat": 32.76767,
+    "lng": -97.095183,
+    "description": "The Secret Chambers is an escape room in Texas.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Room",
+    "slug": "the-escape-room",
+    "state": "Indiana",
+    "stateSlug": "indiana",
+    "city": "Westfield",
+    "lat": 40.031893,
+    "lng": -86.138767,
+    "description": "The Escape Room is an escape room in Indiana.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Idaho Escape Rooms",
+    "slug": "idaho-escape-rooms",
+    "state": "Idaho",
+    "stateSlug": "idaho",
+    "city": "",
+    "lat": 43.492545,
+    "lng": -112.041208,
+    "description": "Idaho Escape Rooms is an escape room in Idaho.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "The Escape Effect",
+    "slug": "the-escape-effect",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "city": "",
+    "lat": 28.393746,
+    "lng": -81.464937,
+    "description": "The Escape Effect is an escape room in Florida.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Break Out Myrtle Beach",
+    "slug": "break-out-myrtle-beach",
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "city": "North Myrtle Beach",
+    "lat": 33.821285,
+    "lng": -78.673322,
+    "description": "Break Out Myrtle Beach is an escape room in North Carolina.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Conquer the Clock Escape Rooms",
+    "slug": "conquer-the-clock-escape-rooms",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "Monaca",
+    "lat": 40.647968,
+    "lng": -80.311246,
+    "description": "Conquer the Clock Escape Rooms is an escape room in Pennsylvania.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Trap Door Escape",
+    "slug": "trap-door-escape",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "Red Bank",
+    "lat": 40.350703,
+    "lng": -74.068125,
+    "description": "Trap Door Escape is an escape room in New Jersey.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Mountain Room Escapes Big Bear",
+    "slug": "mountain-room-escapes-big-bear",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 34.24128,
+    "lng": -116.91636,
+    "description": "Mountain Room Escapes Big Bear is an escape room in California.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Uranus",
+    "slug": "escape-uranus",
+    "state": "Missouri",
+    "stateSlug": "missouri",
+    "city": "",
+    "lat": 37.828401,
+    "lng": -92.105462,
+    "description": "Escape Uranus is an escape room in Missouri.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Room Louisiana",
+    "slug": "escape-room-louisiana",
+    "state": "Louisiana",
+    "stateSlug": "louisiana",
+    "city": "",
+    "lat": 30.233238,
+    "lng": -93.216064,
+    "description": "Escape Room Louisiana is an escape room in Louisiana.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Bayou Escape Rooms",
+    "slug": "bayou-escape-rooms",
+    "state": "Louisiana",
+    "stateSlug": "louisiana",
+    "city": "",
+    "lat": 30.176389,
+    "lng": -93.242717,
+    "description": "Bayou Escape Rooms is an escape room in Louisiana.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Game Knoxville",
+    "slug": "escape-game-knoxville",
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "city": "",
+    "lat": 35.962802,
+    "lng": -83.914663,
+    "description": "Escape Game Knoxville is an escape room in North Carolina.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "1863 Escape Room",
+    "slug": "1863-escape-room",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "Gettysburg",
+    "lat": 39.825816,
+    "lng": -77.230851,
+    "description": "1863 Escape Room is an escape room in Pennsylvania.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "AdventureScape",
+    "slug": "adventurescape",
+    "state": "Oklahoma",
+    "stateSlug": "oklahoma",
+    "city": "Chickasha",
+    "lat": 35.051473,
+    "lng": -97.93467,
+    "description": "AdventureScape is an escape room in Oklahoma.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape the Room",
+    "slug": "escape-the-room-5",
+    "state": "Idaho",
+    "stateSlug": "idaho",
+    "city": "Boise",
+    "lat": 43.608199,
+    "lng": -116.279539,
+    "description": "Escape the Room is an escape room in Idaho.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Red Door Escape Room",
+    "slug": "red-door-escape-room-7",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Gaithersburg",
+    "lat": 39.117,
+    "lng": -77.198955,
+    "description": "Red Door Escape Room is an escape room in Maryland.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Breakout",
+    "slug": "breakout-4",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 44.901322,
+    "lng": -97.114683,
+    "description": "Breakout is an escape room in Minnesota.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape on 13th",
+    "slug": "escape-on-13th",
+    "state": "Utah",
+    "stateSlug": "utah",
+    "city": "Salt Lake City",
+    "lat": 40.741964,
+    "lng": -111.901786,
+    "description": "Escape on 13th is an escape room in Utah.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escapology",
+    "slug": "escapology-22",
+    "state": "Alabama",
+    "stateSlug": "alabama",
+    "city": "Madison",
+    "lat": 34.685996,
+    "lng": -86.718517,
+    "description": "Escapology is an escape room in Alabama.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
+    ]
+  },
+  {
+    "name": "Escape Augusta",
+    "slug": "escape-augusta",
+    "state": "Maine",
+    "stateSlug": "maine",
+    "city": "Augusta",
+    "lat": 44.31013,
+    "lng": -69.796751,
+    "description": "Escape Augusta is an escape room in Maine.",
+    "amenities": [
+      "Multiple rooms",
+      "Booking required"
     ]
   }
 ]
