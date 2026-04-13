@@ -4,6 +4,21 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import locations from '@/data/locations.json';
 
+const MAPBOX_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_TOKEN ?? '';
+
+function getMapboxImage(lat: number, lng: number, width = 800, height = 500): string {
+  return `https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v12/static/${lng},${lat},16,0/${width}x${height}?access_token=${MAPBOX_TOKEN}`;
+}
+
+function getEscapeRoomPreview(d: { name: string; state: string; city: string; amenities: string[]; description: string }): string {
+  const amenityCount = d.amenities.length;
+  const location = d.city ? `${d.city}, ${d.state}` : d.state;
+  if (amenityCount >= 2) {
+    return `Escape room venue in ${location} with ${d.amenities.slice(0, 2).join(' and ').toLowerCase()}.`;
+  }
+  return `Escape room experience in ${location}. Book your adventure today.`;
+}
+
 export const revalidate = 86400;
 
 export async function generateStaticParams() {
@@ -29,15 +44,12 @@ const AMENITY_ICONS: Record<string, string> = {
   'Online booking': '💻', 'Walk-ins welcome': '🚶', 'Gift cards': '🎁',
 };
 
-const HERO_KEYWORDS = ['escape+room','puzzle+room','mystery+room','adventure+room','lock+puzzle','mystery+door','thriller+room','secret+room'];
-
 export default async function RoomPage({ params }: { params: Promise<{ state: string; slug: string }> }) {
   const { state, slug } = await params;
   const loc = locations.find((l) => l.slug === slug && l.stateSlug === state);
   if (!loc) notFound();
 
   const related = locations.filter((l) => l.stateSlug === state && l.slug !== slug).slice(0, 3);
-  const heroKw = HERO_KEYWORDS[Math.abs(slug.charCodeAt(0) - 97) % HERO_KEYWORDS.length];
 
   return (
     <>
@@ -51,8 +63,8 @@ export default async function RoomPage({ params }: { params: Promise<{ state: st
       }) }} />
 
       {/* Hero */}
-      <section style={{ position: 'relative', height: '440px', overflow: 'hidden' }}>
-        <img src={`https://picsum.photos/seed/${slug}/1400/600`} alt={loc.name} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} width={1400} height={600} />
+      <section style={{ position: 'relative', height: '440px', overflow: 'hidden', background: 'linear-gradient(160deg, var(--void) 0%, var(--abyss) 100%)' }}>
+        <img src={getMapboxImage(loc.lat ?? 0, loc.lng ?? 0, 1400, 600)} alt={loc.name} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', opacity: 0.85 }} width={1400} height={600} />
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(10,10,15,0.95) 0%, rgba(10,10,15,0.6) 50%, rgba(10,10,15,0.25) 100%)' }} />
         <div style={{ position: 'absolute', inset: 0, backgroundImage: 'radial-gradient(ellipse 400px 300px at 80% 30%, rgba(192,25,43,0.08) 0%, transparent 70%)', pointerEvents: 'none' }} />
         <div className="container" style={{ position: 'absolute', bottom: '2.5rem', left: '50%', transform: 'translateX(-50%)', width: '100%' }}>
@@ -76,7 +88,11 @@ export default async function RoomPage({ params }: { params: Promise<{ state: st
             {/* Left */}
             <div>
               <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.6rem', color: 'var(--void)', marginBottom: '1rem', letterSpacing: '0.06em' }}>ABOUT THIS ROOM</h2>
-              <p style={{ lineHeight: 1.85, marginBottom: '1.5rem', color: '#445' }}>{loc.description}</p>
+              <p style={{ lineHeight: 1.85, marginBottom: '1.5rem', color: '#445' }}>
+                {loc.name} is an escape room venue located in {loc.city ? `${loc.city}, ` : ''}{loc.state}.{' '}
+                {loc.amenities.length > 0 ? `Features include ${loc.amenities.slice(0, 2).join(' and ').toLowerCase()}.` : 'Immersive puzzle experiences for groups of all sizes.'}{' '}
+                Contact the venue directly to check availability and book your session.
+              </p>
 
               {loc.amenities.length > 0 && (
                 <div style={{ marginBottom: '2rem' }}>
@@ -151,11 +167,11 @@ export default async function RoomPage({ params }: { params: Promise<{ state: st
               {related.map((r, i) => (
                 <Link key={r.slug} href={`/${r.stateSlug}/${r.slug}`} style={{ textDecoration: 'none' }}>
                   <article className="card">
-                    <img src={`https://picsum.photos/seed/${r.slug}/800/500`} alt={r.name} className="card-img" loading="lazy" width={800} height={500} />
+                    <img src={getMapboxImage(r.lat ?? 0, r.lng ?? 0)} alt={r.name} className="card-img" loading="lazy" width={800} height={500} />
                     <div className="card-body">
                       <div className="card-meta"><span>📍</span><span>{r.city ? `${r.city}, ` : ''}{r.state}</span></div>
                       <h3 className="card-title">{r.name}</h3>
-                      <p style={{ fontSize: '0.875rem', color: '#667', lineHeight: 1.65, flex: 1, marginBottom: '0.75rem' }}>{r.description.slice(0,90)}…</p>
+                      <p style={{ fontSize: '0.875rem', color: '#667', lineHeight: 1.65, flex: 1, marginBottom: '0.75rem' }}>{getEscapeRoomPreview(r)}</p>
                     </div>
                   </article>
                 </Link>
