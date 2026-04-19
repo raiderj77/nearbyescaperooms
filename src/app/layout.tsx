@@ -13,7 +13,11 @@ export const metadata: Metadata = {
   keywords: 'escape rooms, puzzle rooms, adventure games, team building, mystery games, local escape rooms',
   metadataBase: new URL('https://nearbyescaperooms.com'),
   alternates: { canonical: 'https://nearbyescaperooms.com' },
-  robots: 'index, follow, max-snippet:-1',
+  robots: {
+    index: false,
+    follow: true,
+    googleBot: { index: false, follow: true },
+  },
   verification: { google: 'WbPX8TmWTc59vQoUeGcqKK83ZvrxdtzBUVRhkgaNQ5w' },
 };
 
