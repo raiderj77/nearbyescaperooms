@@ -124,7 +124,43 @@ export default function PrivacyPage() {
           We reserve the right to modify this Privacy Policy at any time. Changes will be effective when posted to the Site. Your continued use of the Site following the posting of changes constitutes your acceptance of those changes.
         </p>
 
-        <h2>9. Contact Us</h2>
+        <h2>9. Maryland Online Data Privacy Act (MODPA) Compliance</h2>
+        <p>
+          As of April 1, 2026, Nearby Escape Rooms complies with the Maryland Online Data Privacy Act (MODPA). This section outlines your consumer rights under MODPA.
+        </p>
+
+        <h3>Your Consumer Rights Under MODPA</h3>
+        <p>You have the right to:</p>
+        <ul>
+          <li><strong>Access:</strong> Request what personal data we collect about you and obtain a copy of that data.</li>
+          <li><strong>Correction:</strong> Request that we correct any inaccurate or incomplete personal data we maintain about you.</li>
+          <li><strong>Deletion:</strong> Request deletion of your personal data that we have collected, subject to certain exceptions.</li>
+          <li><strong>Opt-Out of Sale or Targeted Advertising:</strong> Direct us not to sell or share your personal data for targeted advertising purposes. Nearby Escape Rooms does not sell personal data; however, we do work with advertising partners who may use your data for targeted advertising.</li>
+          <li><strong>Data Portability:</strong> Request that we provide your personal data in a portable, machine-readable format.</li>
+        </ul>
+
+        <h3>Global Privacy Control (GPC)</h3>
+        <p>
+          Nearby Escape Rooms honors Global Privacy Control (GPC) signals. If your browser or device sends a GPC signal (Sec-GPC: 1 header), we automatically treat this as a universal opt-out signal and disable all analytics, advertising tracking, and personalization features. No additional action is required if you have GPC enabled.
+        </p>
+
+        <h3>Data Sales</h3>
+        <p>
+          Nearby Escape Rooms does not sell personal data. We may share data with advertising partners for the purpose of serving targeted advertisements, which may be considered a "share" under MODPA. You may opt out of this sharing by enabling GPC or by contacting us at the email address below.
+        </p>
+
+        <h3>How to Exercise Your Rights</h3>
+        <p>
+          To exercise any of your MODPA rights, please send a request to:
+        </p>
+        <p>
+          <strong>Email:</strong> <a href="mailto:privacy@nearbyescaperooms.com" style={{ color: "#9b59b6" }}>privacy@nearbyescaperooms.com</a>
+        </p>
+        <p>
+          We will respond to your request within 45 days of receipt. If we cannot fulfill your request, we will explain the reason and provide information about any applicable exceptions.
+        </p>
+
+        <h2>10. Contact Us</h2>
         <p>
           If you have questions about this Privacy Policy or our privacy practices, please contact us at:
         </p>
@@ -133,7 +169,7 @@ export default function PrivacyPage() {
         </p>
 
         <div className="last-updated">
-          Last Updated: April 6, 2026
+          Last Updated: April 2026
         </div>
       </div>
     </>
