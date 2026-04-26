@@ -44,7 +44,7 @@ export default function Home() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context':'https://schema.org','@type':'WebSite',url:'https://nearbyescaperooms.com',
         name:'Nearby Escape Rooms',
-        dateModified:'2026-04-07',
+        dateModified:new Date().toISOString().substring(0,10),
         potentialAction:{'@type':'SearchAction',target:{'@type':'EntryPoint',urlTemplate:'https://nearbyescaperooms.com/search?q={search_term_string}'},'query-input':'required name=search_term_string'},
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
@@ -52,7 +52,7 @@ export default function Home() {
         name:'Nearby Escape Rooms',
         url:'https://nearbyescaperooms.com',
         description:'Directory of escape rooms across the United States',
-        dateModified:'2026-04-07',
+        dateModified:new Date().toISOString().substring(0,10),
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context':'https://schema.org','@type':'LocalBusiness',
@@ -60,11 +60,11 @@ export default function Home() {
         url:'https://nearbyescaperooms.com',
         description:'Find escape rooms near you across the United States',
         areaServed:'United States',
-        dateModified:'2026-04-07',
+        dateModified:new Date().toISOString().substring(0,10),
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context':'https://schema.org','@type':'FAQPage',
-        dateModified:'2026-04-07',
+        dateModified:new Date().toISOString().substring(0,10),
         mainEntity:[
           {'@type':'Question',name:'How do I find an escape room near me?',acceptedAnswer:{'@type':'Answer',text:'Use the Nearby Escape Rooms directory to search by city or state. Each listing includes the venue address, available room themes, difficulty ratings, group size requirements, pricing, and booking information.'}},
           {'@type':'Question',name:'How much do escape rooms cost?',acceptedAnswer:{'@type':'Answer',text:'Escape room prices typically range from $25 to $40 per person, with most venues offering private room bookings for groups of 2 to 10 people. Some venues charge per room rather than per person, making them more affordable for larger groups. Check individual listings for current pricing.'}},
