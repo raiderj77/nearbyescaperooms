@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
   const loc = locations.find((l) => l.slug === slug);
   if (!loc) return {};
   return {
-    title: `${loc.name} — Escape Room in ${loc.state}`,
+    title: `${loc.name}, Escape Room in ${loc.state}`,
     description: `${loc.description.slice(0, 155)}`,
     alternates: { canonical: `https://nearbyescaperooms.com/${loc.stateSlug}/${loc.slug}` },
   };
@@ -124,11 +124,11 @@ export default async function RoomPage({ params }: { params: Promise<{ state: st
               {/* Tip box */}
               <div style={{ background: 'rgba(201,162,39,0.07)', border: '1px solid rgba(201,162,39,0.25)', borderRadius: 'var(--radius)', padding: '1.25rem 1.5rem' }}>
                 <p style={{ fontFamily: 'var(--font-display)', color: 'var(--gold)', fontSize: '0.95rem', marginBottom: '0.5rem', letterSpacing: '0.06em' }}>🔐 PRO TIP</p>
-                <p style={{ fontSize: '0.875rem', color: '#445', lineHeight: 1.7, fontFamily: 'var(--font-body)' }}>Book in advance — weekends fill quickly. Arrive 10–15 minutes early for your briefing. Don't hesitate to use hints; they're there to keep the game moving and fun.</p>
+                <p style={{ fontSize: '0.875rem', color: '#445', lineHeight: 1.7, fontFamily: 'var(--font-body)' }}>Book in advance, weekends fill quickly. Arrive 10–15 minutes early for your briefing. Don't hesitate to use hints; they're there to keep the game moving and fun.</p>
               </div>
             </div>
 
-            {/* Right — sticky panel */}
+            {/* Right, sticky panel */}
             <aside style={{ position: 'sticky', top: '5.5rem' }}>
               <div style={{ background: 'var(--white)', borderRadius: 'var(--radius)', boxShadow: 'var(--shadow-card)', overflow: 'hidden', border: '1px solid rgba(192,25,43,0.12)' }}>
                 <div style={{ background: 'var(--void)', padding: '1.25rem 1.5rem', borderBottom: '3px solid var(--crimson)' }}>

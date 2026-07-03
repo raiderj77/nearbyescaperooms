@@ -95,8 +95,8 @@ export default function PrivacyPage() {
           You may opt out of personalized advertising at any time using the following tools:
         </p>
         <ul>
-          <li><a href="https://ads.google.com/settings" rel="nofollow noopener noreferrer" target="_blank" style={{ color: "#9b59b6" }}>Google Ad Settings</a> — manage Google's use of your data for ad personalization.</li>
-          <li><a href="https://optout.aboutads.info" rel="nofollow noopener noreferrer" target="_blank" style={{ color: "#9b59b6" }}>Digital Advertising Alliance Opt-Out</a> (optout.aboutads.info) — opt out of interest-based advertising from participating companies.</li>
+          <li><a href="https://ads.google.com/settings" rel="nofollow noopener noreferrer" target="_blank" style={{ color: "#9b59b6" }}>Google Ad Settings</a>, manage Google's use of your data for ad personalization.</li>
+          <li><a href="https://optout.aboutads.info" rel="nofollow noopener noreferrer" target="_blank" style={{ color: "#9b59b6" }}>Digital Advertising Alliance Opt-Out</a> (optout.aboutads.info), opt out of interest-based advertising from participating companies.</li>
         </ul>
 
         <h2>4. Third-Party Links</h2>

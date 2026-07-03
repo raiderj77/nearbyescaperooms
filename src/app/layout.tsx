@@ -8,7 +8,7 @@ const cinzel = Cinzel({ subsets: ['latin'], variable: '--font-display', display:
 const raleway = Raleway({ subsets: ['latin'], variable: '--font-body', display: 'swap', weight: ['400','500','600','700'] });
 
 export const metadata: Metadata = {
-  title: { template: '%s | Nearby Escape Rooms', default: 'Nearby Escape Rooms — Find Escape Rooms Across America' },
+  title: { template: '%s | Nearby Escape Rooms', default: 'Nearby Escape Rooms, Find Escape Rooms Across America' },
   description: 'Discover the best escape rooms near you. Browse puzzle rooms, adventure experiences, and mystery games across all 50 states.',
   keywords: 'escape rooms, puzzle rooms, adventure games, team building, mystery games, local escape rooms',
   metadataBase: new URL('https://nearbyescaperooms.com'),

@@ -66,7 +66,7 @@ export default function AboutPage() {
         <p>
           Our mission is to make it easy for anyone to discover and experience
           quality escape rooms in their area. We believe escape rooms are more
-          than just entertainment—they're opportunities for teams to bond, for
+          than just entertainment, they're opportunities for teams to bond, for
           individuals to test their problem-solving skills, and for families to
           create unforgettable memories together.
         </p>

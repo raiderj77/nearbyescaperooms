@@ -21,7 +21,7 @@ function getEscapeRoomPreview(d: { name: string; state: string; city: string; am
 export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
-  title: 'Nearby Escape Rooms — Find Escape Room Adventures Across America',
+  title: 'Nearby Escape Rooms, Find Escape Room Adventures Across America',
   description: 'Find the best escape rooms near you. Puzzle adventures, mystery experiences, and team challenges across all 50 states.',
 };
 
@@ -69,8 +69,8 @@ export default function Home() {
           {'@type':'Question',name:'How do I find an escape room near me?',acceptedAnswer:{'@type':'Answer',text:'Use the Nearby Escape Rooms directory to search by city or state. Each listing includes the venue address, available room themes, difficulty ratings, group size requirements, pricing, and booking information.'}},
           {'@type':'Question',name:'How much do escape rooms cost?',acceptedAnswer:{'@type':'Answer',text:'Escape room prices typically range from $25 to $40 per person, with most venues offering private room bookings for groups of 2 to 10 people. Some venues charge per room rather than per person, making them more affordable for larger groups. Check individual listings for current pricing.'}},
           {'@type':'Question',name:'How long does an escape room take?',acceptedAnswer:{'@type':'Answer',text:'Most escape rooms run 60 minutes, though some venues offer 45-minute or 90-minute experiences. Add 15 to 30 minutes for arrival, briefing, and debriefing. Plan for approximately 90 minutes total for a standard escape room experience.'}},
-          {'@type':'Question',name:'What difficulty level should beginners choose for an escape room?',acceptedAnswer:{'@type':'Answer',text:'Beginners should look for rooms rated 2 to 3 out of 5 on difficulty. These rooms focus on fun and story immersion rather than complex puzzles, and most venues offer hints during the game. Avoid the hardest rooms on your first visit — they are designed for experienced groups with multiple escape room completions.'}},
-          {'@type':'Question',name:'Can children participate in escape rooms?',acceptedAnswer:{'@type':'Answer',text:'Most escape rooms welcome children aged 10 and up when accompanied by an adult. Some family-friendly rooms are designed for children as young as 7. Check the minimum age requirement and content warnings for each room — horror-themed rooms are generally not suitable for younger children.'}},
+          {'@type':'Question',name:'What difficulty level should beginners choose for an escape room?',acceptedAnswer:{'@type':'Answer',text:'Beginners should look for rooms rated 2 to 3 out of 5 on difficulty. These rooms focus on fun and story immersion rather than complex puzzles, and most venues offer hints during the game. Avoid the hardest rooms on your first visit, they are designed for experienced groups with multiple escape room completions.'}},
+          {'@type':'Question',name:'Can children participate in escape rooms?',acceptedAnswer:{'@type':'Answer',text:'Most escape rooms welcome children aged 10 and up when accompanied by an adult. Some family-friendly rooms are designed for children as young as 7. Check the minimum age requirement and content warnings for each room, horror-themed rooms are generally not suitable for younger children.'}},
         ],
       }) }} />
 
@@ -102,7 +102,7 @@ export default function Home() {
           </h1>
           <div className="ornament anim-fade-up anim-delay-2" style={{ maxWidth: '300px', margin: '0 auto 1.25rem' }}>MYSTERY AWAITS</div>
           <p className="anim-fade-up anim-delay-2" style={{ fontSize: '1.05rem', color: 'rgba(255,255,255,0.6)', marginBottom: '2.75rem', maxWidth: '480px', margin: '0 auto 2.75rem', fontFamily: 'var(--font-body)', lineHeight: 1.65 }}>
-            Puzzle rooms, mystery experiences &amp; team challenges — {locations.length}+ escape rooms across {statesWithData} states.
+            Puzzle rooms, mystery experiences &amp; team challenges, {locations.length}+ escape rooms across {statesWithData} states.
           </p>
           <div className="anim-fade-up anim-delay-3" style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center', marginTop: '2rem' }}>
             <a href="/maryland" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, fontSize: '0.95rem', background: 'var(--crimson)', color: 'white', textDecoration: 'none', transition: 'background 0.2s' }}>Find Escape Rooms →</a>
@@ -166,8 +166,8 @@ export default function Home() {
           </div>
           <div className="grid-3">
             {[
-              { icon:'🗺️', title:'FIND A ROOM', desc:'Browse by state to discover every escape room nearby — themes, difficulty, group size, and booking details.' },
-              { icon:'🧩', title:'PICK YOUR THEME', desc:'Horror, mystery, adventure, sci-fi — filter by theme and difficulty to match your group\'s style.' },
+              { icon:'🗺️', title:'FIND A ROOM', desc:'Browse by state to discover every escape room nearby, themes, difficulty, group size, and booking details.' },
+              { icon:'🧩', title:'PICK YOUR THEME', desc:'Horror, mystery, adventure, sci-fi, filter by theme and difficulty to match your group\'s style.' },
               { icon:'🔐', title:'BOOK & ESCAPE', desc:'Book directly with the venue. Gather your team, solve the puzzles, and beat the clock.' },
             ].map(({icon,title,desc}) => (
               <div key={title} style={{ textAlign: 'center', padding: '2rem 1.5rem', background: 'rgba(255,255,255,0.03)', borderRadius: 'var(--radius)', border: '1px solid rgba(192,25,43,0.2)' }}>
@@ -187,7 +187,7 @@ export default function Home() {
           <p style={{ lineHeight: 1.85, marginBottom: '1.25rem' }}>Escape rooms have grown from a niche curiosity into one of America's most popular team entertainment formats. With thousands of venues spanning every state, from small independent operators to large franchise chains, there's never been more variety in theme, difficulty, and experience design.</p>
           <p style={{ lineHeight: 1.85, marginBottom: '1.25rem' }}>Modern escape rooms go far beyond locked-door puzzles. Expect live actors, theatrical sets, electronic puzzles, hidden compartments, and narratives that span multiple interconnected rooms. The best venues treat each game as an immersive story you step into.</p>
           <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', color: 'var(--void)', marginTop: '2rem', marginBottom: '0.75rem', letterSpacing: '0.06em' }}>TIPS FOR FIRST-TIMERS</h3>
-          <p style={{ lineHeight: 1.85 }}>Communicate constantly with your team. No single person will spot every clue — spread out and share what you find. Don't fixate on one puzzle; move on and come back. Most rooms include hints — use them without shame. And above all, have fun: the clock is part of the theater.</p>
+          <p style={{ lineHeight: 1.85 }}>Communicate constantly with your team. No single person will spot every clue, spread out and share what you find. Don't fixate on one puzzle; move on and come back. Most rooms include hints, use them without shame. And above all, have fun: the clock is part of the theater.</p>
         </div>
       </section>
 
@@ -233,27 +233,27 @@ export default function Home() {
         <div className="container" style={{ maxWidth: '860px' }}>
 
           <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.75rem', color: 'var(--void)', marginBottom: '0.75rem', letterSpacing: '0.06em' }}>How to choose the right escape room for your group</h2>
-          <p style={{ fontWeight: 600, lineHeight: 1.75, marginBottom: '1rem', color: 'var(--void)' }}>Match the room&#39;s difficulty rating and theme to your group&#39;s experience level and interests. First-timers should choose beginner-rated adventure or mystery themes — save horror and expert rooms for experienced groups.</p>
-          <p style={{ lineHeight: 1.85, marginBottom: '2.5rem' }}>Group size matters when booking: most rooms are designed for 4 to 6 players, and booking a private session ensures your group isn&#39;t paired with strangers. Difficulty ratings vary by venue — one venue&#39;s &quot;moderate&quot; may be another&#39;s &quot;hard&quot; — so reading recent reviews alongside the listed escape rate gives a more accurate picture. There are over 2,300 escape room venues operating across the United States, which means even smaller cities typically have several options at different difficulty levels.</p>
+          <p style={{ fontWeight: 600, lineHeight: 1.75, marginBottom: '1rem', color: 'var(--void)' }}>Match the room&#39;s difficulty rating and theme to your group&#39;s experience level and interests. First-timers should choose beginner-rated adventure or mystery themes, save horror and expert rooms for experienced groups.</p>
+          <p style={{ lineHeight: 1.85, marginBottom: '2.5rem' }}>Group size matters when booking: most rooms are designed for 4 to 6 players, and booking a private session ensures your group isn&#39;t paired with strangers. Difficulty ratings vary by venue, one venue&#39;s &quot;moderate&quot; may be another&#39;s &quot;hard&quot;, so reading recent reviews alongside the listed escape rate gives a more accurate picture. There are over 2,300 escape room venues operating across the United States, which means even smaller cities typically have several options at different difficulty levels.</p>
 
           <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.75rem', color: 'var(--void)', marginBottom: '0.75rem', letterSpacing: '0.06em' }}>What makes a great escape room experience?</h2>
           <p style={{ fontWeight: 600, lineHeight: 1.75, marginBottom: '1rem', color: 'var(--void)' }}>The best escape rooms combine immersive storytelling, logical puzzle progression, and high production value. Look for venues with strong recent reviews mentioning puzzle quality and game master engagement.</p>
-          <p style={{ lineHeight: 1.85, marginBottom: '2.5rem' }}>When reading reviews, prioritize comments about puzzle fairness and hint quality — a skilled game master who delivers hints naturally without breaking immersion can rescue a mediocre room. Rooms split broadly into two design philosophies: puzzle-focused rooms reward lateral thinking and methodical searching, while immersion-focused rooms prioritize narrative, atmosphere, and theatrical set design. Over 50 million people have visited escape rooms globally, making it one of the fastest-growing entertainment categories worldwide, and the best operators have refined their craft accordingly.</p>
+          <p style={{ lineHeight: 1.85, marginBottom: '2.5rem' }}>When reading reviews, prioritize comments about puzzle fairness and hint quality, a skilled game master who delivers hints naturally without breaking immersion can rescue a mediocre room. Rooms split broadly into two design philosophies: puzzle-focused rooms reward lateral thinking and methodical searching, while immersion-focused rooms prioritize narrative, atmosphere, and theatrical set design. Over 50 million people have visited escape rooms globally, making it one of the fastest-growing entertainment categories worldwide, and the best operators have refined their craft accordingly.</p>
 
           <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.75rem', color: 'var(--void)', marginBottom: '0.75rem', letterSpacing: '0.06em' }}>How popular are escape rooms in the United States?</h2>
-          <p style={{ fontWeight: 600, lineHeight: 1.75, marginBottom: '1rem', color: 'var(--void)' }}>Escape rooms are one of the fastest-growing entertainment categories in the U.S. — over 2,300 venues operate nationwide, up from fewer than 100 in 2014.</p>
+          <p style={{ fontWeight: 600, lineHeight: 1.75, marginBottom: '1rem', color: 'var(--void)' }}>Escape rooms are one of the fastest-growing entertainment categories in the U.S., over 2,300 venues operate nationwide, up from fewer than 100 in 2014.</p>
           <p style={{ lineHeight: 1.85, marginBottom: '2.5rem' }}>The escape room industry generates over $500 million in annual revenue in the United States, according to industry research. The format has expanded well beyond the original locked-room concept: virtual reality escape rooms, outdoor escape experiences, and mobile pop-up versions now complement traditional brick-and-mortar venues. Corporate adoption has been a major growth driver, with team-building bookings now accounting for a significant share of weekday revenue at many venues across the country.</p>
 
           <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.75rem', color: 'var(--void)', marginBottom: '0.75rem', letterSpacing: '0.06em' }}>Are escape rooms good for team building?</h2>
-          <p style={{ fontWeight: 600, lineHeight: 1.75, marginBottom: '1rem', color: 'var(--void)' }}>Yes — escape rooms are widely used for corporate team building because they require communication, delegation, and collaborative problem-solving under time pressure in a low-stakes environment.</p>
-          <p style={{ lineHeight: 1.85, marginBottom: '2.5rem' }}>Companies book escape rooms to surface natural leadership dynamics, practice cross-functional communication, and give teams a shared experience outside of typical work contexts. For corporate groups, look for venues that offer private room buyouts, support groups of 10 or more, and provide post-game debrief materials. Many venues have dedicated corporate packages with flexible scheduling and invoicing — contact the venue directly to discuss group rates and customization options for larger teams.</p>
+          <p style={{ fontWeight: 600, lineHeight: 1.75, marginBottom: '1rem', color: 'var(--void)' }}>Yes, escape rooms are widely used for corporate team building because they require communication, delegation, and collaborative problem-solving under time pressure in a low-stakes environment.</p>
+          <p style={{ lineHeight: 1.85, marginBottom: '2.5rem' }}>Companies book escape rooms to surface natural leadership dynamics, practice cross-functional communication, and give teams a shared experience outside of typical work contexts. For corporate groups, look for venues that offer private room buyouts, support groups of 10 or more, and provide post-game debrief materials. Many venues have dedicated corporate packages with flexible scheduling and invoicing, contact the venue directly to discuss group rates and customization options for larger teams.</p>
 
           <div style={{ borderTop: '1px solid rgba(192,25,43,0.12)', paddingTop: '2rem', marginTop: '1rem' }}>
             <p style={{ fontSize: '0.8rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.12em', color: 'var(--mid)', marginBottom: '0.75rem', fontFamily: 'var(--font-body)' }}>Further Reading</p>
             <ul style={{ listStyle: 'none', display: 'flex', flexWrap: 'wrap', gap: '1.25rem' }}>
-              <li><a href="https://roomescapeartist.com" rel="nofollow noopener noreferrer" target="_blank" style={{ color: 'var(--crimson)', fontSize: '0.9rem', textDecoration: 'none' }}>Room Escape Artist</a><span style={{ color: 'var(--mid)', fontSize: '0.85rem' }}> — escape room reviews and industry data</span></li>
+              <li><a href="https://roomescapeartist.com" rel="nofollow noopener noreferrer" target="_blank" style={{ color: 'var(--crimson)', fontSize: '0.9rem', textDecoration: 'none' }}>Room Escape Artist</a><span style={{ color: 'var(--mid)', fontSize: '0.85rem' }}>, escape room reviews and industry data</span></li>
               <li><a href="https://escaperoomassociation.com" rel="nofollow noopener noreferrer" target="_blank" style={{ color: 'var(--crimson)', fontSize: '0.9rem', textDecoration: 'none' }}>Escape Room Association</a></li>
-              <li><a href="https://iaapa.org" rel="nofollow noopener noreferrer" target="_blank" style={{ color: 'var(--crimson)', fontSize: '0.9rem', textDecoration: 'none' }}>IAAPA</a><span style={{ color: 'var(--mid)', fontSize: '0.85rem' }}> — attractions industry data</span></li>
+              <li><a href="https://iaapa.org" rel="nofollow noopener noreferrer" target="_blank" style={{ color: 'var(--crimson)', fontSize: '0.9rem', textDecoration: 'none' }}>IAAPA</a><span style={{ color: 'var(--mid)', fontSize: '0.85rem' }}>, attractions industry data</span></li>
             </ul>
           </div>
 

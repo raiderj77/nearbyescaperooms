@@ -1,4 +1,4 @@
-﻿# Nearby Escape Rooms — CLAUDE.md
+﻿# Nearby Escape Rooms, CLAUDE.md
 
 > Source of truth for Claude Code on this project. Last updated: 2026-04-30
 
@@ -23,7 +23,7 @@
 
 - SSR/SSG required
 - Each venue page: name, address, room themes available, difficulty levels, group size capacity, booking link if available, price range
-- Escape room businesses open/close frequently — include "verify current availability" disclaimer
+- Escape room businesses open/close frequently, include "verify current availability" disclaimer
 
 ## 3. Core Web Vitals
 
@@ -31,8 +31,8 @@
 
 ## 4. E-E-A-T
 
-- Attribution: "Built by an experienced web developer" — no personal name
-- Disclaimer: "Venue information may change — book directly with the venue to confirm availability"
+- Attribution: "Built by an experienced web developer", no personal name
+- Disclaimer: "Venue information may change, book directly with the venue to confirm availability"
 
 ## 5. Structured Data
 
@@ -77,4 +77,4 @@ Vercel | main | `npm run build` | Env: INDEXNOW_API_KEY
 
 ## Warnings
 
-Standard Empire warnings. Escape room businesses have high turnover — never present venue data as guaranteed current.
+Standard Empire warnings. Escape room businesses have high turnover, never present venue data as guaranteed current.
