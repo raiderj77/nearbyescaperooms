@@ -80,16 +80,21 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                 <p style={{ color: 'var(--fog)', fontSize: '0.875rem', lineHeight: 1.7 }}>Free directory of escape rooms, puzzle adventures, and mystery experiences across the United States.</p>
               </div>
               <div>
-                <h4 style={{ color: 'var(--crimson)', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.14em', marginBottom: '1rem', fontFamily: 'var(--font-body)', fontWeight: 700 }}>Directory Sites</h4>
-                <ul style={{ listStyle: 'none' }}>
-                  {directorySites.map((s) => <li key={s.href} style={{ marginBottom: '0.4rem' }}><a href={s.href} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--fog)', fontSize: '0.875rem', textDecoration: 'none' }}>{s.name}</a></li>)}
-                </ul>
-              </div>
-              <div>
-                <h4 style={{ color: 'var(--crimson)', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.14em', marginBottom: '1rem', fontFamily: 'var(--font-body)', fontWeight: 700 }}>Tools</h4>
+                <p style={{ color: 'var(--gold)', fontWeight: 700, fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.14em', marginBottom: '1.5rem', fontFamily: 'var(--font-body)' }}>More from our network</p>
+                <div style={{ display: 'grid', gap: '2rem' }}>
+                  <div>
+                    <h4 style={{ color: 'var(--crimson)', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.14em', marginBottom: '1rem', fontFamily: 'var(--font-body)', fontWeight: 700 }}>Directory Sites</h4>
+                    <ul style={{ listStyle: 'none' }}>
+                      {directorySites.map((s) => <li key={s.href} style={{ marginBottom: '0.4rem' }}><a href={s.href} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--fog)', fontSize: '0.875rem', textDecoration: 'none' }}>{s.name}</a></li>)}
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 style={{ color: 'var(--crimson)', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.14em', marginBottom: '1rem', fontFamily: 'var(--font-body)', fontWeight: 700 }}>Tools</h4>
                 <ul style={{ listStyle: 'none' }}>
                   {toolSites.map((s) => <li key={s.href} style={{ marginBottom: '0.4rem' }}><a href={s.href} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--fog)', fontSize: '0.875rem', textDecoration: 'none' }}>{s.name}</a></li>)}
                 </ul>
+                  </div>
+                </div>
               </div>
             </div>
             <div style={{ borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: '1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
