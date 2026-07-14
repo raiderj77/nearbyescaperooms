@@ -12,9 +12,9 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://nearbyescaperooms.com'),
   alternates: { canonical: 'https://nearbyescaperooms.com' },
   robots: {
-    index: false,
+    index: true,
     follow: true,
-    googleBot: { index: false, follow: true },
+    googleBot: { index: true, follow: true },
   },
   verification: { google: 'WbPX8TmWTc59vQoUeGcqKK83ZvrxdtzBUVRhkgaNQ5w' },
 };

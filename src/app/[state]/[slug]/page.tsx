@@ -33,6 +33,7 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
     title: `${loc.name}, Escape Room in ${loc.state}`,
     description: `${loc.description.slice(0, 155)}`,
     alternates: { canonical: `https://nearbyescaperooms.com/${loc.stateSlug}/${loc.slug}` },
+    robots: { index: false, follow: true, googleBot: { index: false, follow: true } },
   };
 }
 

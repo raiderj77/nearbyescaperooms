@@ -63,6 +63,7 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
     title: `Escape Rooms in ${stateName}`,
     description: `Find the best escape rooms in ${stateName}. Puzzle adventures, mystery experiences, and team challenges with booking details.`,
     alternates: { canonical: `https://nearbyescaperooms.com/${state}` },
+    robots: { index: false, follow: true, googleBot: { index: false, follow: true } },
   };
 }
 
