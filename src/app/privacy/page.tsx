@@ -68,9 +68,8 @@ export default function PrivacyPage() {
         <h2>1. Information We Collect</h2>
         <p>We may collect information about you in various ways:</p>
         <ul>
-          <li><strong>Automatically Collected Information:</strong> We collect certain information automatically when you visit our Site, including your IP address, browser type, operating system, pages visited, and the time and date of your visit.</li>
-          <li><strong>Cookies and Similar Technologies:</strong> We use cookies and similar tracking technologies to enhance your experience and analyze Site usage.</li>
-          <li><strong>Google AdSense:</strong> Google AdSense may collect data about your browsing habits to serve personalized advertisements.</li>
+          <li><strong>Service and Security Data:</strong> Hosting and security providers may process request metadata such as IP address, browser type, requested page, and timestamp to deliver and protect the Site.</li>
+          <li><strong>Optional Tracking:</strong> Google AdSense, Google Analytics, and Microsoft Clarity are not currently enabled.</li>
           <li><strong>Contact Information:</strong> If you contact us, we may collect your name, email address, and message content.</li>
         </ul>
 
@@ -78,26 +77,18 @@ export default function PrivacyPage() {
         <p>We use the information we collect to:</p>
         <ul>
           <li>Maintain and improve our website</li>
-          <li>Analyze site usage and performance</li>
-          <li>Serve advertisements through Google AdSense</li>
+          <li>Maintain site reliability and prevent abuse</li>
           <li>Respond to inquiries and communications</li>
           <li>Comply with legal obligations</li>
         </ul>
 
-        <h2>3. Cookies, Advertising, and Opt-Out Rights</h2>
+        <h2>3. Cookies, Analytics, and Advertising</h2>
         <p>
-          Our Site uses Google Analytics to track visitor behavior and website performance. Google may also use your information for advertising purposes through Google AdSense. You can learn more about Google's privacy practices at <a href="https://policies.google.com/privacy" style={{ color: "#9b59b6" }}>https://policies.google.com/privacy</a>.
+          Google AdSense, Google Analytics, and Microsoft Clarity are not currently enabled. The Site does not load their scripts or set their advertising or analytics cookies. A publisher identifier may remain in ads.txt or public metadata solely for ownership verification.
         </p>
         <p>
-          We work with third-party advertising partners, including Google, who may use cookies to serve ads based on your prior visits to this website or other websites.
+          If optional advertising or analytics is enabled later, this policy and any required consent and opt-out controls will be updated first.
         </p>
-        <p>
-          You may opt out of personalized advertising at any time using the following tools:
-        </p>
-        <ul>
-          <li><a href="https://ads.google.com/settings" rel="nofollow noopener noreferrer" target="_blank" style={{ color: "#9b59b6" }}>Google Ad Settings</a>, manage Google's use of your data for ad personalization.</li>
-          <li><a href="https://optout.aboutads.info" rel="nofollow noopener noreferrer" target="_blank" style={{ color: "#9b59b6" }}>Digital Advertising Alliance Opt-Out</a> (optout.aboutads.info), opt out of interest-based advertising from participating companies.</li>
-        </ul>
 
         <h2>4. Third-Party Links</h2>
         <p>
@@ -116,7 +107,7 @@ export default function PrivacyPage() {
 
         <h2>7. CCPA Compliance</h2>
         <p>
-          If you are a California resident, you have certain rights under the California Consumer Privacy Act (CCPA). You may request what personal information we collect, delete your data, or opt-out of data sales. We do not sell personal information, but we do allow third-party advertising partners to collect data for targeted advertising purposes.
+          If you are a California resident, you may have rights to request access to, correction of, or deletion of personal information, subject to applicable law. We do not sell personal information or currently permit targeted-advertising collection on the Site.
         </p>
 
         <h2>8. Changes to This Privacy Policy</h2>
@@ -135,18 +126,18 @@ export default function PrivacyPage() {
           <li><strong>Access:</strong> Request what personal data we collect about you and obtain a copy of that data.</li>
           <li><strong>Correction:</strong> Request that we correct any inaccurate or incomplete personal data we maintain about you.</li>
           <li><strong>Deletion:</strong> Request deletion of your personal data that we have collected, subject to certain exceptions.</li>
-          <li><strong>Opt-Out of Sale or Targeted Advertising:</strong> Direct us not to sell or share your personal data for targeted advertising purposes. Nearby Escape Rooms does not sell personal data; however, we do work with advertising partners who may use your data for targeted advertising.</li>
+          <li><strong>Opt-Out of Sale or Targeted Advertising:</strong> Direct us not to sell or share your personal data for targeted advertising purposes. Nearby Escape Rooms does not sell personal data or currently run targeted advertising.</li>
           <li><strong>Data Portability:</strong> Request that we provide your personal data in a portable, machine-readable format.</li>
         </ul>
 
         <h3>Global Privacy Control (GPC)</h3>
         <p>
-          Nearby Escape Rooms honors Global Privacy Control (GPC) signals. If your browser or device sends a GPC signal (Sec-GPC: 1 header), we automatically treat this as a universal opt-out signal and disable all analytics, advertising tracking, and personalization features. No additional action is required if you have GPC enabled.
+          The Site does not currently sell personal data or run targeted advertising. If processing subject to an opt-out is introduced later, we will honor applicable Global Privacy Control signals.
         </p>
 
         <h3>Data Sales</h3>
         <p>
-          Nearby Escape Rooms does not sell personal data. We may share data with advertising partners for the purpose of serving targeted advertisements, which may be considered a "share" under MODPA. You may opt out of this sharing by enabling GPC or by contacting us at the email address below.
+          Nearby Escape Rooms does not sell personal data or currently share data with advertising partners for targeted advertising.
         </p>
 
         <h3>How to Exercise Your Rights</h3>
@@ -169,7 +160,7 @@ export default function PrivacyPage() {
         </p>
 
         <div className="last-updated">
-          Last Updated: April 2026
+          Last Updated: July 13, 2026
         </div>
       </div>
     </>
