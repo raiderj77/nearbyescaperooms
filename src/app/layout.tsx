@@ -6,8 +6,8 @@ const cinzel = Cinzel({ subsets: ['latin'], variable: '--font-display', display:
 const raleway = Raleway({ subsets: ['latin'], variable: '--font-body', display: 'swap', weight: ['400','500','600','700'] });
 
 export const metadata: Metadata = {
-  title: { template: '%s | Nearby Escape Rooms', default: 'Nearby Escape Rooms, Find Escape Rooms Across America' },
-  description: 'Discover the best escape rooms near you. Browse puzzle rooms, adventure experiences, and mystery games across all 50 states.',
+  title: { template: '%s | Nearby Escape Rooms', default: 'Nearby Escape Rooms - Imported Venue Record Rebuild' },
+  description: 'Imported escape-room location records undergoing current venue-source review.',
   keywords: 'escape rooms, puzzle rooms, adventure games, team building, mystery games, local escape rooms',
   metadataBase: new URL('https://nearbyescaperooms.com'),
   alternates: { canonical: 'https://nearbyescaperooms.com' },
@@ -40,13 +40,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <body>
+        <a className="skip-link" href="#main-content">Skip to main content</a>
         <header style={{ background: 'var(--void)', borderBottom: '3px solid var(--crimson)', position: 'sticky', top: 0, zIndex: 1000, boxShadow: '0 2px 24px rgba(10,10,15,0.7)' }}>
-          <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0.9rem 1.5rem' }}>
+          <div className="container site-header-inner">
             <a href="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
               <span style={{ fontSize: '1.5rem', lineHeight: 1 }}>🔐</span>
               <span style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: '1.15rem', color: 'var(--gold)', letterSpacing: '0.1em' }}>NEARBY ESCAPE ROOMS</span>
             </a>
-            <nav style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
+            <nav className="primary-nav" aria-label="Primary">
               <a href="/" style={{ color: 'rgba(255,255,255,0.75)', fontSize: '0.85rem', fontWeight: 600, textDecoration: 'none', fontFamily: 'var(--font-body)', letterSpacing: '0.06em', textTransform: 'uppercase' }}>Home</a>
               <a href="/browse-states" style={{ color: 'rgba(255,255,255,0.75)', fontSize: '0.85rem', fontWeight: 600, textDecoration: 'none', fontFamily: 'var(--font-body)', letterSpacing: '0.06em', textTransform: 'uppercase' }}>Browse</a>
               <a href="/about" style={{ color: 'rgba(255,255,255,0.75)', fontSize: '0.85rem', fontWeight: 600, textDecoration: 'none', fontFamily: 'var(--font-body)', letterSpacing: '0.06em', textTransform: 'uppercase' }}>About</a>
@@ -54,14 +55,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </header>
 
-        <main style={{ minHeight: 'calc(100vh - 340px)' }}>{children}</main>
+        <main id="main-content" style={{ minHeight: 'calc(100vh - 340px)' }}>{children}</main>
 
         <footer style={{ background: 'var(--void)', borderTop: '3px solid rgba(192,25,43,0.3)', marginTop: '5rem', padding: '3rem 0 2rem' }}>
           <div className="container">
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem', marginBottom: '2.5rem' }}>
               <div>
                 <p style={{ fontFamily: 'var(--font-display)', color: 'var(--gold)', fontWeight: 700, fontSize: '1rem', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>🔐 NEARBY ESCAPE ROOMS</p>
-                <p style={{ color: 'var(--fog)', fontSize: '0.875rem', lineHeight: 1.7 }}>Free directory of escape rooms, puzzle adventures, and mystery experiences across the United States.</p>
+                <p style={{ color: '#b8b8c6', fontSize: '0.875rem', lineHeight: 1.7 }}>Imported venue location records undergoing current source review. Verify business operation and booking details directly.</p>
               </div>
               <div>
                 <p style={{ color: 'var(--gold)', fontWeight: 700, fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.14em', marginBottom: '1.5rem', fontFamily: 'var(--font-body)' }}>More from our network</p>
