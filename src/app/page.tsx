@@ -1,274 +1,61 @@
-/* eslint-disable @next/next/no-img-element */
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import locations from '@/data/locations.json';
 
-const MAPBOX_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_TOKEN ?? '';
-
-function getMapboxImage(lat: number, lng: number, width = 800, height = 500): string {
-  return `https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v12/static/${lng},${lat},16,0/${width}x${height}?access_token=${MAPBOX_TOKEN}`;
-}
-
-function getEscapeRoomPreview(d: { name: string; state: string; city: string; amenities: string[]; description: string }): string {
-  const amenityCount = d.amenities.length;
-  const location = d.city ? `${d.city}, ${d.state}` : d.state;
-  if (amenityCount >= 2) {
-    return `Escape room venue in ${location} with ${d.amenities.slice(0, 2).join(' and ').toLowerCase()}.`;
-  }
-  return `Escape room experience in ${location}. Book your adventure today.`;
-}
-
 export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
-  title: 'Nearby Escape Rooms, Find Escape Room Adventures Across America',
-  description: 'Find the best escape rooms near you. Puzzle adventures, mystery experiences, and team challenges across all 50 states.',
+  title: 'Nearby Escape Rooms - Imported Venue Record Rebuild',
+  description: 'Browse imported escape-room location records and learn what to verify directly before booking.',
 };
 
-const ALL_STATES = [
-  'Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut','Delaware',
-  'Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky',
-  'Louisiana','Maine','Maryland','Massachusetts','Michigan','Minnesota','Mississippi',
-  'Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico',
-  'New York','North Carolina','North Dakota','Ohio','Oklahoma','Oregon','Pennsylvania',
-  'Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont',
-  'Virginia','Washington','West Virginia','Wisconsin','Wyoming',
-];
-
 export default function Home() {
-  const featured = locations.slice(0, 6);
-  const statesWithData = Array.from(new Set(locations.map((l) => l.state))).length;
+  const recordsWithCity = locations.filter((location) => location.city).length;
+  const regions = Array.from(new Map(locations.map((location) => [location.stateSlug, location.state])).entries()).sort((a, b) => a[1].localeCompare(b[1]));
+  const samples = locations.filter((location) => location.city).slice(0, 6);
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        '@context':'https://schema.org','@type':'WebSite',url:'https://nearbyescaperooms.com',
-        name:'Nearby Escape Rooms',
-        dateModified:new Date().toISOString().substring(0,10),
-        potentialAction:{'@type':'SearchAction',target:{'@type':'EntryPoint',urlTemplate:'https://nearbyescaperooms.com/search?q={search_term_string}'},'query-input':'required name=search_term_string'},
-      }) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        '@context':'https://schema.org','@type':'Organization',
-        name:'Nearby Escape Rooms',
-        url:'https://nearbyescaperooms.com',
-        description:'Directory of escape rooms across the United States',
-        dateModified:new Date().toISOString().substring(0,10),
-      }) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        '@context':'https://schema.org','@type':'LocalBusiness',
-        name:'Nearby Escape Rooms Directory',
-        url:'https://nearbyescaperooms.com',
-        description:'Find escape rooms near you across the United States',
-        areaServed:'United States',
-        dateModified:new Date().toISOString().substring(0,10),
-      }) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        '@context':'https://schema.org','@type':'FAQPage',
-        dateModified:new Date().toISOString().substring(0,10),
-        mainEntity:[
-          {'@type':'Question',name:'How do I find an escape room near me?',acceptedAnswer:{'@type':'Answer',text:'Use the Nearby Escape Rooms directory to search by city or state. Each listing includes the venue address, available room themes, difficulty ratings, group size requirements, pricing, and booking information.'}},
-          {'@type':'Question',name:'How much do escape rooms cost?',acceptedAnswer:{'@type':'Answer',text:'Escape room prices typically range from $25 to $40 per person, with most venues offering private room bookings for groups of 2 to 10 people. Some venues charge per room rather than per person, making them more affordable for larger groups. Check individual listings for current pricing.'}},
-          {'@type':'Question',name:'How long does an escape room take?',acceptedAnswer:{'@type':'Answer',text:'Most escape rooms run 60 minutes, though some venues offer 45-minute or 90-minute experiences. Add 15 to 30 minutes for arrival, briefing, and debriefing. Plan for approximately 90 minutes total for a standard escape room experience.'}},
-          {'@type':'Question',name:'What difficulty level should beginners choose for an escape room?',acceptedAnswer:{'@type':'Answer',text:'Beginners should look for rooms rated 2 to 3 out of 5 on difficulty. These rooms focus on fun and story immersion rather than complex puzzles, and most venues offer hints during the game. Avoid the hardest rooms on your first visit, they are designed for experienced groups with multiple escape room completions.'}},
-          {'@type':'Question',name:'Can children participate in escape rooms?',acceptedAnswer:{'@type':'Answer',text:'Most escape rooms welcome children aged 10 and up when accompanied by an adult. Some family-friendly rooms are designed for children as young as 7. Check the minimum age requirement and content warnings for each room, horror-themed rooms are generally not suitable for younger children.'}},
-        ],
-      }) }} />
+      <div className="notice-bar"><strong>Editorial rebuild:</strong> these are imported location records, not current verified venue profiles.</div>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context':'https://schema.org', '@type':'WebSite', url:'https://nearbyescaperooms.com', name:'Nearby Escape Rooms' }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context':'https://schema.org', '@type':'Organization', name:'Nearby Escape Rooms', url:'https://nearbyescaperooms.com', description:'An escape-room location directory undergoing source and editorial review' }) }} />
 
-      <div style={{ background: '#1e1b4b', borderBottom: '3px solid #f59e0b', padding: '0.875rem 1.5rem', textAlign: 'center', fontSize: '0.875rem' }}>
-        <strong style={{ color: '#f59e0b' }}>This directory is paused for editorial enrichment.</strong>{' '}
-        Visit our active sites:{' '}
-        <a href="https://soakusa.net" style={{ color: '#93c5fd', textDecoration: 'underline' }}>soakusa.net</a>
-        {' | '}
-        <a href="https://publicboatramps.com" style={{ color: '#93c5fd', textDecoration: 'underline' }}>publicboatramps.com</a>
-        {' | '}
-        <a href="https://fibertools.app" style={{ color: '#93c5fd', textDecoration: 'underline' }}>fibertools.app</a>
-      </div>
-
-      {/* Hero */}
-      <section style={{ position: 'relative', background: 'linear-gradient(160deg, var(--void) 0%, #0f0010 50%, #1a0005 100%)', overflow: 'hidden', padding: '7rem 1.5rem 8rem' }}>
-        {/* Particle/fog effect */}
-        <div aria-hidden style={{ position: 'absolute', inset: 0, backgroundImage: 'radial-gradient(ellipse 600px 400px at 20% 50%, rgba(192,25,43,0.06) 0%, transparent 70%), radial-gradient(ellipse 400px 300px at 80% 30%, rgba(201,162,39,0.04) 0%, transparent 70%)', pointerEvents: 'none' }} />
-        {/* Keyhole silhouette divider */}
-        <div aria-hidden style={{ position: 'absolute', top: '10%', right: '8%', width: '120px', height: '160px', background: 'radial-gradient(ellipse 60px 50px at 50% 35%, rgba(192,25,43,0.08) 0%, transparent 100%), linear-gradient(to bottom, transparent 55%, rgba(192,25,43,0.06) 55%)', pointerEvents: 'none', opacity: 0.6 }} />
-        <div className="container" style={{ textAlign: 'center', position: 'relative', zIndex: 1 }}>
-          <p className="anim-fade-up" style={{ display: 'inline-block', color: 'var(--gold)', fontWeight: 700, fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.2em', marginBottom: '1rem', fontFamily: 'var(--font-body)', background: 'rgba(201,162,39,0.1)', padding: '0.4rem 1.2rem', borderRadius: '2px', border: '1px solid rgba(201,162,39,0.25)' }}>
-            🔐 Escape Room Directory
-          </p>
-          <h1 className="anim-fade-up anim-delay-1" style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(2rem,5.5vw,3.8rem)', color: 'var(--white)', fontWeight: 900, marginBottom: '0.5rem', lineHeight: 1.05, letterSpacing: '0.08em' }}>
-            FIND YOUR NEXT
-          </h1>
-          <h1 className="anim-fade-up anim-delay-1" style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(2rem,5.5vw,3.8rem)', color: 'var(--crimson)', fontWeight: 900, marginBottom: '1rem', lineHeight: 1.05, letterSpacing: '0.08em', textShadow: '0 0 40px rgba(192,25,43,0.5)' }}>
-            ESCAPE ADVENTURE
-          </h1>
-          <div className="ornament anim-fade-up anim-delay-2" style={{ maxWidth: '300px', margin: '0 auto 1.25rem' }}>MYSTERY AWAITS</div>
-          <p className="anim-fade-up anim-delay-2" style={{ fontSize: '1.05rem', color: 'rgba(255,255,255,0.6)', marginBottom: '2.75rem', maxWidth: '480px', margin: '0 auto 2.75rem', fontFamily: 'var(--font-body)', lineHeight: 1.65 }}>
-            Puzzle rooms, mystery experiences &amp; team challenges, {locations.length}+ escape rooms across {statesWithData} states.
-          </p>
-          <div className="anim-fade-up anim-delay-3" style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center', marginTop: '2rem' }}>
-            <a href="/maryland" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, fontSize: '0.95rem', background: 'var(--crimson)', color: 'white', textDecoration: 'none', transition: 'background 0.2s' }}>Find Escape Rooms →</a>
-            <a href="/california" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, fontSize: '0.95rem', background: 'transparent', color: 'white', border: '2px solid rgba(192,25,43,0.5)', textDecoration: 'none', transition: 'background 0.2s' }}>Browse by State</a>
-          </div>
-        </div>
-        <svg aria-hidden viewBox="0 0 1440 55" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', bottom: 0, left: 0, width: '100%', display: 'block' }} preserveAspectRatio="none">
-          <path d="M0,28 C360,55 1080,0 1440,28 L1440,55 L0,55 Z" fill="var(--ivory)" />
-        </svg>
-      </section>
-
-      {/* Stats */}
-      <section style={{ background: 'var(--white)', borderBottom: '1px solid rgba(192,25,43,0.08)' }}>
-        <div className="container stats-grid">
-          {[
-            { n:`${locations.length}+`, l:'Escape Rooms' },
-            { n:`${statesWithData}`, l:'States Covered' },
-            { n:'Puzzles', l:'& Mystery Games' },
-            { n:'Team', l:'Adventures' },
-          ].map(({n,l}) => (
-            <div key={l} className="stat-item">
-              <div className="stat-number">{n}</div>
-              <div className="stat-label">{l}</div>
-            </div>
-          ))}
+      <section className="home-hero">
+        <div className="container" style={{ textAlign: 'center' }}>
+          <p className="section-label" style={{ color: 'var(--gold)' }}>Escape-room location records</p>
+          <h1 className="hero-title">FIND A RECORD.<br /><span>VERIFY BEFORE BOOKING.</span></h1>
+          <p className="hero-copy">Browse {locations.length} imported names and coordinates. Confirm the business is operating and check its official location, room lineup, age and accessibility rules, group size, prices, hours, availability, and booking terms directly with the venue.</p>
+          <a href="#browse-regions" className="btn btn-crimson">Browse represented states</a>
         </div>
       </section>
 
-      {/* Featured */}
-      <section style={{ padding: '5rem 1.5rem 4rem' }}>
-        <div className="container">
-          <p className="section-label">🔐 Top Rooms</p>
-          <h2 className="section-title">Featured Escape Rooms</h2>
-          <p className="section-sub" style={{ marginBottom: '3rem' }}>Highly rated puzzle adventures and mystery experiences from coast to coast.</p>
-          <div className="grid-3">
-            {featured.map((loc, i) => (
-              <Link key={loc.slug} href={`/${loc.stateSlug}/${loc.slug}`} style={{ textDecoration: 'none' }}>
-                <article className="card">
-                  <img src={getMapboxImage(loc.lat ?? 0, loc.lng ?? 0)} alt={loc.name} className="card-img" loading="lazy" width={800} height={500} />
-                  <div className="card-body">
-                    <div className="card-meta"><span>📍</span><span>{loc.city ? `${loc.city}, ` : ''}{loc.state}</span></div>
-                    <h3 className="card-title">{loc.name}</h3>
-                    <p style={{ fontSize: '0.875rem', color: '#667', lineHeight: 1.65, flex: 1, marginBottom: '1rem' }}>{getEscapeRoomPreview(loc)}</p>
-                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
-                      {loc.amenities.slice(0,3).map((a) => <span key={a} className="chip">{a}</span>)}
-                    </div>
-                  </div>
-                </article>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
+      <section aria-label="Directory inventory" style={{ background: 'white' }}><div className="container stats-grid">
+        <div className="stat-item"><div className="stat-number">{locations.length}</div><div className="stat-label">Imported records</div></div>
+        <div className="stat-item"><div className="stat-number">{recordsWithCity}</div><div className="stat-label">With a city field</div></div>
+        <div className="stat-item"><div className="stat-number">{locations.length - recordsWithCity}</div><div className="stat-label">Missing a city field</div></div>
+        <div className="stat-item"><div className="stat-number">0</div><div className="stat-label">Current reviewed venues</div></div>
+      </div></section>
 
-      {/* How it works */}
-      <section style={{ background: 'linear-gradient(135deg, var(--void) 0%, #0f0010 100%)', padding: '5rem 1.5rem' }}>
-        <div className="container">
-          <div style={{ textAlign: 'center', marginBottom: '3.5rem' }}>
-            <p style={{ color: 'var(--gold)', fontWeight: 700, fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.18em', marginBottom: '0.75rem', fontFamily: 'var(--font-body)' }}>How It Works</p>
-            <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '2.2rem', color: 'var(--white)', letterSpacing: '0.08em' }}>PLAN YOUR ESCAPE</h2>
-          </div>
-          <div className="grid-3">
-            {[
-              { icon:'🗺️', title:'FIND A ROOM', desc:'Browse by state to discover every escape room nearby, themes, difficulty, group size, and booking details.' },
-              { icon:'🧩', title:'PICK YOUR THEME', desc:'Horror, mystery, adventure, sci-fi, filter by theme and difficulty to match your group\'s style.' },
-              { icon:'🔐', title:'BOOK & ESCAPE', desc:'Book directly with the venue. Gather your team, solve the puzzles, and beat the clock.' },
-            ].map(({icon,title,desc}) => (
-              <div key={title} style={{ textAlign: 'center', padding: '2rem 1.5rem', background: 'rgba(255,255,255,0.03)', borderRadius: 'var(--radius)', border: '1px solid rgba(192,25,43,0.2)' }}>
-                <div className="step-icon">{icon}</div>
-                <h3 style={{ fontFamily: 'var(--font-display)', color: 'var(--gold)', fontSize: '1.25rem', marginBottom: '0.75rem', letterSpacing: '0.08em' }}>{title}</h3>
-                <p style={{ color: 'rgba(255,255,255,0.6)', lineHeight: 1.7, fontSize: '0.95rem', fontFamily: 'var(--font-body)' }}>{desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <section style={{ padding: '5rem 1.5rem' }}><div className="container">
+        <p className="section-label">Sample imported records</p><h2 className="section-title">What the current directory contains</h2>
+        <p className="section-sub" style={{ marginBottom: '3rem' }}>These examples have a name, city, state, and coordinates. The dataset has no original source, website, phone, address, room, age, group-size, price, hours, booking, accessibility, or review-date fields.</p>
+        <div className="grid-3">{samples.map((location) => <Link key={`${location.stateSlug}-${location.slug}`} href={`/${location.stateSlug}/${location.slug}`} style={{ textDecoration: 'none' }}><article className="card">
+          <div className="card-img record-placeholder"><span>Recorded coordinate</span><strong>{location.lat.toFixed(3)}, {location.lng.toFixed(3)}</strong></div>
+          <div className="card-body"><div className="card-meta">{location.city}, {location.state}</div><h3 className="card-title">{location.name}</h3><p className="card-copy">Imported location record. Verify the business and booking details directly.</p></div>
+        </article></Link>)}</div>
+      </div></section>
 
-      {/* Content */}
-      <section style={{ padding: '5rem 1.5rem' }}>
-        <div className="container" style={{ maxWidth: '860px' }}>
-          <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '2rem', color: 'var(--void)', marginBottom: '1.25rem', letterSpacing: '0.06em' }}>THE WORLD OF ESCAPE ROOMS</h2>
-          <p style={{ lineHeight: 1.85, marginBottom: '1.25rem' }}>Escape rooms have grown from a niche curiosity into one of America's most popular team entertainment formats. With thousands of venues spanning every state, from small independent operators to large franchise chains, there's never been more variety in theme, difficulty, and experience design.</p>
-          <p style={{ lineHeight: 1.85, marginBottom: '1.25rem' }}>Modern escape rooms go far beyond locked-door puzzles. Expect live actors, theatrical sets, electronic puzzles, hidden compartments, and narratives that span multiple interconnected rooms. The best venues treat each game as an immersive story you step into.</p>
-          <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', color: 'var(--void)', marginTop: '2rem', marginBottom: '0.75rem', letterSpacing: '0.06em' }}>TIPS FOR FIRST-TIMERS</h3>
-          <p style={{ lineHeight: 1.85 }}>Communicate constantly with your team. No single person will spot every clue, spread out and share what you find. Don't fixate on one puzzle; move on and come back. Most rooms include hints, use them without shame. And above all, have fun: the clock is part of the theater.</p>
-        </div>
-      </section>
+      <section className="dark-section"><div className="container"><div style={{ textAlign:'center', marginBottom:'3rem' }}><p className="section-label" style={{ color:'var(--gold)' }}>Before paying</p><h2 className="section-title" style={{ color:'white' }}>CHECK THE CURRENT VENUE</h2></div>
+        <div className="grid-3">{[
+          ['Confirm the business','Find a current official venue page and confirm that the recorded location is operating. A name and coordinate are only a research lead.'],
+          ['Review the experience','Check current rooms, themes, content warnings, age rules, accessibility, group limits, duration, prices, and cancellation terms.'],
+          ['Book through an official path','Use the venue’s current official booking page or another clearly authorized seller. Confirm the date, location, total price, and refund terms before paying.'],
+        ].map(([title,description])=><article className="check-card" key={title}><h3>{title}</h3><p>{description}</p></article>)}</div>
+      </div></section>
 
-      {/* FAQ */}
-      <section style={{ background: 'var(--parchment)', borderTop: '1px solid rgba(192,25,43,0.08)', padding: '5rem 1.5rem' }}>
-        <div className="container" style={{ maxWidth: '800px' }}>
-          <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
-            <p className="section-label">FAQ</p>
-            <h2 className="section-title">Common Questions</h2>
-          </div>
-          {[
-            { q:'How many people do escape rooms typically allow?', a:'Most rooms accommodate 2–8 players, with the sweet spot being 4–6. Some larger venues have rooms for up to 12. Always check the venue\'s min/max requirements before booking, especially for team events.' },
-            { q:'How difficult are escape rooms?', a:'Difficulty varies widely. Many venues rate their rooms on a scale and offer beginner-friendly options. First-timers should look for rooms rated "beginner" or "moderate." Escape rates (percentage of groups who succeed) are often listed and give a good difficulty indicator.' },
-            { q:'How long does an escape room take?', a:'Most games run 60 minutes, though 45- and 90-minute formats exist. Add 15–30 minutes for briefing and debrief. Budget about 90 minutes total for your visit.' },
-            { q:'Can kids participate?', a:'Most venues allow kids 10+ with an adult. Some family-friendly rooms are designed for younger children. Always check age requirements and content warnings (some horror-themed rooms have age restrictions).' },
-            { q:'What should I wear to an escape room?', a:'Comfortable clothes you can move in. You may need to crawl, reach, or crouch depending on the room design. Avoid high heels. Most rooms are climate-controlled indoors.' },
-          ].map(({q,a}) => (
-            <details key={q} className="faq-item">
-              <summary>{q}</summary>
-              <div className="faq-answer">{a}</div>
-            </details>
-          ))}
-        </div>
-      </section>
+      <section id="browse-regions" style={{ padding:'5rem 1.5rem', scrollMarginTop:'6rem' }}><div className="container"><div style={{ textAlign:'center',marginBottom:'2.5rem' }}><p className="section-label">Imported directory</p><h2 className="section-title">Browse the {regions.length} represented states</h2><p className="section-sub" style={{ margin:'0 auto' }}>State and record routes remain out of search indexing while the directory is rebuilt with current venue sources.</p></div><div className="grid-states">{regions.map(([slug,name])=><Link className="state-link" href={`/${slug}`} key={slug}>{name}</Link>)}</div></div></section>
 
-      {/* Browse States */}
-      <section style={{ padding: '5rem 1.5rem' }}>
-        <div className="container">
-          <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
-            <p className="section-label">All 50 States</p>
-            <h2 className="section-title">Browse Escape Rooms by State</h2>
-          </div>
-          <div className="grid-states">
-            {ALL_STATES.map((s) => (
-              <Link key={s} href={`/${s.toLowerCase().replace(/\s+/g,'-')}`} className="state-link">{s}</Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* GEO Content */}
-      <section style={{ background: 'var(--parchment)', padding: '5rem 1.5rem', borderTop: '1px solid rgba(192,25,43,0.08)' }}>
-        <div className="container" style={{ maxWidth: '860px' }}>
-
-          <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.75rem', color: 'var(--void)', marginBottom: '0.75rem', letterSpacing: '0.06em' }}>How to choose the right escape room for your group</h2>
-          <p style={{ fontWeight: 600, lineHeight: 1.75, marginBottom: '1rem', color: 'var(--void)' }}>Match the room&#39;s difficulty rating and theme to your group&#39;s experience level and interests. First-timers should choose beginner-rated adventure or mystery themes, save horror and expert rooms for experienced groups.</p>
-          <p style={{ lineHeight: 1.85, marginBottom: '2.5rem' }}>Group size matters when booking: most rooms are designed for 4 to 6 players, and booking a private session ensures your group isn&#39;t paired with strangers. Difficulty ratings vary by venue, one venue&#39;s &quot;moderate&quot; may be another&#39;s &quot;hard&quot;, so reading recent reviews alongside the listed escape rate gives a more accurate picture. There are over 2,300 escape room venues operating across the United States, which means even smaller cities typically have several options at different difficulty levels.</p>
-
-          <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.75rem', color: 'var(--void)', marginBottom: '0.75rem', letterSpacing: '0.06em' }}>What makes a great escape room experience?</h2>
-          <p style={{ fontWeight: 600, lineHeight: 1.75, marginBottom: '1rem', color: 'var(--void)' }}>The best escape rooms combine immersive storytelling, logical puzzle progression, and high production value. Look for venues with strong recent reviews mentioning puzzle quality and game master engagement.</p>
-          <p style={{ lineHeight: 1.85, marginBottom: '2.5rem' }}>When reading reviews, prioritize comments about puzzle fairness and hint quality, a skilled game master who delivers hints naturally without breaking immersion can rescue a mediocre room. Rooms split broadly into two design philosophies: puzzle-focused rooms reward lateral thinking and methodical searching, while immersion-focused rooms prioritize narrative, atmosphere, and theatrical set design. Over 50 million people have visited escape rooms globally, making it one of the fastest-growing entertainment categories worldwide, and the best operators have refined their craft accordingly.</p>
-
-          <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.75rem', color: 'var(--void)', marginBottom: '0.75rem', letterSpacing: '0.06em' }}>How popular are escape rooms in the United States?</h2>
-          <p style={{ fontWeight: 600, lineHeight: 1.75, marginBottom: '1rem', color: 'var(--void)' }}>Escape rooms are one of the fastest-growing entertainment categories in the U.S., over 2,300 venues operate nationwide, up from fewer than 100 in 2014.</p>
-          <p style={{ lineHeight: 1.85, marginBottom: '2.5rem' }}>The escape room industry generates over $500 million in annual revenue in the United States, according to industry research. The format has expanded well beyond the original locked-room concept: virtual reality escape rooms, outdoor escape experiences, and mobile pop-up versions now complement traditional brick-and-mortar venues. Corporate adoption has been a major growth driver, with team-building bookings now accounting for a significant share of weekday revenue at many venues across the country.</p>
-
-          <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.75rem', color: 'var(--void)', marginBottom: '0.75rem', letterSpacing: '0.06em' }}>Are escape rooms good for team building?</h2>
-          <p style={{ fontWeight: 600, lineHeight: 1.75, marginBottom: '1rem', color: 'var(--void)' }}>Yes, escape rooms are widely used for corporate team building because they require communication, delegation, and collaborative problem-solving under time pressure in a low-stakes environment.</p>
-          <p style={{ lineHeight: 1.85, marginBottom: '2.5rem' }}>Companies book escape rooms to surface natural leadership dynamics, practice cross-functional communication, and give teams a shared experience outside of typical work contexts. For corporate groups, look for venues that offer private room buyouts, support groups of 10 or more, and provide post-game debrief materials. Many venues have dedicated corporate packages with flexible scheduling and invoicing, contact the venue directly to discuss group rates and customization options for larger teams.</p>
-
-          <div style={{ borderTop: '1px solid rgba(192,25,43,0.12)', paddingTop: '2rem', marginTop: '1rem' }}>
-            <p style={{ fontSize: '0.8rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.12em', color: 'var(--mid)', marginBottom: '0.75rem', fontFamily: 'var(--font-body)' }}>Further Reading</p>
-            <ul style={{ listStyle: 'none', display: 'flex', flexWrap: 'wrap', gap: '1.25rem' }}>
-              <li><a href="https://roomescapeartist.com" rel="nofollow noopener noreferrer" target="_blank" style={{ color: 'var(--crimson)', fontSize: '0.9rem', textDecoration: 'none' }}>Room Escape Artist</a><span style={{ color: 'var(--mid)', fontSize: '0.85rem' }}>, escape room reviews and industry data</span></li>
-              <li><a href="https://escaperoomassociation.com" rel="nofollow noopener noreferrer" target="_blank" style={{ color: 'var(--crimson)', fontSize: '0.9rem', textDecoration: 'none' }}>Escape Room Association</a></li>
-              <li><a href="https://iaapa.org" rel="nofollow noopener noreferrer" target="_blank" style={{ color: 'var(--crimson)', fontSize: '0.9rem', textDecoration: 'none' }}>IAAPA</a><span style={{ color: 'var(--mid)', fontSize: '0.85rem' }}>, attractions industry data</span></li>
-            </ul>
-          </div>
-
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section style={{ background: 'var(--void)', padding: '4rem 1.5rem', textAlign: 'center' }}>
-        <div className="container" style={{ maxWidth: '600px' }}>
-          <p style={{ color: 'var(--gold)', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.2em', fontFamily: 'var(--font-body)', fontWeight: 700, marginBottom: '0.75rem' }}>🔐 The Clock Is Ticking</p>
-          <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '2.2rem', color: 'var(--white)', marginBottom: '1rem', letterSpacing: '0.08em' }}>CAN YOU ESCAPE?</h2>
-          <p style={{ color: 'var(--fog)', marginBottom: '2rem', lineHeight: 1.7 }}>{locations.length}+ escape rooms across {statesWithData} states. Find your challenge.</p>
-          <Link href="/browse-states" className="btn btn-crimson" style={{ padding: '0.9rem 2.25rem' }}>Find Escape Rooms →</Link>
-        </div>
-      </section>
+      <section className="source-standard"><div className="container" style={{ maxWidth:'860px' }}><h2 className="section-title">Source and publication standard</h2><p>The repository does not record the origin or collection date of its venue data. Every record carries the same generic `Group activity` and `Indoor` labels even though no official venue source is stored. Those labels are not presented as current facts.</p><p>A future indexable profile must cite a current official venue page, record what was reviewed and when, and clearly identify any authorized booking link. Rankings, ratings, availability, pricing, popularity, and affiliate relationships will not be inferred.</p><p>To report a record problem, use the <Link href="/contact">contact page</Link> and include the record URL plus a current source when possible.</p></div></section>
     </>
   );
 }

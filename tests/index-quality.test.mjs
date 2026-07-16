@@ -38,3 +38,39 @@ test('Googlebot can crawl pages to observe route-level noindex rules', () => {
   const robots = read('public/robots.txt');
   assert.match(robots, /User-agent:\s*Googlebot[\s\S]*?Allow:\s*\//i);
 });
+
+test('the imported venue inventory and field gaps are exact', () => {
+  const records = JSON.parse(read('src/data/locations.json'));
+  assert.equal(records.length, 498);
+  assert.equal(records.filter((record) => record.city).length, 261);
+  assert.equal(new Set(records.map((record) => record.state)).size, 47);
+  assert.equal(records.every((record) => JSON.stringify(record.amenities) === JSON.stringify(['Group activity', 'Indoor'])), true);
+  assert.equal(records.some((record) => 'source' in record || 'website' in record || 'price' in record || 'reviewedAt' in record), false);
+});
+
+test('imported records are not presented as current booking profiles', () => {
+  const home = read('src/app/page.tsx');
+  const state = read('src/app/[state]/page.tsx');
+  const detail = read('src/app/[state]/[slug]/page.tsx');
+  const about = read('src/app/about/page.tsx');
+  const llms = read('public/llms.txt');
+  assert.match(home, /imported location records, not current verified venue profiles/i);
+  assert.match(home, /0[\s\S]*Current reviewed venues/);
+  assert.match(state, /Not current-verified/);
+  assert.match(detail, /does not record the original source or collection date/i);
+  assert.match(detail, /stateSlug===state&&location\.slug===slug/);
+  assert.match(about, /coordinate does not establish/i);
+  assert.match(llms, /Bulk imported pages are not monetization-ready/);
+  assert.doesNotMatch(home, /highly rated|all 50 states|best escape rooms/i);
+  assert.doesNotMatch(detail, /EntertainmentBusiness|LocalBusiness|priceRange|openingHours/i);
+});
+
+test('browse navigation and accessible responsive behavior are present', () => {
+  const layout = read('src/app/layout.tsx');
+  const browse = read('src/app/browse-states/page.tsx');
+  const css = read('src/app/globals.css');
+  assert.match(layout, /Skip to main content/);
+  assert.match(browse, /googleBot:\s*{\s*index:\s*false/);
+  assert.match(css, /:focus-visible/);
+  assert.match(css, /prefers-reduced-motion/);
+});
