@@ -74,3 +74,11 @@ test('browse navigation and accessible responsive behavior are present', () => {
   assert.match(css, /:focus-visible/);
   assert.match(css, /prefers-reduced-motion/);
 });
+
+test('the Creator footer link is followed only on the homepage', () => {
+  const layout = read('src/app/layout.tsx');
+  const creatorLink = read('src/components/CreatorRevenueLink.tsx');
+
+  assert.match(layout, /s\.href === 'https:\/\/creatorrevenuecalculator\.com'/);
+  assert.match(creatorLink, /pathname === '\/' \? 'noopener noreferrer' : 'nofollow noopener noreferrer'/);
+});
