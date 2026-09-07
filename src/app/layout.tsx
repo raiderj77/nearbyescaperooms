@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import { Cinzel, Raleway } from 'next/font/google';
-import CreatorRevenueLink from '@/components/CreatorRevenueLink';
 import './globals.css';
 
 const cinzel = Cinzel({ subsets: ['latin'], variable: '--font-display', display: 'swap', weight: ['400','600','700','900'] });
@@ -19,19 +18,6 @@ export const metadata: Metadata = {
   },
   verification: { google: 'WbPX8TmWTc59vQoUeGcqKK83ZvrxdtzBUVRhkgaNQ5w' },
 };
-
-const toolSites = [
-  { name: 'Fiber Tools', href: 'https://fibertools.app' }, { name: 'Mind Check Tools', href: 'https://mindchecktools.com' },
-  { name: 'Flip My Case', href: 'https://flipmycase.com' }, { name: 'Creator Revenue Calculator', href: 'https://creatorrevenuecalculator.com' },
-  { name: 'Contract Extract', href: 'https://contractextract.com' }, { name: 'Medical Bill Reader', href: 'https://medicalbillreader.com' },
-  { name: 'Tax Break Tools', href: 'https://taxbreaktools.com' }, { name: '524 Tracker', href: 'https://524tracker.com' },
-];
-const directorySites = [
-  { name: 'Public Boat Ramps', href: 'https://publicboatramps.com' }, { name: 'Find Swim Spots', href: 'https://findswimspots.com' },
-  { name: 'Craft Distillery Finder', href: 'https://craftdistilleryfinder.com' }, { name: 'Drive-In Tonight', href: 'https://driveintonight.com' },
-  { name: 'All Skate Parks', href: 'https://allskateparks.com' }, { name: 'Rockhounding Finder', href: 'https://rockhoundingfinder.com' },
-  { name: 'All Skating Rinks', href: 'https://allskatingrinks.com' }, { name: 'Soak USA', href: 'https://soakusa.net' },
-];
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -64,31 +50,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <div>
                 <p style={{ fontFamily: 'var(--font-display)', color: 'var(--gold)', fontWeight: 700, fontSize: '1rem', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>🔐 NEARBY ESCAPE ROOMS</p>
                 <p style={{ color: '#b8b8c6', fontSize: '0.875rem', lineHeight: 1.7 }}>Imported venue location records undergoing current source review. Verify business operation and booking details directly.</p>
-              </div>
-              <div>
-                <p style={{ color: 'var(--gold)', fontWeight: 700, fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.14em', marginBottom: '1.5rem', fontFamily: 'var(--font-body)' }}>More from our network</p>
-                <div style={{ display: 'grid', gap: '2rem' }}>
-                  <div>
-                    <h4 style={{ color: 'var(--crimson)', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.14em', marginBottom: '1rem', fontFamily: 'var(--font-body)', fontWeight: 700 }}>Directory Sites</h4>
-                    <ul style={{ listStyle: 'none' }}>
-                      {directorySites.map((s) => <li key={s.href} style={{ marginBottom: '0.4rem' }}><a href={s.href} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--fog)', fontSize: '0.875rem', textDecoration: 'none' }}>{s.name}</a></li>)}
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 style={{ color: 'var(--crimson)', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.14em', marginBottom: '1rem', fontFamily: 'var(--font-body)', fontWeight: 700 }}>Tools</h4>
-                <ul style={{ listStyle: 'none' }}>
-                  {toolSites.map((s) => (
-                    <li key={s.href} style={{ marginBottom: '0.4rem' }}>
-                      {s.href === 'https://creatorrevenuecalculator.com' ? (
-                        <CreatorRevenueLink style={{ color: 'var(--fog)', fontSize: '0.875rem', textDecoration: 'none' }}>{s.name}</CreatorRevenueLink>
-                      ) : (
-                        <a href={s.href} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--fog)', fontSize: '0.875rem', textDecoration: 'none' }}>{s.name}</a>
-                      )}
-                    </li>
-                  ))}
-                </ul>
-                  </div>
-                </div>
               </div>
             </div>
             <div style={{ borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: '1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
