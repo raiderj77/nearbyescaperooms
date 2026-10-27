@@ -41,9 +41,9 @@ test('Googlebot can crawl pages to observe route-level noindex rules', () => {
 
 test('the imported venue inventory and field gaps are exact', () => {
   const records = JSON.parse(read('src/data/locations.json'));
-  assert.equal(records.length, 498);
-  assert.equal(records.filter((record) => record.city).length, 261);
-  assert.equal(new Set(records.map((record) => record.state)).size, 47);
+  assert.equal(records.length, 443);
+  assert.equal(records.filter((record) => record.city).length, 431);
+  assert.equal(new Set(records.map((record) => record.state)).size, 46);
   assert.equal(records.every((record) => JSON.stringify(record.amenities) === JSON.stringify(['Group activity', 'Indoor'])), true);
   assert.equal(records.some((record) => 'source' in record || 'website' in record || 'price' in record || 'reviewedAt' in record), false);
 });
