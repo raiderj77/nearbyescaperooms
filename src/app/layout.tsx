@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Cinzel, Raleway } from 'next/font/google';
 import './globals.css';
+import AnalyticsConsent from '@/components/AnalyticsConsent';
 
 const cinzel = Cinzel({ subsets: ['latin'], variable: '--font-display', display: 'swap', weight: ['400','600','700','900'] });
 const raleway = Raleway({ subsets: ['latin'], variable: '--font-body', display: 'swap', weight: ['400','500','600','700'] });
@@ -62,6 +63,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </div>
         </footer>
+        <AnalyticsConsent />
       </body>
     </html>
   );

@@ -69,7 +69,7 @@ export default function PrivacyPage() {
         <p>We may collect information about you in various ways:</p>
         <ul>
           <li><strong>Service and Security Data:</strong> Hosting and security providers may process request metadata such as IP address, browser type, requested page, and timestamp to deliver and protect the Site.</li>
-          <li><strong>Optional Tracking:</strong> Google AdSense, Google Analytics, and Microsoft Clarity are not currently enabled.</li>
+          <li><strong>Optional Tracking:</strong> Google Analytics is used only after you accept via the consent control on this site (see section 3). Google AdSense and Microsoft Clarity are not enabled.</li>
           <li><strong>Contact Information:</strong> If you contact us, we may collect your name, email address, and message content.</li>
         </ul>
 
@@ -84,10 +84,10 @@ export default function PrivacyPage() {
 
         <h2>3. Cookies, Analytics, and Advertising</h2>
         <p>
-          Google AdSense, Google Analytics, and Microsoft Clarity are not currently enabled. The Site does not load their scripts or set their advertising or analytics cookies. A publisher identifier may remain in ads.txt or public metadata solely for ownership verification.
+          Optional analytics: We use Google Analytics (GA4) only after you accept via the consent control shown on this site. Google Analytics does not load, and sets no cookies, until you accept. If you decline or have not chosen, it never loads. When it runs, it collects standard page-view and usage data (pages visited, approximate location, device and browser information) so we can see which pages are useful. Advertising features, ad personalization, and Google signals are off. You can change or withdraw your choice at any time using the Privacy choices control shown on every page; withdrawing stops further collection and clears the analytics cookies we are able to clear. Global Privacy Control and Do Not Track signals are treated as a decline. Microsoft Clarity and advertising trackers are not used.
         </p>
         <p>
-          If optional advertising or analytics is enabled later, this policy and any required consent and opt-out controls will be updated first.
+          A publisher identifier may remain in ads.txt or public metadata solely for ownership verification. Google AdSense and Microsoft Clarity are not enabled, and no advertising cookies are set.
         </p>
 
         <h2>4. Third-Party Links</h2>
